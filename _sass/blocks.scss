@@ -1,0 +1,22 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.t-three-top {
+  width: 100%;
+  min-height: 50vh;
+}
+.t-three-left, .t-three-right  {
+  width: 50%;
+}
+.t-three-bottom {
+}
+.t-two {
+  width: 50%;
+  min-height: 50vh;
+}
+.t-one {
+  width: 100%;
+  min-height: 50vh;
+}

@@ -1,0 +1,9 @@
+@function spacing($size){
+  $amount: calc(10px * #{$size});
+  @return $amount;
+}
+
+@mixin font-size($size, $line) {
+  font-size: $size;
+  line-height: calc(#{$size} * #{$line});
+}

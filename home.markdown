@@ -30,6 +30,7 @@ CTA-Block:
   CTA Link: "/"
   CTA-Two: Join us
   CTA-Two-Link: "/"
+layout: home
 ---
 
 Let’s take on how the world does change

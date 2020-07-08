@@ -179,6 +179,8 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .t-one { width: 100%; min-height: 50vh; }
 
+.t-one__diagram-wrapper svg { width: 100%; height: auto; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 

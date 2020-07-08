@@ -39,10 +39,12 @@
     flex-direction: row;
   }
 }
+
 .t-three-top {
   width: 100%;
   min-height: 50vh;
 }
+
 .t-three-left, .t-three-right  {
   width: 100%;
 
@@ -50,6 +52,7 @@
     width: 50%;
   }
 }
+
 .t-two {
   width: 100%;
   min-height: 50vh;
@@ -58,7 +61,16 @@
     width: 50%;
   }
 }
+
 .t-one {
   width: 100%;
   min-height: 50vh;
+}
+
+//block specific
+.t-one__diagram-wrapper {
+  svg {
+    width: 100%;
+    height: auto;
+  }
 }

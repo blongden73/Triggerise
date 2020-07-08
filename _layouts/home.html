@@ -6,9 +6,12 @@ layout: default
 {% assign body = page.content %}
 {% include 3up.html title=title sub=subTitle copy=body colour="blue" colourTwo="yellow" colourThree="green" %}
 {% assign sectionTitle = "Our Model" %}
-{% include 1up.html colour="lightBlue" sectionTitle=sectionTitle %}
-{% include 1up.html colour="darkBlue" sectionTitle=sectionTitle %}
-{% include 1up.html colour="purple" sectionTitle=sectionTitle %}
+{% assign diagram = page.Our-Model[0].Diagram %}
+{% assign diagramTwo = page.Our-Model[1].Diagram %}
+{% assign diagramThree = page.Our-Model[2].Diagram %}
+{% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram%}
+{% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo%}
+{% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree%}
 {% include 1up.html colour="cream" %}
 {% assign CTAtitle = page.CTA-Block.Header %}
 {% assign CTAsubTitle = page.CTA-Block.Description %}

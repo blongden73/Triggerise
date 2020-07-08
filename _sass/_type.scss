@@ -1,0 +1,9 @@
+$font-scale: (
+    10: 90px,
+    9: 20px
+);
+
+h1 {
+  font-size: map-get($font-scale, 10);
+  line-height: 1;
+}

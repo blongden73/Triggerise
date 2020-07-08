@@ -18,6 +18,8 @@
 
 .text-colour-darkBlue { color: #1D214F; }
 
+h1 { font-size: 90px; line-height: 1; }
+
 @font-face { font-family: 'Stabil Grotesk'; src: url("/assets/StabilGrotesk-Medium.woff2") format("woff2"), url("/assets/StabilGrotesk-Medium.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
 
 @font-face { font-family: 'Stabil Grotesk'; src: url("/assets/StabilGrotesk-Regular.woff2") format("woff2"), url("/assets/StabilGrotesk-Regular.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
@@ -184,6 +186,8 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 @media all and (min-width: 61.25em) { .t-two { width: 50%; } }
 
 .t-one { width: 100%; min-height: 50vh; padding-top: calc(10px * 2); }
+
+.t-half { width: 50%; }
 
 .full { position: relative; }
 

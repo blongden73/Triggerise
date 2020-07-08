@@ -1,91 +1,11 @@
 ---
 ---
-
-@charset "utf-8";
-
-@font-face {
-    font-family: 'Stabil Grotesk';
-    src: url('/assets/StabilGrotesk-Medium.woff2') format('woff2'),
-        url('/assets/StabilGrotesk-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Stabil Grotesk';
-    src: url('/assets/StabilGrotesk-Regular.woff2') format('woff2'),
-        url('/assets/StabilGrotesk-Regular.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Stabil Grotesk';
-    src: url('/assets/StabilGrotesk-Thin.woff2') format('woff2'),
-        url('/assets/StabilGrotesk-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Stabil Grotesk';
-    src: url('/assets/StabilGrotesk-Bold.woff2') format('woff2'),
-        url('/assets/StabilGrotesk-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-// Our variables
-$base-font-family: "Stabil Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    1300px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mq",
+        "colours",
         "mxvar",
         "base",
-        "colours",
         "layout",
         "blocks",
         "syntax-highlighting"

@@ -1,11 +1,17 @@
-<div class="t-one {{include.colour}}">
+<div class="t-one {{include.colour}} {{include.classList}}">
   <div class="wrapper">
     {% if include.sectionTitle %}
-      <h3>{{include.sectionTitle}}</h3>
+      <h3 class="text-colour-{{include.textColor}}" >{{include.sectionTitle}}</h3>
     {% endif %}
     {% if include.diagram %}
       <div class="t-one__diagram-wrapper">
         {{include.diagram}}
+      </div>
+    {% endif %}
+    {% if include.description %}
+      <div class="t-one__description-wrapper">
+        <p class="text-colour-{{include.textColor}}">{{include.description}}</p>
+        <button>Dig Deeper</button>
       </div>
     {% endif %}
   </div>

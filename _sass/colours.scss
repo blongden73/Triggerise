@@ -2,6 +2,7 @@ $darkBlue: #1D214F;
 $lightBlue: #D0DEED;
 $blue: #2C449C;
 $yellow: #FDDE5A;
+$lightYellow: #FDDE5A;
 $green: #6EBA70;
 $purple: #742F8D;
 $cream: #FEEBE8;
@@ -32,4 +33,16 @@ $cream: #FEEBE8;
 
 .cream {
   background-color: $cream;
+}
+
+.text-colour-lightBlue {
+  color: $lightBlue;
+}
+
+.text-colour-lightYellow {
+  color: $lightYellow;
+}
+
+.text-colour-darkBlue {
+  color: $darkBlue;
 }

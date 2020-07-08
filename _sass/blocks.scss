@@ -65,6 +65,33 @@
 .t-one {
   width: 100%;
   min-height: 50vh;
+  padding-top: spacing(2);
+}
+
+.full {
+  position: relative;
+
+  @include mq($from: desktop) {
+    height: 90vh;
+  }
+
+  .t-one__diagram-wrapper {
+    @include mq($from: desktop) {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      max-width: calc(1300px - 30px);
+    }
+  }
+
+  .t-one__description-wrapper {
+    @include mq($from: desktop) {
+      position: absolute;
+      bottom: spacing(1);
+    }
+  }
 }
 
 //block specific
@@ -72,5 +99,17 @@
   svg {
     width: 100%;
     height: auto;
+  }
+}
+
+.t-one__description-wrapper {
+  width: 33%;
+}
+
+//classList
+
+.ecoSystem {
+  h3 {
+    text-align: center;
   }
 }

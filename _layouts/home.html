@@ -8,12 +8,15 @@ layout: default
 {% include 3up.html title=title sub=subTitle copy=body colour="blue" colourTwo="yellow" colourThree="green" %}
 {% assign sectionTitle = "Our Model" %}
 {% assign diagram = page.Our-Model[0].Diagram %}
+{% assign ModelDescription = page.Our-Model[0].Description %}
 {% assign diagramTwo = page.Our-Model[1].Diagram %}
+{% assign ModelDescriptionTwo = page.Our-Model[1].Description %}
 {% assign diagramThree = page.Our-Model[2].Diagram %}
-{% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram%}
-{% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo%}
-{% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree%}
-{% include 1up.html colour="cream" %}
+{% assign ModelDescriptionThree = page.Our-Model[2].Description %}
+{% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram description=ModelDescription textColor="darkBlue" classList="full"%}
+{% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo description=ModelDescriptionTwo textColor="lightBlue" classList="full"%}
+{% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree description=ModelDescriptionThree textColor="lightYellow" classList="full"%}
+{% include 1up.html colour="cream" sectionTitle=page.Eco-System-Text classList="full ecoSystem" %}
 {% assign CTAtitle = page.CTA-Block.Header %}
 {% assign CTAsubTitle = page.CTA-Block.Description %}
-{% include 3upHorizontal.html title=CTAtitle sub=CTAsubTitle colour="purple" colourTwo="lightBlue" colourThree="darkBlue" %}
+{% include 3upHorizontal.html title=CTAtitle sub=CTAsubTitle colour="purple" colourTwo="lightBlue" colourThree="darkBlue"%}

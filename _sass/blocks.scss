@@ -1,20 +1,62 @@
+.inner-wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq($from: desktop) {
+    width: calc(980px / 2);
+  }
+
+  @include mq($from: wide) {
+    width: calc(1300px / 2);
+  }
+
+  .left & {
+    @include mq($from: desktop) {
+      margin-left: auto;
+      margin-right: 0;
+      padding-right: spacing(2);
+      box-sizing: border-box;
+    }
+  }
+
+  .right & {
+    @include mq($from: desktop) {
+      margin-right: auto;
+      margin-left: 0;
+      padding-left: spacing(2);
+      box-sizing: border-box;
+    }
+  }
+}
+
 .flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+  }
 }
 .t-three-top {
   width: 100%;
   min-height: 50vh;
 }
 .t-three-left, .t-three-right  {
-  width: 50%;
-}
-.t-three-bottom {
+  width: 100%;
+
+  @include mq($from: desktop) {
+    width: 50%;
+  }
 }
 .t-two {
-  width: 50%;
+  width: 100%;
   min-height: 50vh;
+
+  @include mq($from: desktop) {
+    width: 50%;
+  }
 }
 .t-one {
   width: 100%;

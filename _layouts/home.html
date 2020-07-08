@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-
 {% assign title = page.Header-Text %}
-{{page.Header-Text}}
-{{page.content}}
-{% include 3up.html param=title colour="blue" colourTwo="yellow" colourThree="green" %}
-{% include 1up.html colour="lightBlue" %}
-{% include 1up.html colour="darkBlue" %}
-{% include 1up.html colour="purple" %}
+{% assign subTitle = page.Header-Text %}
+{% assign body = page.content %}
+{% include 3up.html title=title sub=subTitle copy=body colour="blue" colourTwo="yellow" colourThree="green" %}
+{% assign sectionTitle = "Our Model" %}
+{% include 1up.html colour="lightBlue" sectionTitle=sectionTitle %}
+{% include 1up.html colour="darkBlue" sectionTitle=sectionTitle %}
+{% include 1up.html colour="purple" sectionTitle=sectionTitle %}
 {% include 1up.html colour="cream" %}
-{% include 3upHorizontal.html colour="purple" colourTwo="lightBlue" colourThree="darkBlue" %}
+{% assign CTAtitle = page.CTA-Block.Header %}
+{% assign CTAsubTitle = page.CTA-Block.Description %}
+{% include 3upHorizontal.html title=CTAtitle sub=CTAsubTitle colour="purple" colourTwo="lightBlue" colourThree="darkBlue" %}

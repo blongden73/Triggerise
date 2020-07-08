@@ -1,8 +1,16 @@
+@font-face { font-family: 'Stabil Grotesk'; src: url("/assets/StabilGrotesk-Medium.woff2") format("woff2"), url("/assets/StabilGrotesk-Medium.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Stabil Grotesk'; src: url("/assets/StabilGrotesk-Regular.woff2") format("woff2"), url("/assets/StabilGrotesk-Regular.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Stabil Grotesk'; src: url("/assets/StabilGrotesk-Thin.woff2") format("woff2"), url("/assets/StabilGrotesk-Thin.woff") format("woff"); font-weight: 100; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Stabil Grotesk'; src: url("/assets/StabilGrotesk-Bold.woff2") format("woff2"), url("/assets/StabilGrotesk-Bold.woff") format("woff"); font-weight: bold; font-style: normal; font-display: swap; }
+
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 300 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
+body { font: 400 16px/1.5 "Stabil Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -21,7 +29,7 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { font-weight: 300; }
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
 /** Links */
 a { color: #2a7ae2; text-decoration: none; }
@@ -145,13 +153,29 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
 
-.flex { display: flex; flex-direction: row; flex-wrap: wrap; }
+.inner-wrapper { width: 90%; margin-left: auto; margin-right: auto; }
+
+@media all and (min-width: 61.25em) { .inner-wrapper { width: calc(980px / 2); } }
+
+@media all and (min-width: 81.25em) { .inner-wrapper { width: calc(1300px / 2); } }
+
+@media all and (min-width: 61.25em) { .left .inner-wrapper { margin-left: auto; margin-right: 0; padding-right: calc(10px * 2); box-sizing: border-box; } }
+
+@media all and (min-width: 61.25em) { .right .inner-wrapper { margin-right: auto; margin-left: 0; padding-left: calc(10px * 2); box-sizing: border-box; } }
+
+.flex { display: flex; flex-direction: column; flex-wrap: wrap; }
+
+@media all and (min-width: 61.25em) { .flex { flex-direction: row; } }
 
 .t-three-top { width: 100%; min-height: 50vh; }
 
-.t-three-left, .t-three-right { width: 50%; }
+.t-three-left, .t-three-right { width: 100%; }
 
-.t-two { width: 50%; min-height: 50vh; }
+@media all and (min-width: 61.25em) { .t-three-left, .t-three-right { width: 50%; } }
+
+.t-two { width: 100%; min-height: 50vh; }
+
+@media all and (min-width: 61.25em) { .t-two { width: 50%; } }
 
 .t-one { width: 100%; min-height: 50vh; }
 

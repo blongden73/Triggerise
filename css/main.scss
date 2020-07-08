@@ -3,12 +3,47 @@
 
 @charset "utf-8";
 
+@font-face {
+    font-family: 'Stabil Grotesk';
+    src: url('/assets/StabilGrotesk-Medium.woff2') format('woff2'),
+        url('/assets/StabilGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stabil Grotesk';
+    src: url('/assets/StabilGrotesk-Regular.woff2') format('woff2'),
+        url('/assets/StabilGrotesk-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stabil Grotesk';
+    src: url('/assets/StabilGrotesk-Thin.woff2') format('woff2'),
+        url('/assets/StabilGrotesk-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stabil Grotesk';
+    src: url('/assets/StabilGrotesk-Bold.woff2') format('woff2'),
+        url('/assets/StabilGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Stabil Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 300;
+$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 

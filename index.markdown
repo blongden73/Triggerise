@@ -2,6 +2,8 @@
 title: Home
 date: 2020-07-01 16:20:00 Z
 Header-Text: We connect smart insights and proactive tech to trigger change. For good.
+Home-number: '1,000,000'
+Home-number-text: Lives changed. And counting.
 Our-Model:
 - Header: Diverse Ecosystems | Big Impact
   Description: We connect across supply and demand, building an ecosystem of partners,

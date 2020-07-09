@@ -8,7 +8,7 @@
 
   <title>Home</title>
   <meta name="description" content="Triggerise">
-
+  <link rel="stylesheet" href="/assets/uikit.min.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="Triggerise" href="http://localhost:4000/feed.xml">
@@ -37,12 +37,29 @@
 
       <div class="trigger">
         
+        
+          
+        
           
         
           
           <a class="page-link" href="/">Home</a>
           
         
+          
+          <a class="page-link" href="/what-we-do/">What we do</a>
+          
+        
+          
+          <a class="page-link" href="/about-us/">About us</a>
+          
+        
+          
+          <a class="page-link" href="/impact/">Impact</a>
+          
+        
+          
+          <a class="page-link" href="/join-us/">Join us</a>
           
         
       </div>
@@ -56,26 +73,47 @@
         
 
 
-<div class="t-three">
+
+<div class="t-three" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="t-three-top flex blue">
     <div class="wrapper flex">
       <div class="t-half">
-        <h1>Let’s take on how the world does change
+        <h1 class="text-colour-lightBlue">Let’s take on how the world does change
 </h1>
       </div>
       <div class="t-half">
-        <h1></h1>
+        <h3 class="text-colour-lightBlue">Lives changed. And counting.</h3>
+        <h1 class="text-colour-lightBlue bigNumber">1,000,000</h1>
       </div>
     </div>
   </div>
   <div class="t-three-bottom flex yellow">
       <div class="t-two yellow left">
-        <div class="inner-wrapper">
-        </div>
+        <div class="dot-wrapper">
+  <div class="dot"></div><div class="line"></div><div class="dot"></div>
+</div>
+<div class="dot-wrapper">
+  <div class="line"></div><div class="dot"></div><div class="line"></div>
+</div>
+<div class="dot-wrapper">
+  <div class="dot"></div><div class="line"></div><div class="dot"></div><div class="line"></div><div class="dot"></div><div class="line"></div>
+</div>
+<div class="dot-wrapper">
+<div class="line"></div><div class="dot"></div>
+</div>
+<div class="dot-wrapper">
+  <div class="dot"></div><div class="line"></div><div class="dot"></div><div class="line"></div>
+</div><div class="dot-wrapper">
+<div class="line"></div><div class="dot"></div>
+</div>
+<div class="dot-wrapper">
+  <div class="dot"></div><div class="line"></div><div class="dot"></div><div class="line"></div><div class="dot"></div><div class="line"></div>
+</div>
+
       </div>
       <div class="t-two green right">
         <div class="inner-wrapper">
-          <h3>We connect smart insights and proactive tech to trigger change. For good.</h3>
+          <h2>We connect smart insights and proactive tech to trigger change. For good.</h2>
         </div>
       </div>
   </div>
@@ -88,7 +126,7 @@
 
 
 
-<div class="t-one lightBlue full">
+<div class="t-one lightBlue full" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
     
       <h3 class="text-colour-darkBlue" >Our Model</h3>
@@ -107,7 +145,7 @@
   </div>
 </div>
 
-<div class="t-one darkBlue full">
+<div class="t-one darkBlue full" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
     
       <h3 class="text-colour-lightBlue" >Our Model</h3>
@@ -126,7 +164,7 @@
   </div>
 </div>
 
-<div class="t-one purple full">
+<div class="t-one purple full" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
     
       <h3 class="text-colour-lightYellow" >Our Model</h3>
@@ -182,7 +220,7 @@
   </div>
 </div>
 
-<div class="t-one cream full ecoSystem">
+<div class="t-one cream full ecoSystem" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
     
       <h3 class="text-colour-" >Our ecosytem connects supply & demand</h3>
@@ -194,22 +232,28 @@
 
 
 
-<div class="t-three flex">
+
+
+<div class="t-three flex" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="t-three-left purple">
     <div class="t-one left">
       <div class="inner-wrapper">
-        <h1>Let’s trigger great change together.</h1
+        <h1>Let’s trigger great change together.</h1>
         <h2>We’re always keen to join forces and ignite more positive impact across 
 the globe.</h2>
       </div>
     </div>
   </div>
   <div class="t-three-right">
-    <div class="t-one lightBlue">
-
+    <div class="t-one lightBlue image">
+      
+        <img src="/uploads/Triggerise_CTA_footer.png">
+      
     </div>
-    <div class="t-one darkBlue">
-
+    <div class="t-one darkBlue image">
+      
+        <img src="/uploads/Mark_triggerise_animate.gif">
+      
     </div>
   </div>
 </div>
@@ -225,6 +269,8 @@ the globe.</h2>
   </div>
 
 </footer>
+<script src="/assets/uikit.min.js"></script>
+<script src="/assets/uikit-icons.min.js"></script>
 
 
   </body>

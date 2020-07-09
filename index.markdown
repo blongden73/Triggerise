@@ -246,7 +246,8 @@ CTA-Block:
   CTA Link: "/"
   CTA-Two: Join us
   CTA-Two-Link: "/"
-  CTA-Image: "/uploads/Mark_triggerise_animate.gif"
+  CTA-Image: "/uploads/Triggerise_CTA_footer.png"
+  CTA-Image-two: "/uploads/Mark_triggerise_animate.gif"
 layout: home
 ---
 

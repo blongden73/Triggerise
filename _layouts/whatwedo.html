@@ -1,25 +1,36 @@
 ---
 layout: default
 ---
+{% assign title = page.Title | split: "|" %}
+{% assign titleOne = title[0] %}
+{% assign titleTwo = title[1] %}
+{% assign image = page.Splash-image %}
+{% assign supportingTitle = page.Supporting-title %}
+{% assign description = page.Description %}
+{% assign Supportingimage = page.Supporting-image %}
+{% assign SupportingTitle = page.Supporting-title %}
 
-{% assign title = page.content %}
-{% assign body = page.Header-Text %}
-{% assign number = page.Home-number %}
-{% assign SubTitle = page.Home-number-text %}
-{% include 3up.html title=title copy=body number=number sub=SubTitle colour="blue" colourTwo="yellow" colourThree="green" textColor="lightBlue"%}
-{% assign sectionTitle = "Our Model" %}
-{% assign diagram = page.Our-Model[0].Diagram %}
-{% assign ModelDescription = page.Our-Model[0].Description %}
-{% assign diagramTwo = page.Our-Model[1].Diagram %}
-{% assign ModelDescriptionTwo = page.Our-Model[1].Description %}
-{% assign diagramThree = page.Our-Model[2].Diagram %}
-{% assign ModelDescriptionThree = page.Our-Model[2].Description %}
-{% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram description=ModelDescription textColor="darkBlue" classList="full"%}
-{% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo description=ModelDescriptionTwo textColor="lightBlue" classList="full"%}
-{% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree description=ModelDescriptionThree textColor="lightYellow" classList="full"%}
-{% include 1up.html colour="cream" sectionTitle=page.Eco-System-Text classList="full ecoSystem" %}
-{% assign CTAtitle = page.CTA-Block.Header %}
-{% assign CTAsubTitle = page.CTA-Block.Description %}
-{% assign CTAimage = page.CTA-Block.CTA-Image %}
-{% assign CTAimageTwo = page.CTA-Block.CTA-Image-two %}
-{% include 3upHorizontal.html title=CTAtitle sub=CTAsubTitle colour="purple" colourTwo="lightBlue" colourThree="darkBlue" image=CTAimage imageTwo=CTAimageTwo classList="image"%}
+{% assign sectionOneTitle = page.What-section-one-title | split: "|" %}
+{% assign SubTitleOne = sectionOneTitle[0] %}
+{% assign SubTitleTwo = sectionOneTitle[1] %}
+{% assign DescriptionOne = page.What-section-one-description%}
+
+{% assign sectionTwoTitle = page.What-section-two-title | split: "|" %}
+{% assign SubTitleThree = sectionTwoTitle[0] %}
+{% assign SubTitleFour = sectionTwoTitle[1] %}
+{% assign DescriptionTwo = page.What-section-two-description %}
+
+{% assign sectionTheeTitle = page.What-section-three-title | split: "|" %}
+{% assign SubTitleFive = sectionTheeTitle[0] %}
+{% assign SubTitleSix = sectionTheeTitle[1] %}
+{% assign DescriptionThree = page.What-section-three-description %}
+
+{% assign summaryTitle = page.Summary-title %}
+{% assign summaryCopy = page.Summarty-text %}
+
+{% include 2up.html colour="darkBlue" titleOne=titleOne titleTwo=titleTwo textColor="lightBlue" image=image %}
+{% include 3upHorizontal.html body=description colour="pink" imageTwo=Supportingimage titleAlt=SupportingTitle colourTwo="lightBlue" colourThree="darkBlue" classList="image" flexList="reverse" %}
+{% include 2up.html colour="lightCream" textColor="darkBlue" image=image subTitle=SubTitleOne subTitleSplit=SubTitleTwo sub=DescriptionOne %}
+{% include 2up.html colour="pink" textColor="darkBlue" image=image subTitle=SubTitleThree subTitleSplit=SubTitleFour sub=DescriptionTwo %}
+{% include 2up.html colour="lightBlue" textColor="darkBlue" image=image subTitle=SubTitleFive subTitleSplit=SubTitleSix sub=DescriptionThree %}
+{% include 1up.html colour="cream" sectionTitle=summaryTitle description=summaryCopy classList="" %}

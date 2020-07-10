@@ -6,6 +6,8 @@ $lightYellow: #FDDE5A;
 $green: #6EBA70;
 $purple: #742F8D;
 $cream: #FEEBE8;
+$lightCream: #FDEBCB;
+$pink: #D8A0C8;
 
 .blue {
   background-color: $blue;
@@ -33,6 +35,14 @@ $cream: #FEEBE8;
 
 .cream {
   background-color: $cream;
+}
+
+.pink {
+  background-color: $pink;
+}
+
+.lightCream {
+  background-color: $lightCream;
 }
 
 .text-colour-lightBlue {

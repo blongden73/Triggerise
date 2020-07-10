@@ -1,9 +1,27 @@
-<div class="t-two-half flex">
-  <div class="t-half">
-    <h1>{{include.titleOne}}</h1>
+<div class="t-two-half flex full {{include.colour}}">
+  <div class="t-half left">
+    <div class="inner-wrapper">
+      {% if include.titleOne %}
+        <h1 class="text-colour-{{include.textColor}}">{{include.titleOne}}</h1>
+      {% endif %}
+      {% if include.subTitle %}
+        <h2 class="text-colour-{{include.textColor}}">{{include.subTitle }}</h2>
+      {% endif %}
+      {% if include.sub %}
+        <div class="body-text text-colour-{{include.textColor}}">
+          {{include.sub | markdownify }}
+        </div>
+      {% endif %}
+      {% if include.subTitleSplit %}
+        <h2 class="text-colour-{{include.textColor}}">{{include.subTitleSplit }}</h2>
+      {% endif %}
+    </div>
   </div>
   <div class="t-half image">
-    <h1>{{include.titleTwo}}</h1>
+    <h1 class="text-colour-{{include.textColor}}" >{{include.titleTwo}}</h1>
     <img src="{{include.image}}">
+    {% if include.sub %}
+      {{include.sub | markdownify }}
+    {% endif %}
   </div>
 </div>

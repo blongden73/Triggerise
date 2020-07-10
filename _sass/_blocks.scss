@@ -36,6 +36,14 @@
   flex-direction: column;
   flex-wrap: wrap;
 
+  &.reverse {
+    flex-direction: column-reverse;
+
+    @include mq($from: desktop) {
+      flex-direction: row-reverse;
+    }
+  }
+
   @include mq($from: desktop) {
     flex-direction: row;
   }
@@ -87,9 +95,27 @@
 
 .t-half {
   width: 100%;
+  position: relative;
 
   @include mq($from: desktop) {
     width: 50%;
+  }
+
+  h1 {
+    z-index: 10;
+    position: relative;
+  }
+
+  &.image {
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
   }
 }
 
@@ -97,7 +123,7 @@
   position: relative;
 
   @include mq($from: desktop) {
-    height: 90vh;
+  min-height: 90vh;
   }
 
   .t-one__diagram-wrapper {

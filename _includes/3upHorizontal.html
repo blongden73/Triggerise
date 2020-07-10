@@ -1,14 +1,26 @@
-<div class="t-three flex" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
+<div class="t-three flex {{include.flexList}}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="t-three-left {{include.colour}}">
-    <div class="t-one left">
+    <div class="t-one {% if include.flexList != 'reverse' %}left{% endif %} {% if include.flexList == 'reverse' %}right{% endif %}">
       <div class="inner-wrapper">
-        <h1>{{include.title}}</h1>
-        <h2>{{include.sub}}</h2>
+        {% if include.title %}
+          <h1>{{include.title}}</h1>
+        {% endif %}
+        {% if include.title %}
+          <h2>{{include.sub}}</h2>
+        {% endif %}
+        {% if include.body %}
+          {{include.body | markdownify}}
+        {% endif%}
       </div>
     </div>
   </div>
   <div class="t-three-right">
-    <div class="t-one {{include.colourTwo}} {{include.classList}}">
+    <div class="t-one {{include.colourTwo}} {{include.classList}} {% if include.flexList == 'reverse' %}left{% endif %}">
+      {% if include.titleAlt %}
+      {% if include.flexList == 'reverse' %}<div class="inner-wrapper">{% endif %}
+        <h1>{{include.titleAlt}}</h1>
+        {% if include.flexList == 'reverse' %}</div>{% endif %}
+      {% endif %}
       {% if include.image %}
         <img src="{{include.image}}">
       {% endif %}

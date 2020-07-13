@@ -3,4 +3,45 @@ layout: default
 ---
 
 {% assign title = page.Title %}
-{% include 3upHorizontal.html title=title colour="purple" colourTwo="lightBlue" colourThree="darkBlue" image=CTAimage imageTwo=CTAimageTwo classList="image"%}
+{% assign numbers = page.Numbers %}
+{% assign sectionTitle = page.Mission-Title %}
+{% assign ModelDescription = page.Mission-text %}
+{% assign safeTitle = "We safeguard digital human rights" %}
+{% assign safeDescription = page.Safeguarding-text %}
+
+{% include 3upHorizontal.html
+  title=title colour="blue"
+  colourTwo="darkBlue"
+  colourThree="pink"
+  image=CTAimage
+  imageTwo=CTAimageTwo
+  classList="image"
+  numbers=numbers
+  textColor="lightBlue"
+%}
+{% include 1up.html
+  colour="white"
+  sectionTitle=sectionTitle
+  diagram=diagram
+  description=ModelDescription
+  textColor="darkBlue"
+%}
+{% include map.html
+  colour="darkBlue"
+  textColor="darkBlue"
+%}
+{% include team.html
+  colour="cream"
+  textColor="darkBlue"
+%}
+{% include resources.html
+  colour="white"
+  textColor="darkBlue"
+%}
+{% include 1up.html
+  colour="white"
+  sectionTitle=safeTitle
+  diagram=diagram
+  description=safeDescription
+  textColor="darkBlue"
+%}

@@ -2,3 +2,8 @@
 layout: default
 ---
 
+{% assign title = page.Title | split: "|" %}
+{% assign titleOne = title[0] %}
+{% assign titleTwo = title[1] %}
+{% assign image = page.Splash-image %}
+{% include 2up.html colour="darkBlue" titleOne=titleOne titleTwo=titleTwo textColor="lightBlue" image=image %}

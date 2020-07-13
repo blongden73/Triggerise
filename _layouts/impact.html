@@ -1,4 +1,42 @@
 ---
 layout: default
 ---
+{% assign title = page.Splash-Number-Title %}
+{% assign ModelDescription = page.Splash-Number-description %}
+{% assign ModelDescription = page.Splash-Number-description %}
+{% assign dataDes = page.Data-descriptor %}
+{% assign dataImage = page.Data-descriptor-image %}
+{% assign successTitle = page.Success-stories-intro %}
+{% assign SuccessDescription = page.Success-stories-descriptor %}
 
+{% include 1up.html
+  colour="darkBlue"
+  sectionTitle=title
+  diagram=diagram
+  description=ModelDescription
+  textColor="lightBlue"
+  classList="full"
+%}
+{% include 3upHorizontal.html
+  title=CTAtitle
+  bodyCopy=dataDes
+  colour="lightBlue"
+  colourTwo="purple"
+  colourThree="cream"
+  image=dataImage
+  classList="image"
+%}
+{% include 1up.html
+  colour="lightCream"
+  sectionTitle=successTitle
+  description=SuccessDescription
+  textColor="darkBlue"
+%}
+{% include success.html
+  colour="white"
+  textColor="darkBlue"
+%}
+{% include journal.html
+  colour="lightCream"
+  textColor="darkBlue"
+%}

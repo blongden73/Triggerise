@@ -25,7 +25,20 @@ Map-locations:
   Description: 
   Image: 
 Board:
-- 
-- 
+- Name: 
+  Role: 
+  Image: 
+Executives:
+- Name: 
+  Role: 
+  Image: 
+Directors:
+- Name: 
+  Role: 
+  Image: 
+Reports-Resources:
+- Name: 
+  Sub title: 
+  File: 
 ---
 

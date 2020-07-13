@@ -1,7 +1,7 @@
 ---
 title: About us
 date: 2020-07-09 17:30:00 Z
-Title: We areTriggerise
+Title: We are Triggerise
 Numbers:
 - Number: 5
   Text: years of making change for good

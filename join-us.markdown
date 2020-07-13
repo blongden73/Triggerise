@@ -2,6 +2,7 @@
 title: Join us
 date: 2020-07-09 17:30:00 Z
 Title: Join | Triggerise
+Splash-image: "/uploads/join_image.jpg"
 Testimonial:
 - Image: 
   Quote: 

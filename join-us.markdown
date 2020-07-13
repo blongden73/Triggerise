@@ -33,5 +33,6 @@ Values:
 - Name: We pioneer
   Description: We’re eager to innovate, learn, grow and share. We dare to change the
     conversation, that’s how we succeed.
+layout: join
 ---
 

@@ -7,6 +7,7 @@ Splash-Number-description: 'All our partners on the ground plus our active membe
 Data-descriptor: "Triggerise in real-time data\n\nWe’re driven by people and fuelled
   by data. See our live impact figures and keep track of how we’re making change for
   good in real-time. "
+Data-descriptor-image: "/uploads/impactImage.jpg"
 Success-stories-intro: Success stories
 Success-stories-descriptor: 'Dive deeper into some of our projects and see how our
   work is improving lives. '

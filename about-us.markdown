@@ -20,5 +20,12 @@ Mission-text: |-
   We’re a global not-for-profit headquartered in Amsterdam. We kicked off with big ambitions in 2014 and now operate in eight markets, with offices and on-the-ground staff around the globe. And we’re not stopping here: our teams and positive impact are expanding by the minute.
 Map-text: Explore where our offices and on-the-ground teams are working to trigger
   change for good.
+Map-locations:
+- Location: 
+  Description: 
+  Image: 
+Board:
+- 
+- 
 ---
 

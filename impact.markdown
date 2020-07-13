@@ -19,5 +19,6 @@ Journal:
 - Title: 
   Image: 
   Link: 
+layout: impact
 ---
 

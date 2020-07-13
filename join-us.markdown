@@ -4,9 +4,9 @@ date: 2020-07-09 17:30:00 Z
 Title: Join | Triggerise
 Splash-image: "/uploads/join_image.jpg"
 Testimonial:
-- Image: 
-  Quote: 
-  Name: 
+- Image: test
+  Quote: test
+  Name: test
 Open-positions-text: "### We’re an energetic bunch of global pioneers on a mission
   to get things done and do them well. We’re ever open-minded and highly impact-driven,
   keen to take on how the world does change. \n\nUniting the best bits of working
@@ -15,9 +15,9 @@ Open-positions-text: "### We’re an energetic bunch of global pioneers on a mis
   \n\nWe’re expanding and look forward to meeting talented, enthusiastic and driven
   prospective team members.\n"
 Testimonial-two:
-- Image: 
-  Quote: 
-  Name: 
+- Image: test
+  Quote: test
+  Name: tets
 Values:
 - Name: We are open
   Description: 'We’re open to diverse experiences, ideas and people. We believe that

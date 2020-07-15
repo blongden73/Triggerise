@@ -27,48 +27,48 @@ Map-locations:
 Board:
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 Executives:
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 Directors:
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role
-  Image: "/uploads/join_image-7fd728.jpg"
+  Image: "/uploads/team_test.jpg"
 Reports-Resources:
 - Name: Name
   Sub title: Role

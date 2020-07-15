@@ -1,3 +1,22 @@
+#fullpage {
+  padding-top: 77px;
+}
+
+.fp-slidesNav.fp-bottom {
+  width: max-content;
+}
+
+.fp-slidesNav ul li a span {
+  background-color: #fff;
+}
+
+.section {
+  height: auto !important;
+}
+.fp-tableCell {
+  height: auto !important;
+}
+
 .inner-wrapper {
   width: 90%;
   margin-left: auto;
@@ -52,7 +71,6 @@
 .t-three-top {
   width: 100%;
   min-height: 40vh;
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -71,15 +89,47 @@
   padding-bottom: 20px;
   position: relative;
 
-
   @include mq($from: desktop) {
     width: 50%;
+  }
+
+  &.left {
+    z-index: 100;
+
+    @include mq($from: desktop) {
+      .dot-wrapper {
+        &:nth-child(1) {
+          width: 140%;
+        }
+        &:nth-child(2) {
+          width: 110%;
+        }
+        &:nth-child(3) {
+          width: 80%;
+        }
+        &:nth-child(4) {
+          width: 111%;
+        }
+        &:nth-child(6) {
+          width: 70%;
+        }
+        &:nth-child(7) {
+          width: 130%;
+        }
+      }
+    }
   }
 }
 
 .t-one {
   width: 100%;
   min-height: 40vh;
+  height: 40vh;
+
+  .section-title {
+    padding-top: spacing(2);
+    font-weight: 700;
+  }
 
   &.image {
     max-height: 40vh;
@@ -97,6 +147,7 @@
 .t-half {
   width: 100%;
   position: relative;
+  margin-top: 20px;
 
   @include mq($from: desktop) {
     width: 50%;
@@ -117,6 +168,10 @@
       height: 100%;
       z-index: 0;
     }
+  }
+
+  h3 {
+    margin-top: spacing(2);
   }
 }
 
@@ -141,7 +196,7 @@
   .t-one__description-wrapper {
     @include mq($from: desktop) {
       position: absolute;
-      bottom: spacing(1);
+      bottom: spacing(3);
     }
   }
 }
@@ -160,10 +215,86 @@
 
 //classList
 
+@keyframes dash {
+  to {
+    stroke-dashoffset: -200;
+  }
+}
+
 .ecoSystem {
+  height: auto;
+
+  .ecosystem-map {
+    position: relative;
+    height: 600px;
+    max-height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    svg {
+      position: absolute;
+      top: 0;
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  svg {
+    display:block;
+    opacity: 0;
+  }
+
   h3 {
     text-align: center;
-    font-size: map-get($font-scale, 10);
+    font-size: map-get($font-scale, 5);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@for $i from 1 through 6 {
+  .ecoSystem .ecosystem-map.display svg:nth-child(#{$i}) {
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: $i * 0.5s;
+  }
+}
+
+.ecosystem-map svg.dash {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  transition-delay: 3s;
+}
+
+.ecoSystem .ecosystem-map.display svg.dash {
+  opacity: 1;
+  animation: dash 9s linear;
+  animation-iteration-count: infinite;
+  z-index: -1;
+}
+
+.center {
+  position: relative;
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
   }
 }
 
@@ -249,5 +380,25 @@
       animation-duration: 5s;
       animation-iteration-count: infinite;
     }
+  }
+}
+
+.testimonial {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.image-wrapper-quote {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }

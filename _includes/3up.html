@@ -1,4 +1,4 @@
-<div class="t-three" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
+<div class="t-three">
   <div class="t-three-top flex {{include.colour}}">
     <div class="wrapper flex">
       <div class="t-half">
@@ -6,7 +6,7 @@
       </div>
       <div class="t-half">
         <h3 class="text-colour-{{include.textColor}}">{{include.sub}}</h3>
-        <h1 class="text-colour-{{include.textColor}} bigNumber">{{include.number}}</h1>
+        <h1 id="countup" class="text-colour-{{include.textColor}} bigNumber">{{include.number}}</h1>
       </div>
     </div>
   </div>
@@ -14,7 +14,7 @@
       <div class="t-two {{include.colourTwo}} left">
         {% include dotodot.html %}
       </div>
-      <div class="t-two {{include.colourThree}} right">
+      <div class="t-two {{include.colourThree}} right {{include.classList}}">
         <div class="inner-wrapper">
           <h2>{{include.copy}}</h2>
         </div>

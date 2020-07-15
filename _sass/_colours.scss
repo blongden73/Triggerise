@@ -45,7 +45,7 @@ $pink: #D8A0C8;
   background-color: $lightCream;
 }
 
-.text-colour-lightBlue {
+.text-colour-lightBlue, {
   color: $lightBlue;
 }
 
@@ -55,4 +55,23 @@ $pink: #D8A0C8;
 
 .text-colour-darkBlue {
   color: $darkBlue;
+}
+
+.text-colour-cream {
+  color: $cream;
+}
+
+.button-colour-darkBlue {
+  color: $darkBlue;
+  border-color: $darkBlue;
+}
+
+.button-colour-lightYellow {
+  color: $lightYellow;
+  border-color: $lightYellow;
+}
+
+.button-colour-lightBlue {
+  color: $lightBlue;
+  border-color: $lightBlue;
 }

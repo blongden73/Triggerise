@@ -1,7 +1,7 @@
-<div class="t-one {{include.colour}} {{include.classList}}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
+<div class="t-one {{include.colour}} {{include.classList}}">
   <div class="wrapper">
     {% if include.sectionTitle %}
-      <h3 class="text-colour-{{include.textColor}}" >{{include.sectionTitle}}</h3>
+      <h3 class="text-colour-{{include.textColor}} section-title" >{{include.sectionTitle}}</h3>
     {% endif %}
     {% if include.diagram %}
       <div class="t-one__diagram-wrapper">
@@ -11,7 +11,9 @@
     {% if include.description %}
       <div class="t-one__description-wrapper">
         <p class="text-colour-{{include.textColor}}">{{include.description}}</p>
-        <button>Dig Deeper</button>
+        {% if include.buttonClass %}
+        <button class="button-colour-{{include.buttonClass}}">Dig Deeper</button>
+        {% endif %}
       </div>
     {% endif %}
   </div>

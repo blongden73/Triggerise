@@ -226,3 +226,17 @@ pre {
         }
     }
 }
+
+
+
+button {
+  background-color: transparent;
+  border: 1px solid $darkBlue;
+  padding: 15px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  border-radius: 25px;
+  font-family: $base-font-family;
+  font-weight: 400;
+  font-size: 20px;;
+}

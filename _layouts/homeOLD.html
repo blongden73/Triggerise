@@ -16,7 +16,6 @@ layout: default
     colourTwo="cream"
     colourThree="green"
     textColor="lightBlue"
-    classList="center"
     %}
 </div>
 {% assign sectionTitle = "Our Model" %}
@@ -28,17 +27,17 @@ layout: default
 {% assign ModelDescriptionThree = page.Our-Model[2].Description %}
   <div class="section" data-percentage="90">
     <div class="slide" data-anchor="slide1">
-      {% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram description=ModelDescription textColor="darkBlue" classList="full" buttonClass="darkBlue" %}
+      {% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram description=ModelDescription textColor="darkBlue" classList="full"%}
     </div>
     <div class="slide" data-anchor="slide2">
-        {% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo description=ModelDescriptionTwo textColor="lightBlue" classList="full" buttonClass="lightBlue"%}
+        {% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo description=ModelDescriptionTwo textColor="lightBlue" classList="full"%}
     </div>
     <div class="slide" data-anchor="slide3">
-        {% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree description=ModelDescriptionThree textColor="lightYellow" classList="full" buttonClass="lightYellow"%}
+        {% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree description=ModelDescriptionThree textColor="lightYellow" classList="full"%}
     </div>
   </div>
 <div class="section" data-percentage="90">
-  {% include ecosystem.html colour="white" sectionTitle=page.Eco-System-Text classList="full ecoSystem" %}
+{% include 1up.html colour="cream" sectionTitle=page.Eco-System-Text classList="full ecoSystem" %}
 </div>
 {% assign CTAtitle = page.CTA-Block.Header %}
 {% assign CTAsubTitle = page.CTA-Block.Description %}

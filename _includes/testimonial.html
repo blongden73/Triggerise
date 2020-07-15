@@ -1,0 +1,18 @@
+<div class="t-two-half flex {{include.colour}}">
+  <div class="t-half left testimonial">
+    <div class="inner-wrapper">
+      {% if include.image %}
+        <div class="image-wrapper-quote">
+          <img src="{{include.image}}">
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="t-half image {{include.colourSplit}} right">
+    <div class="inner-wrapper">
+      {% if include.sub %}
+        {{include.sub | markdownify }}
+      {% endif %}
+    </div>
+  </div>
+</div>

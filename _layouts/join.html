@@ -6,4 +6,41 @@ layout: default
 {% assign titleOne = title[0] %}
 {% assign titleTwo = title[1] %}
 {% assign image = page.Splash-image %}
-{% include 2up.html colour="darkBlue" titleOne=titleOne titleTwo=titleTwo textColor="lightBlue" image=image %}
+{% assign quote = page.Testimonial[0].Quote %}
+{% assign values = page.Values %}
+{% include 2up.html
+  colour="darkBlue"
+  titleOne=titleOne
+  titleTwo=titleTwo
+  textColor="lightBlue"
+  image=image
+%}
+{% include testimonial.html
+  colour="lightBlue"
+  sub=quote
+  textColor="lightBlue"
+  colourSplit="pink"
+  image=image
+%}
+{% include jobs.html
+  colour="cream"
+  textColor="lightBlue"
+%}
+{% include testimonial.html
+  colour="lightBlue"
+  sub=quote
+  textColor="lightBlue"
+  colourSplit="pink"
+  image=image
+%}
+{% include 3upHorizontal.html
+  list=values
+  colour="lightBlue"
+  imageTwo=Supportingimage
+  titleAlt=SupportingTitle
+  colourTwo="cream"
+  colourThree="darkBlue"
+  classList="image"
+  flexList="reverse"
+  titleAlt="Ou Values"
+%}

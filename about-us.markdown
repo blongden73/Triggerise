@@ -27,15 +27,15 @@ Map-locations:
 Board:
 - Name: Name
   Role: Role
-  Image: 
+  Image: "/uploads/join_image-7fd728.jpg"
 Executives:
 - Name: Name
   Role: Role
-  Image: 
+  Image: "/uploads/join_image-7fd728.jpg"
 Directors:
 - Name: Name
   Role: Role
-  Image: 
+  Image: "/uploads/join_image-7fd728.jpg"
 Reports-Resources:
 - Name: Name
   Sub title: Role

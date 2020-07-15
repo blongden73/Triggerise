@@ -1,5 +1,37 @@
-<div class="t-one {{include.colour}} {{include.classList}}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
-  <div class="wrapper">
-    
+{% assign Board = page.Board %}
+{% assign Executives = page.Executives %}
+{% assign Directors = page.Directors %}
+<div class="t-one {{include.colour}} {{include.classList}} team" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
+  <div class="wrapper flex">
+    <div class="team-one-container">
+      <h2>Our Board</h2>
+      {% for member in Board %}
+        <div class="team-image-wrapper">
+          <img src="{{member.Image}}">
+        </div>
+        <h2>{{member.Name}}</h2>
+        <p>{{member.Role}}</p>
+      {% endfor %}
+    </div>
+    <div class="team-two-container lightBlue">
+      <h2>Our Cheif Executives</h2>
+      {% for member in Executives %}
+        <div class="team-image-wrapper">
+          <img src="{{member.Image}}">
+        </div>
+        <h2>{{member.Name}}</h2>
+        <p>{{member.Role}}</p>
+      {% endfor %}
+    </div>
+    <div class="team-three-container lightCream">
+      <h2>Our Country Directors</h2>
+      {% for member in Directors %}
+        <div class="team-image-wrapper">
+          <img src="{{member.Image}}">
+        </div>
+        <h2>{{member.Name}}</h2>
+        <p>{{member.Role}}</p>
+      {% endfor %}
+    </div>
   </div>
 </div>

@@ -1,5 +1,17 @@
 <div class="t-one {{include.colour}} {{include.classList}}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
-    
+    <h1>Open positions</h1>
+    <div class="jobs-wrapper flex">
+      <div class="jobs-intro">
+        <h2>{{page.Open-positions-text | markdownify}}</h2>
+      </div>
+      {% for job in page.Jobs %}
+      <div class="job">
+        <h3>{{job.['Job Title']}}</h3>
+        <h3 class="location">{{job.Location}}</h3>
+        <p>{{job.['Job Description']}}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>

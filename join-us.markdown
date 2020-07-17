@@ -39,19 +39,18 @@ Jobs:
 - Job Title: Job 1
   Location: Paris
   Job Description: 'test etstest tetste '
-  Link: 
+  Link:
 - Job Title: Job 2
   Job Description: testing
   Location: Amsterdam
-  Link: 
+  Link:
 - Job Title: Job 3
   Job Description: testing
   Location: Somehwere
-  Link: 
+  Link:
 - Job Title: Job 4
   Job Description: This is a test
   Location: London
-  Link: 
+  Link:
 layout: join
 ---
-

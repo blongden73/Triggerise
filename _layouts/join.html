@@ -8,6 +8,7 @@ layout: default
 {% assign image = page.Splash-image %}
 {% assign quote = page.Testimonial[0].Quote %}
 {% assign values = page.Values %}
+{% assign nameOne = page.Testimonial[0].Name %}
 {% include 2up.html
   colour="darkBlue"
   titleOne=titleOne
@@ -22,14 +23,17 @@ layout: default
   textColor="lightBlue"
   colourSplit="pink"
   image=image
+  name=nameOne
 %}
 {% include jobs.html
   colour="cream"
   textColor="lightBlue"
+  classList="jobs autoHeight"
 %}
 {% include testimonial.html
   colour="lightBlue"
   sub=quote
+  name=nameOne
   textColor="lightBlue"
   colourSplit="pink"
   image=image
@@ -43,5 +47,5 @@ layout: default
   colourThree="darkBlue"
   classList="image"
   flexList="reverse"
-  titleAlt="Ou Values"
+  titleAlt="Our Values"
 %}

@@ -8,10 +8,13 @@
       {% endif %}
     </div>
   </div>
-  <div class="t-half image {{include.colourSplit}} right">
+  <div class="t-half image {{include.colourSplit}} right testimonial">
     <div class="inner-wrapper">
+      {% if include.name %}
+        <h3>{{include.name }}</h3>
+      {% endif %}
       {% if include.sub %}
-        {{include.sub | markdownify }}
+        <h3>{{include.sub}}</h3>
       {% endif %}
     </div>
   </div>

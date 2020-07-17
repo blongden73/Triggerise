@@ -357,7 +357,7 @@ button { background-color: transparent; border: 1px solid #1D214F; padding: 15px
 
 .dot-wrapper .line.animate { animation-name: line; animation-duration: 5s; animation-iteration-count: infinite; }
 
-.testimonial { padding-top: 20px; padding-bottom: 20px; }
+.testimonial { padding-top: calc(10px * 5); padding-bottom: calc(10px * 5); }
 
 .image-wrapper-quote { height: 20vw; width: 20vw; border-radius: 50%; overflow: hidden; margin-left: auto; margin-right: auto; }
 
@@ -397,7 +397,7 @@ button { background-color: transparent; border: 1px solid #1D214F; padding: 15px
   100% { transform: translateY(0); } }
 
 @keyframes opacity { 0% { opacity: 1; }
-  50% { opacity: 0; }
+  50% { opacity: 0.3; }
   100% { opacity: 1; } }
 
 .impact-header svg { position: absolute; bottom: 0; }
@@ -461,6 +461,18 @@ button { background-color: transparent; border: 1px solid #1D214F; padding: 15px
 .journal-wrapper .t-journal { background-color: #fff; padding: 10px; width: 22%; margin-right: 1%; margin-bottom: 13px; }
 
 .journal-wrapper .t-journal .t-journal-image { width: 200px; height: 200px; border-radius: 50%; overflow: hidden; margin-top: 50px; background-color: #D0DEED; }
+
+.jobs { padding-top: calc(10px * 4); padding-bottom: calc(10px * 4); }
+
+.jobs .jobs-intro { max-width: 48%; margin-right: 2%; }
+
+.jobs .job { width: 24%; margin-right: 1%; background-color: #fff; margin-bottom: 20px; padding: 10px; box-sizing: border-box; }
+
+.jobs .job h3 { font-size: 30px; line-height: 1; margin: 0; }
+
+.jobs .job h3.location { opacity: 0.8; margin-bottom: 20px; }
+
+.jobs h1 { font-size: 70px; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }

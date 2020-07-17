@@ -14,8 +14,6 @@ Success-stories-descriptor: 'Dive deeper into some of our projects and see how o
 Success-stories:
 - Title: A triumph for reproductive rights in Kenya
   Image: 
-  Intro Text: Half a million teenage girls in Kenya now have access to contraceptives
-    and sexual health products through our platform. This is how we made it happen.
   Body: |-
     **Powerful collaborations**
     ![lady-050119.jpg](/uploads/lady-050119.jpg)
@@ -36,6 +34,7 @@ Success-stories:
 
     Agile and effective impact with real-time data
   Pull out stat: 
+  Project: In Their Hands
 Journal:
 - Title: 
   Image: 

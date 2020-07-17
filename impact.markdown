@@ -18,6 +18,7 @@ Success-stories:
     and sexual health products through our platform. This is how we made it happen.
   Body: |-
     **Powerful collaborations**
+    ![lady-050119.jpg](/uploads/lady-050119.jpg)
     We connected our donor organisation the C​hi​ldren’s Investment Fund Foundation (CIFF), Kenyian social mobilisers Shujaaz Inc and Marie Stopes Kenya (MSK) to build 145 ecosystems across the country. These ecosystems are made of pharmacies, retailers, on-the-ground mobilisers and clinics, jointly aiming to improve the sexual and reproductive health and prevent unwanted pregnancies for 15-19 year old girls.
 
     While CIFF supplied the funding, team Triggerise were busy on the ground and Shujaaz Inc launched a campaign to drive self-enrolment. In the meantime, MSK was instrumental in ensuring the quality of our supply of products and services to all the local ecosystems. We’re team players at heart and our far-reaching impact is made possible through co-creation.

@@ -1,5 +1,17 @@
 <div class="t-one {{include.colour}} {{include.classList}}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
-    
+    <h2>Reports & resources</h2>
+    {% assign reports = page.Reports-Resources %}
+    <div class="t-rescources-wrapper flex">
+      {% for report in reports %}
+        <div class="report-cover">
+          <h2>{{report.Name}}</h2>
+          <h3>{{report.['Sub title']}}</h3>
+          <div class="report-image">
+            <svg width="286" height="185" viewBox="0 0 286 185" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 92.5C0 143.562 41.438 185 92.5 185S185 143.562 185 92.5 143.623 0 92.5 0C41.438 0 0 41.377 0 92.5z" fill="#1D214F"/><path d="M205 144.5c0 22.357 18.143 40.5 40.5 40.5s40.5-18.143 40.5-40.5-18.116-40.5-40.5-40.5c-22.357 0-40.5 18.116-40.5 40.5zM258 40.5c0 6.9-5.6 12.5-12.5 12.5S233 47.4 233 40.5 238.591 28 245.5 28c6.9 0 12.5 5.592 12.5 12.5z" fill="#FDDE5A"/></svg>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>

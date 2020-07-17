@@ -171,7 +171,6 @@ pre {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-    @extend %clearfix;
 
     @include mq($from: desktop) {
         max-width: -webkit-calc(980px - (#{$spacing-unit}));

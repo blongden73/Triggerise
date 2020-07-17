@@ -10,13 +10,13 @@ layout: default
 {% assign successTitle = page.Success-stories-intro %}
 {% assign SuccessDescription = page.Success-stories-descriptor %}
 
-{% include 1up.html
+{% include impact.html
   colour="darkBlue"
   sectionTitle=title
   diagram=diagram
   description=ModelDescription
   textColor="lightBlue"
-  classList="full"
+  classList="full impact-header"
 %}
 {% include 3upHorizontal.html
   title=CTAtitle
@@ -32,6 +32,7 @@ layout: default
   sectionTitle=successTitle
   description=SuccessDescription
   textColor="darkBlue"
+  classList="flexWrapper autoHeight"
 %}
 {% include success.html
   colour="white"

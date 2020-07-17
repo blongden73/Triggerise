@@ -52,6 +52,14 @@ Jobs:
   Job Description: This is a test
   Location: London
   Link: 
+- Job Title: Job 5
+  Job Description: This is a tets
+  Location: Paris
+  Link: 
+- Job Title: 'Job 6 '
+  Job Description: This is testing the jobs
+  Location: Barcelona
+  Link: 
 layout: join
 ---
 

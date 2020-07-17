@@ -5,8 +5,9 @@ Title: Join | Triggerise
 Splash-image: "/uploads/join_image.jpg"
 Testimonial:
 - Image: test
-  Quote: test
-  Name: test
+  Quote: "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+  Name: Shrey
 Open-positions-text: "### We’re an energetic bunch of global pioneers on a mission
   to get things done and do them well. We’re ever open-minded and highly impact-driven,
   keen to take on how the world does change. \n\nUniting the best bits of working

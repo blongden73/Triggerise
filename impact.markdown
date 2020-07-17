@@ -38,7 +38,19 @@ Success-stories:
   Intro text: Half a million teenage girls in Kenya now have access to contraceptives
     and sexual health products through our platform. This is how we made it happen.
 Journal:
-- Title: 
+- Title: Journal 1
+  Image: "/uploads/tiko-994821.jpg"
+  Link: 
+- Title: Journal 2
+  Image: 
+  Link: 
+- Title: Journal 3
+  Image: 
+  Link: 
+- Title: Journal 4
+  Image: 
+  Link: 
+- Title: Journal 5
   Image: 
   Link: 
 layout: impact

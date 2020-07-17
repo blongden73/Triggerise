@@ -47,18 +47,33 @@ $pink: #D8A0C8;
 
 .text-colour-lightBlue, {
   color: $lightBlue;
+
+  P {
+    color: $lightBlue;
+  }
 }
 
 .text-colour-lightYellow {
   color: $lightYellow;
+
+  p {
+    color: $lightYellow;
+  }
 }
 
 .text-colour-darkBlue {
   color: $darkBlue;
+
+  p{
+    color: $darkBlue;
+  }
 }
 
 .text-colour-cream {
   color: $cream;
+  p {
+    color: $cream;
+  }
 }
 
 .button-colour-darkBlue {

@@ -1,5 +1,16 @@
 <div class="t-one {{include.colour}} {{include.classList}}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
-    
+    <h1>Journal</h1>
+    <div class="journal-wrapper flex">
+      {% for journal in page.Journal %}
+        <div class="t-journal">
+          <div class="t-journal-image">
+            <img src="{{journal.image}}">
+          </div>
+          <h2>{{journal.Title}}</h2>
+          <small>Read story</small>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>

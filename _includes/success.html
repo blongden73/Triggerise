@@ -1,5 +1,16 @@
 <div class="t-one {{include.colour}} {{include.classList}}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
-
+    <div class="story-list">
+      {% for story in page.Success-stories %}
+        <span>{{story.Project}}</span>
+      {% endfor %}
+    </div>
+    {% for story in page.Success-stories %}
+      <div class="success-story-wrapper">
+        <h1>{{story.Title}}</h1>
+        <h2>{{story.['Intro text']}}</h2>
+        {{story.Body | markdownify }}
+      </div>
+    {% endfor %}
   </div>
 </div>

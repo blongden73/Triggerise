@@ -35,6 +35,8 @@ Success-stories:
     Agile and effective impact with real-time data
   Pull out stat: 
   Project: In Their Hands
+  Intro text: Half a million teenage girls in Kenya now have access to contraceptives
+    and sexual health products through our platform. This is how we made it happen.
 Journal:
 - Title: 
   Image: 

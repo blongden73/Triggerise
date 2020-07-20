@@ -43,14 +43,20 @@ Testimonial-two:
     where my input is heard and valued. '
   Name: Roxy Hotchkiss | Global Recruiter, Amsterdam
 Jobs:
-- Job Title: Job 1
-  Location: Paris
-  Job Description: 'test etstest tetste '
-  Link: 
-- Job Title: Job 2
-  Job Description: testing
-  Location: Amsterdam
-  Link: 
+- Job Title: County Programme Manager
+  Location: Kisumu, Kenya
+  Job Description: Are you looking for an ever-changing, and evolving working environment?  Would
+    you like to contribute to Triggerise growth and footprint?  This is the role for
+    you!  Each quarter, Triggerise expands into new geographies, and we are looking
+    for someone in Kisumu a tech-savvy background, located in Kisumu to help us to
+    do so.
+  Link: https://triggerise.org/county-programme-manager-kisumu/
+- Job Title: Quality Assurance Lead
+  Location: Porto, Portugal
+  Job Description: Are you a logical thinker with the ability to solve complex problems?  Do
+    you have high regard for quality control and attention to detail?  We have an
+    exciting new opportunity as a Quality Assurance Lead read on to find out more.
+  Link: https://triggerise.org/quality-assurance-lead/
 - Job Title: Job 3
   Job Description: testing
   Location: Somehwere

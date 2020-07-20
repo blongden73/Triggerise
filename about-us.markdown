@@ -114,19 +114,34 @@ Our People:
   Location: 'Addis Ababa   '
   LinkedIn: https://www.linkedin.com/in/
   Image: "/uploads/Trig_profiles_kalkidan.jpg"
+- Name: Maria
+  Role: Associate Technical Advisor
+  Location: Cameroon
+  LinkedIn: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_maria.jpg"
 - Name: Marylou
   Role: Strategy Manager
   Location: Amsterdam
   Key: https://www.linkedin.com/in/
-  Image: 
-- Name: Shrey
-  Role: Corporate Communications Officer
-  Key: Amsterdam
+  Image: "/uploads/Trig_profiles_marylou.jpg"
+- Name: Nathalie-Ann
+  Location: Global Technical Advisor
+  Role: Kenya
   LinkedIn: https://www.linkedin.com/in/
-  Image: 
+  Image: "/uploads/Trig_profiles_nathalie.jpg"
 - Name: Nelson
   Role: Chief Technology Officer
   Key: Cape Town
+  LinkedIn: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_nelson.jpg"
+- Name: Nienke
+  Role: Chief Finance Officer
+  Location: Amsterdam
+  LinkedIn: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_neiken.jpg"
+- Name: Shrey
+  Role: Corporate Communications Officer
+  Key: Amsterdam
   LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Thera
@@ -134,26 +149,16 @@ Our People:
   Location: Amsterdam
   Key: https://www.linkedin.com/in/
   Image: 
-- Name: Nienke
-  Role: Chief Finance Officer
-  Location: Amsterdam
-  LinkedIn: https://www.linkedin.com/in/
-  Image: 
-- Name: Sam
-  Role: Business Development Lead
-  Location: New York
-  Key: https://www.linkedin.com/in/
-  Image: 
-- Name: Nathalie-Ann
-  Location: Global Technical Advisor
-  Role: Kenya
-  LinkedIn: https://www.linkedin.com/in/
-  Image: 
 - Name: Payal
   Role: Country Lead and Director – India
   Location: New Delhi
   Key: https://www.linkedin.com/in/
-  Image: 
+  Image: "/uploads/Trig_profiles_payal.jpg"
+- Name: Ritu
+  Role: Administrative Assistant
+  Location: New Delhi
+  https://www.linkedin.com/in/: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_ritu.jpg"
 - Name: Lidya
   Role: Addis Ababa
   Location: Country Lead – Ethiopia
@@ -163,22 +168,17 @@ Our People:
   Role: Global Recruiter
   Location: Amsterdam
   LinkedIn: https://www.linkedin.com/in/
-  Image: 
-- Name: Maria
-  Role: Associate Technical Advisor
-  Location: Cameroon
-  LinkedIn: https://www.linkedin.com/in/
-  Image: 
-- Name: Ritu
-  Role: Administrative Assistant
-  Location: New Delhi
-  https://www.linkedin.com/in/: https://www.linkedin.com/in/
-  Image: 
+  Image: "/uploads/Trig_profiles_roxy-f4cf76.jpg"
+- Name: Sam
+  Role: Business Development Lead
+  Location: New York
+  Key: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_sam.jpg\n"
 - Name: Samuel
   Role: Backend Developer
   Location: Lisbon
   LinkedIn: https://www.linkedin.com/in/
-  Image: 
+  Image: "/uploads/Trig_profiles_samuel.jpg"
 Reports-Resources:
 - Name: Annual Report  2018
   Sub title: 'Transformative Scale: Platform Approach '

@@ -86,13 +86,39 @@ Our People:
 - Name: Shrey
   Role: Corporate Communications Officer
   Key: Amsterdam
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
+  Image: 
+- Name: Nelson
+  Role: Chief Technology Officer
+  Key: Cape Town
+  Image: 
+- Name: Thera
+  Role: Human Resource Manager
+  Location: Amsterdam
+  Image: 
+- Name: Nienke
+  Role: Chief Finance Officer
+  Location: Amsterdam
+  Image: 
+- Name: Sam
+  Role: Business Development Lead
+  Location: New York
+  Image: 
+- Name: Nathalie-Ann
+  Location: Global Technical Advisor
+  Role: Kenya
+  Image: 
+- Name: Payal
+  Role: Country Lead and Director – India
+  Location: New Delhi
+  Image: 
+- Name: Lidya
+  Role: Addis Ababa
+  Location: Country Lead – Ethiopia
+  Image: 
+- Name: Jesse
+  Role: Country Lead and Director – Kenya
+  Location: Nairobi
+  Image: 
 Reports-Resources:
 - Name: Name
   Sub title: Role

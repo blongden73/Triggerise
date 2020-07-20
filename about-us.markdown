@@ -30,15 +30,19 @@ Board:
   Description: "(Chapel Hill, NC, USA), is the chair of our supervisory board since
     inception. Lisa is the COO of Ipas, and previously served as Regional Director
     at Population Services International"
-  Image: "/uploads/team_test.jpg"
+  Image: 
   Linkedin link: 
 - Name: Leslie Pascaud
-  Role: "(New York, NJ, USA), leads Branding for Good and has been working on innovation
-    projects in the USA, Europe and Asia for over 20 years"
-  Key: 
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
+  Role: 
+  Description: "(New York, NJ, USA), leads Branding for Good and has been working
+    on innovation projects in the USA, Europe and Asia for over 20 years"
+  Image: 
+- Name: Miles Kemplay
+  Role: 
+  Key: "(London, UK), is leading adolescent sexual and reproductive health work as
+    Executive Director with Children’s Investment Fund Foundation since 2016. He has
+    spent over a decade working for global health, development and private sector
+    organisations"
   Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role

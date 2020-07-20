@@ -50,8 +50,7 @@ What-section-three-description: "Using the real-time data generated from member 
   visibility of our programmes. It means we can collaborate to increase positive impact
   at any given time. This gives us agility, offers transparency and delivers trust
   across the ecosystem, while making our resources more efficient and our work more
-  relevant.\n\nLorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum
-  Lorum ipsum Lorum ipsumLorum ipsum Lorum ipsum Lorum ipsum Lorum ipsum.\n"
+  relevant."
 Summary-title: In Summary
 Summarty-text: Our Tiko model delivers a new way to collaborate, a better way to motivate
   young people and a more efficient way to manage programmes. All this means more

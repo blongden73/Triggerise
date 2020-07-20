@@ -31,7 +31,6 @@ Supervisory Board:
     inception. Lisa is the COO of Ipas, and previously served as Regional Director
     at Population Services International."
   Image: 
-  Linkedin link: 
 - Name: Leslie Pascaud
   Role: 
   Description: "(New York, NJ, USA), leads Branding for Good and has been working
@@ -62,7 +61,7 @@ Supervisory Board:
     Tilburg-Bastianen Group, one of the most prominent businesses in the mobility
     services industry. Julia has 25 years of finance and accounting experience gained
     at KPMG Audit, DLL (Rabobank Group) and Athlon International."
-  Image: 
+  Image: "/uploads/Trig_profiles_julia.jpg"
 Board of Directors:
 - Name: Benoit Renard
   Role: Director of Triggerise Stichting, Chief Executive Officer (CEO) and Co-founder
@@ -80,11 +79,13 @@ Board of Directors:
   LinkedIn: 
   Image: 
 Our People:
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
+- Name: Marylou
+  Role: Strategy Manager
+  Location: Amsterdam
+  Image: 
+- Name: Shrey
+  Role: Corporate Communications Officer
+  Key: Amsterdam
   Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role

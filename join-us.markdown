@@ -4,14 +4,13 @@ date: 2020-07-09 17:30:00 Z
 Title: Join | Triggerise
 Splash-image: "/uploads/join_image.jpg"
 Testimonial:
-- Image: test
+- Image: "/uploads/Trig_profiles_nuno.jpg"
   Quote: "Triggerise culture embodies the best part of being a start-up - it's relaxed,
     challenging, collaborative, casual, autonomous, friendly and engaging.  Contributing
     to an organization that helps people help themselves while also watching it grow,
     learning about exciting new technologies, and improving myself as a developer
-    and, most of all, as a person is the most fulfilling for me. \nBackend Developer,
-    Porto"
-  Name: Nuno Marques
+    and, most of all, as a person is the most fulfilling for me. \n"
+  Name: Nuno Marques | Backend Developer, Porto
 Open-positions-text: "### We’re an energetic bunch of global pioneers on a mission
   to get things done and do them well. We’re ever open-minded and highly impact-driven,
   keen to take on how the world does change. \n\nUniting the best bits of working
@@ -20,9 +19,13 @@ Open-positions-text: "### We’re an energetic bunch of global pioneers on a mis
   \n\nWe’re expanding and look forward to meeting talented, enthusiastic and driven
   prospective team members.\n"
 Testimonial-two:
-- Image: test
-  Quote: test
-  Name: tets
+- Image: "/uploads/Trig_profiles_roxy.jpg"
+  Quote: 'I joined Triggerise to have the opportunity to work with global colleagues,
+    directly impact the growth of the business and also to know that my work is creating
+    such a positive impact is awesome! I love that the culture and the people here
+    are really great. There’s a real opportunity to develop yourself in an environment
+    where my input is heard and valued. '
+  Name: Roxy Hotchkiss | Global Recruiter, Amsterdam
 Values:
 - Name: We are open
   Description: 'We’re open to diverse experiences, ideas and people. We believe that

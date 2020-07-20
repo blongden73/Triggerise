@@ -127,6 +127,38 @@ Our People:
   Role: Data Scientist and Lead
   Location: Porto
   Image: 
+- Name: Caroline Mutua
+  Role: Product Owner – Data
+  Location: Nairobi
+  Image: 
+- Name: Arika
+  Role: Product Owner – TikoSystem
+  Location: New Delh
+  Image: 
+- Name: Maria
+  Role: Associate Technical Advisor
+  Location: Cameroon
+  Image: 
+- Name: Asgar
+  Role: Tiko System Manager
+  Location: Jaipur
+  Image: 
+- Name: Brian
+  Role: Country Programme Manager
+  Location: Bungoma
+  Image: 
+- Name: Ritu
+  Role: Administrative Assistant
+  Location: New Delhi
+  Image: 
+- Name: Samuel
+  Role: Backend Developer
+  Location: Lisbon
+  Image: 
+- Name: Kalkidan
+  Role: Tiko System Manager
+  Location: 'Addis Ababa   '
+  Image: 
 Reports-Resources:
 - Name: Report 1
   Sub title: 'Blurb

@@ -32,8 +32,10 @@ Board:
     at Population Services International"
   Image: "/uploads/team_test.jpg"
   Linkedin link: 
-- Name: Name
-  Role: Role
+- Name: Leslie Pascaud
+  Role: "(New York, NJ, USA), leads Branding for Good and has been working on innovation
+    projects in the USA, Europe and Asia for over 20 years"
+  Key: 
   Image: "/uploads/team_test.jpg"
 - Name: Name
   Role: Role

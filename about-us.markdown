@@ -197,6 +197,7 @@ Reports-Resources:
 Safeguarding-text: "We always protect user data and never compromise privacy. \n\nWe
   only collect user data that is given with consent, and use it to improve our product.
   \n\nWe never sell personal information, this includes meta data. \n"
+Header animation image: "/uploads/Mark03-a60be9.gif"
 layout: about
 ---
 

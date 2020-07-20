@@ -25,8 +25,11 @@ Map-locations:
   Description: 
   Image: 
 Board:
-- Name: Name
+- Name: 'Lisa Simutami '
   Role: Role
+  Description: "(Chapel Hill, NC, USA), is the chair of our supervisory board since
+    inception. Lisa is the COO of Ipas, and previously served as Regional Director
+    at Population Services International"
   Image: "/uploads/team_test.jpg"
   Linkedin link: 
 - Name: Name

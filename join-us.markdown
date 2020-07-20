@@ -57,22 +57,32 @@ Jobs:
     you have high regard for quality control and attention to detail?  We have an
     exciting new opportunity as a Quality Assurance Lead read on to find out more.
   Link: https://triggerise.org/quality-assurance-lead/
-- Job Title: Job 3
-  Job Description: testing
-  Location: Somehwere
-  Link: 
-- Job Title: Job 4
-  Job Description: This is a test
-  Location: London
-  Link: 
-- Job Title: Job 5
-  Job Description: This is a tets
-  Location: Paris
-  Link: 
-- Job Title: 'Job 6 '
-  Job Description: This is testing the jobs
-  Location: Barcelona
-  Link: 
+- Job Title: Marketing Communications Officer
+  Location: New Delhi, India
+  Job Description: Are you a self-starter who quickly understands what needs to be
+    said and done in order to reach your audience?  Are you able to focus on targeted
+    marketing to drive awareness and interest in Triggerise services? Continue reading
+    to find out more about this position for a Marketing and Communications Officer.
+  Link: https://triggerise.org/marketing-and-communications-officer/
+- Job Title: Quality Assurance Manager
+  Location: Nairobi, Kenya
+  Job Description: Do you want to make a difference to the health of your community?  Are
+    you excited by a challenge, and  do you feel comfortable managing teams of implementers?  Triggerise
+    is looking for a Quality Assurance Manager to maximise quality & compliance among
+    all  of our platform service providers.
+  Link: https://triggerise.org/quality-assurance-manager-nairobi/
+- Job Title: Back End Developer
+  Location: Porto, Portugal
+  Job Description: Are you looking for your next challenge within the development
+    space?  Do you have an interest in Technology, and an affinity for back end development?
+    Continue reading to find out more about our back end developer role.
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=42
+- Job Title: Field Operations Lead (FOL)
+  Location: Nairobi, Kenya
+  Job Description: 'Are you looking for an exciting position, where you have multiple
+    responsibilities in operational tasks?  Are you a natural people manager?  Find
+    out more about our role as a Field Operations Lead! '
+  Link: https://triggerise.org/field-operations-manager-nairobi/
 layout: join
 ---
 

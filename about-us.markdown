@@ -94,6 +94,26 @@ Our People:
   Location: Jaipur
   Key: https://www.linkedin.com/in/
   Image: "/uploads/Trig_profiles_asgar.jpg"
+- Name: Brian
+  Role: Country Programme Manager
+  Location: Bungoma
+  LinkedIn: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_brian.jpg"
+- Name: Caroline Mutua
+  Role: Product Owner – Data
+  Location: Nairobi
+  LinkedIn: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_caroline.jpg"
+- Name: Jesse
+  Role: Country Lead and Director – Kenya
+  Location: Nairobi
+  https://www.linkedin.com/in/: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_jesse.jpg"
+- Name: Kalkidan
+  Role: Tiko System Manager
+  Location: 'Addis Ababa   '
+  LinkedIn: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_kalkidan.jpg"
 - Name: Marylou
   Role: Strategy Manager
   Location: Amsterdam
@@ -139,29 +159,14 @@ Our People:
   Location: Country Lead – Ethiopia
   LinkedIn: https://www.linkedin.com/in/
   Image: 
-- Name: Jesse
-  Role: Country Lead and Director – Kenya
-  Location: Nairobi
-  https://www.linkedin.com/in/: https://www.linkedin.com/in/
-  Image: 
 - Name: Roxy
   Role: Global Recruiter
   Location: Amsterdam
   LinkedIn: https://www.linkedin.com/in/
   Image: 
-- Name: Caroline Mutua
-  Role: Product Owner – Data
-  Location: Nairobi
-  LinkedIn: https://www.linkedin.com/in/
-  Image: 
 - Name: Maria
   Role: Associate Technical Advisor
   Location: Cameroon
-  LinkedIn: https://www.linkedin.com/in/
-  Image: 
-- Name: Brian
-  Role: Country Programme Manager
-  Location: Bungoma
   LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Ritu
@@ -172,11 +177,6 @@ Our People:
 - Name: Samuel
   Role: Backend Developer
   Location: Lisbon
-  LinkedIn: https://www.linkedin.com/in/
-  Image: 
-- Name: Kalkidan
-  Role: Tiko System Manager
-  Location: 'Addis Ababa   '
   LinkedIn: https://www.linkedin.com/in/
   Image: 
 Reports-Resources:

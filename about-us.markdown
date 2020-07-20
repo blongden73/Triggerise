@@ -29,29 +29,39 @@ Board:
   Role: 
   Description: "(Chapel Hill, NC, USA), is the chair of our supervisory board since
     inception. Lisa is the COO of Ipas, and previously served as Regional Director
-    at Population Services International"
+    at Population Services International."
   Image: 
   Linkedin link: 
 - Name: Leslie Pascaud
   Role: 
   Description: "(New York, NJ, USA), leads Branding for Good and has been working
-    on innovation projects in the USA, Europe and Asia for over 20 years"
+    on innovation projects in the USA, Europe and Asia for over 20 years."
   Image: 
 - Name: Miles Kemplay
   Role: 
   Key: "(London, UK), is leading adolescent sexual and reproductive health work as
     Executive Director with Children’s Investment Fund Foundation since 2016. He has
     spent over a decade working for global health, development and private sector
-    organisations"
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
-- Name: 
+    organisations."
+  Image: 
+- Name: Werner Strydom
   Role: 
+  Key: " (Amsterdam, The Netherlands), heads up the Advanced Technology & Innovation
+    unit within the Office of the CTO at Irdeto. He has 30 years of experience in
+    the field of cybersecurity and leads software development, technology research,
+    and innovation teams."
+  Image: 
+- Name: Leontine Gast
+  Role: 
+  Key: "(Amsterdam, The Netherlands) is the CEO of The Terrace. She works in strategy,
+    branding and communication with retail and consumer goods organisations. "
+  Image: 
+- Name: Julia Sakovska
+  Role: 
+  Key: "(Breda, The Netherlands), FCCA, serves as a CFO on the Managing Board of Van
+    Tilburg-Bastianen Group, one of the most prominent businesses in the mobility
+    services industry. Julia has 25 years of finance and accounting experience gained
+    at KPMG Audit, DLL (Rabobank Group) and Athlon International."
   Image: 
 Executives:
 - Name: Name

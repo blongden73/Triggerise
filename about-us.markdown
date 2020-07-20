@@ -119,18 +119,28 @@ Our People:
   Role: Country Lead and Director – Kenya
   Location: Nairobi
   Image: 
+- Name: Roxy
+  Role: Global Recruiter
+  Location: Amsterdam
+  Image: 
+- Name: Admilo
+  Role: Data Scientist and Lead
+  Location: Porto
+  Image: 
 Reports-Resources:
-- Name: Name
-  Sub title: Role
+- Name: Report 1
+  Sub title: 'Blurb
+
+'
   File: 
-- Name: Name
-  Sub title: sub
+- Name: 'Report 2 '
+  Sub title: Blurb
   File: 
-- Name: Name
-  Sub title: sub
+- Name: Report 3
+  Sub title: Blurb
   File: 
-- Name: Name
-  Sub title: sub
+- Name: Report 4
+  Sub title: Blurb
   File: 
 Safeguarding-text: "We always protect user data and never compromise privacy. \n\nWe
   only collect user data that is given with consent, and use it to improve our product.

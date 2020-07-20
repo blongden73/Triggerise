@@ -79,6 +79,21 @@ Board of Directors:
   LinkedIn: 
   Image: 
 Our People:
+- Name: Admilo
+  Role: Data Scientist and Lead
+  Location: Porto
+  Key: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_admilo.jpg"
+- Name: Arika
+  Role: Product Owner – TikoSystem
+  Location: New Delh
+  Key: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_arika.jpg"
+- Name: Asgar
+  Role: Tiko System Manager
+  Location: Jaipur
+  Key: https://www.linkedin.com/in/
+  Image: "/uploads/Trig_profiles_asgar.jpg"
 - Name: Marylou
   Role: Strategy Manager
   Location: Amsterdam
@@ -134,30 +149,15 @@ Our People:
   Location: Amsterdam
   LinkedIn: https://www.linkedin.com/in/
   Image: 
-- Name: Admilo
-  Role: Data Scientist and Lead
-  Location: Porto
-  Key: https://www.linkedin.com/in/
-  Image: 
 - Name: Caroline Mutua
   Role: Product Owner – Data
   Location: Nairobi
   LinkedIn: https://www.linkedin.com/in/
   Image: 
-- Name: Arika
-  Role: Product Owner – TikoSystem
-  Location: New Delh
-  Key: https://www.linkedin.com/in/
-  Image: 
 - Name: Maria
   Role: Associate Technical Advisor
   Location: Cameroon
   LinkedIn: https://www.linkedin.com/in/
-  Image: 
-- Name: Asgar
-  Role: Tiko System Manager
-  Location: Jaipur
-  Key: https://www.linkedin.com/in/
   Image: 
 - Name: Brian
   Role: Country Programme Manager

@@ -82,82 +82,102 @@ Our People:
 - Name: Marylou
   Role: Strategy Manager
   Location: Amsterdam
+  Key: https://www.linkedin.com/in/
   Image: 
 - Name: Shrey
   Role: Corporate Communications Officer
   Key: Amsterdam
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Nelson
   Role: Chief Technology Officer
   Key: Cape Town
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Thera
   Role: Human Resource Manager
   Location: Amsterdam
+  Key: https://www.linkedin.com/in/
   Image: 
 - Name: Nienke
   Role: Chief Finance Officer
   Location: Amsterdam
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Sam
   Role: Business Development Lead
   Location: New York
+  Key: https://www.linkedin.com/in/
   Image: 
 - Name: Nathalie-Ann
   Location: Global Technical Advisor
   Role: Kenya
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Payal
   Role: Country Lead and Director – India
   Location: New Delhi
+  Key: https://www.linkedin.com/in/
   Image: 
 - Name: Lidya
   Role: Addis Ababa
   Location: Country Lead – Ethiopia
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Jesse
   Role: Country Lead and Director – Kenya
   Location: Nairobi
+  https://www.linkedin.com/in/: https://www.linkedin.com/in/
   Image: 
 - Name: Roxy
   Role: Global Recruiter
   Location: Amsterdam
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Admilo
   Role: Data Scientist and Lead
   Location: Porto
+  Key: https://www.linkedin.com/in/
   Image: 
 - Name: Caroline Mutua
   Role: Product Owner – Data
   Location: Nairobi
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Arika
   Role: Product Owner – TikoSystem
   Location: New Delh
+  Key: https://www.linkedin.com/in/
   Image: 
 - Name: Maria
   Role: Associate Technical Advisor
   Location: Cameroon
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Asgar
   Role: Tiko System Manager
   Location: Jaipur
+  Key: https://www.linkedin.com/in/
   Image: 
 - Name: Brian
   Role: Country Programme Manager
   Location: Bungoma
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Ritu
   Role: Administrative Assistant
   Location: New Delhi
+  https://www.linkedin.com/in/: https://www.linkedin.com/in/
   Image: 
 - Name: Samuel
   Role: Backend Developer
   Location: Lisbon
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 - Name: Kalkidan
   Role: Tiko System Manager
   Location: 'Addis Ababa   '
+  LinkedIn: https://www.linkedin.com/in/
   Image: 
 Reports-Resources:
 - Name: Annual Report  2018

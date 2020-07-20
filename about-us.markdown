@@ -160,20 +160,18 @@ Our People:
   Location: 'Addis Ababa   '
   Image: 
 Reports-Resources:
-- Name: Report 1
-  Sub title: 'Blurb
-
-'
-  File: 
-- Name: 'Report 2 '
-  Sub title: Blurb
-  File: 
-- Name: Report 3
-  Sub title: Blurb
-  File: 
-- Name: Report 4
-  Sub title: Blurb
-  File: 
+- Name: Annual Report  2018
+  Sub title: 'Transformative Scale: Platform Approach '
+  Link: https://triggerise.org/wp-content/uploads/2019/06/Triggerise_2018_Annual_Report.pdf
+- Name: Annual Report  2017
+  Sub title: More info needed
+  Link: https://triggerise.org/wp-content/uploads/2019/02/Triggerise-2017-Annual-Report.pdf
+- Name: Annual Report  2016
+  Sub title: More info needed
+  Link: https://triggerise.org/wp-content/uploads/2019/02/Triggerise-2016-annual-report-1.pdf
+- Name: Annual Report  2015
+  Sub title: More info needed
+  Link: https://triggerise.org/wp-content/uploads/2020/01/Triggerise-2015-report-FINAL.pdf
 Safeguarding-text: "We always protect user data and never compromise privacy. \n\nWe
   only collect user data that is given with consent, and use it to improve our product.
   \n\nWe never sell personal information, this includes meta data. \n"

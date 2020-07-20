@@ -18,14 +18,6 @@ Open-positions-text: "### We’re an energetic bunch of global pioneers on a mis
   fast-paced place to learn and grow for graduates and experienced experts alike.
   \n\nWe’re expanding and look forward to meeting talented, enthusiastic and driven
   prospective team members.\n"
-Testimonial-two:
-- Image: "/uploads/Trig_profiles_roxy.jpg"
-  Quote: 'I joined Triggerise to have the opportunity to work with global colleagues,
-    directly impact the growth of the business and also to know that my work is creating
-    such a positive impact is awesome! I love that the culture and the people here
-    are really great. There’s a real opportunity to develop yourself in an environment
-    where my input is heard and valued. '
-  Name: Roxy Hotchkiss | Global Recruiter, Amsterdam
 Values:
 - Name: We are open
   Description: 'We’re open to diverse experiences, ideas and people. We believe that
@@ -42,6 +34,14 @@ Values:
 - Name: We pioneer
   Description: We’re eager to innovate, learn, grow and share. We dare to change the
     conversation, that’s how we succeed.
+Testimonial-two:
+- Image: "/uploads/Trig_profiles_roxy.jpg"
+  Quote: 'I joined Triggerise to have the opportunity to work with global colleagues,
+    directly impact the growth of the business and also to know that my work is creating
+    such a positive impact is awesome! I love that the culture and the people here
+    are really great. There’s a real opportunity to develop yourself in an environment
+    where my input is heard and valued. '
+  Name: Roxy Hotchkiss | Global Recruiter, Amsterdam
 Jobs:
 - Job Title: Job 1
   Location: Paris

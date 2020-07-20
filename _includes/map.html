@@ -1,5 +1,7 @@
 <div class="t-one {{include.colour}} {{include.classList}}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
-    
+    {% assign mapText = page.Map-text %}
+    <h2 class="text-colour-{{include.textColor}}">{{mapText}}</h2>
+    <div id="svgMap"></div>
   </div>
 </div>

@@ -84,3 +84,12 @@ $on-laptop:        800px;
   font-size: $size;
   line-height: calc(#{$size} * #{$line});
 }
+
+// General
+$textColor: #111;
+$textColorLight: #777;
+
+// Map
+$oceanColor: $darkBlue;
+$mapActiveStrokeColor: #333;
+$mapActiveStrokeWidth: 1.5;

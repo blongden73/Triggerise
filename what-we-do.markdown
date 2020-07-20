@@ -56,6 +56,8 @@ Summary-title: In Summary
 Summarty-text: Our Tiko model delivers a new way to collaborate, a better way to motivate
   young people and a more efficient way to manage programmes. All this means more
   impact at scale and at a lower cost. We trigger change, for good.
+Supporting-Image-two: "/uploads/TRIGGERISE-KIBERA-139.jpg"
+Supporting-Image-three: "/uploads/photo-1531123414780-f74242c2b052.jpeg"
 layout: whatwedo
 ---
 

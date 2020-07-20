@@ -82,17 +82,17 @@ Our People:
 - Name: Admilo
   Role: Data Scientist and Lead
   Location: Porto
-  Key: https://www.linkedin.com/in/
+  Key: https://www.linkedin.com/in/ribadmilo/
   Image: "/uploads/Trig_profiles_admilo.jpg"
 - Name: Arika
   Role: Product Owner – TikoSystem
   Location: New Delh
-  Key: https://www.linkedin.com/in/
+  Key: http://www.linkedin.com/in/arika-srivastava
   Image: "/uploads/Trig_profiles_arika.jpg"
 - Name: Asgar
   Role: Tiko System Manager
   Location: Jaipur
-  Key: https://www.linkedin.com/in/
+  Key: https://www.linkedin.com/in/asgar-ali-070b64141
   Image: "/uploads/Trig_profiles_asgar.jpg"
 - Name: Brian
   Role: Country Programme Manager
@@ -102,82 +102,82 @@ Our People:
 - Name: Caroline Mutua
   Role: Product Owner – Data
   Location: Nairobi
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: https://www.linkedin.com/in/carolinemutua/
   Image: "/uploads/Trig_profiles_caroline.jpg"
 - Name: Jesse
   Role: Country Lead and Director – Kenya
   Location: Nairobi
-  https://www.linkedin.com/in/: https://www.linkedin.com/in/
+  https://www.linkedin.com/in/: https://www.linkedin.com/in/dr-jesse-njunguru-059909120/
   Image: "/uploads/Trig_profiles_jesse.jpg"
 - Name: Kalkidan
   Role: Tiko System Manager
   Location: 'Addis Ababa   '
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: https://www.linkedin.com/in/kalkidan-tsegaye-001a95154/
   Image: "/uploads/Trig_profiles_kalkidan.jpg"
 - Name: Lidya
   Role: Addis Ababa
   Location: Country Lead – Ethiopia
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: https://www.linkedin.com/in/lidya-mulat-82829a83/
   Image: 
 - Name: Maria
   Role: Associate Technical Advisor
   Location: Cameroon
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: https://www.linkedin.com/in/maria-g-ndzelen-ba086116/
   Image: "/uploads/Trig_profiles_maria.jpg"
 - Name: Marylou
   Role: Strategy Manager
   Location: Amsterdam
-  Key: https://www.linkedin.com/in/
+  Key: https://www.linkedin.com/in/maryloukupfer/
   Image: "/uploads/Trig_profiles_marylou.jpg"
 - Name: Nathalie-Ann
   Location: Global Technical Advisor
   Role: Kenya
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: https://www.linkedin.com/in/nathalie-ann-donjon-a1140946/
   Image: "/uploads/Trig_profiles_nathalie.jpg"
 - Name: Nelson
   Role: Chief Technology Officer
   Key: Cape Town
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: www.linkedin.com/in/nognelson
   Image: "/uploads/Trig_profiles_nelson.jpg"
 - Name: Nienke
   Role: Chief Finance Officer
   Location: Amsterdam
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: https://www.linkedin.com/in/nienkestel/
   Image: "/uploads/Trig_profiles_neiken.jpg"
 - Name: Shrey
   Role: Corporate Communications Officer
   Key: Amsterdam
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: http://linkedin.com/in/shreysaraswat
   Image: "/uploads/Trig_profiles_shrey.jpg"
 - Name: Thera
   Role: Human Resource Manager
   Location: Amsterdam
-  Key: https://www.linkedin.com/in/
+  Key: www.linkedin.com/in/theraengels
   Image: "/uploads/Trig_profiles_Threa.jpg"
 - Name: Payal
   Role: Country Lead and Director – India
   Location: New Delhi
-  Key: https://www.linkedin.com/in/
+  Key: https://www.linkedin.com/in/payal852/
   Image: "/uploads/Trig_profiles_payal.jpg"
 - Name: Ritu
   Role: Administrative Assistant
   Location: New Delhi
-  https://www.linkedin.com/in/: https://www.linkedin.com/in/
+  https://www.linkedin.com/in/: http://www.linkedin.com/in/ritu-sharma-7290b12b
   Image: "/uploads/Trig_profiles_ritu.jpg"
 - Name: Roxy
   Role: Global Recruiter
   Location: Amsterdam
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: https://www.linkedin.com/in/roxanne-h-80ba8911a
   Image: "/uploads/Trig_profiles_roxy-f4cf76.jpg"
 - Name: Sam
   Role: Business Development Lead
   Location: New York
-  Key: https://www.linkedin.com/in/
+  Key: https://www.linkedin.com/in/samuel-lewin-70711489/
   Image: "/uploads/Trig_profiles_sam.jpg\n"
 - Name: Samuel
   Role: Backend Developer
   Location: Lisbon
-  LinkedIn: https://www.linkedin.com/in/
+  LinkedIn: https://www.linkedin.com/in/amuxix/
   Image: "/uploads/Trig_profiles_samuel.jpg"
 Reports-Resources:
 - Name: Annual Report  2018

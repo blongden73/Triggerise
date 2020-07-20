@@ -239,3 +239,37 @@ button {
   font-weight: 400;
   font-size: 20px;;
 }
+
+footer {
+  .flex {
+    justify-content: space-between;
+
+    & > * {
+      width: 50%;
+    }
+  }
+
+  .small {
+    margin-top: 10px;
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+
+      li {
+        margin-right: 10px;
+      }
+    }
+  }
+  .socials {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    li {
+      margin-right: 10px;
+    }
+  }
+}

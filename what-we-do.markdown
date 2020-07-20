@@ -58,6 +58,7 @@ Summarty-text: Our Tiko model delivers a new way to collaborate, a better way to
   impact at scale and at a lower cost. We trigger change, for good.
 Supporting-Image-two: "/uploads/TRIGGERISE-KIBERA-139.jpg"
 Supporting-Image-three: "/uploads/photo-1531123414780-f74242c2b052.jpeg"
+Supporting-Image-four: "/uploads/TRIGGERISE-KIBERA-139.jpg"
 layout: whatwedo
 ---
 

@@ -24,7 +24,7 @@ Map-locations:
 - Location: 
   Description: 
   Image: 
-Board:
+Supervisory Board:
 - Name: 'Lisa Simutami '
   Role: 
   Description: "(Chapel Hill, NC, USA), is the chair of our supervisory board since
@@ -63,26 +63,23 @@ Board:
     services industry. Julia has 25 years of finance and accounting experience gained
     at KPMG Audit, DLL (Rabobank Group) and Athlon International."
   Image: 
-Executives:
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
-- Name: Name
-  Role: Role
-  Image: "/uploads/team_test.jpg"
-- Name: 
-  Role: 
+Board of Directors:
+- Name: Benoit Renard
+  Role: Director of Triggerise Stichting, Chief Executive Officer (CEO) and Co-founder
+  Location: Cape Town, South Africa
+  Key: Benoit co-founded Triggerise in 2014. He has a background in Marketing, having
+    worked for nonprofit and for-profit organisations in France and Africa. He manages
+    and oversees operations, leading the development of all the Triggerise ecosystems.
+  LinkedIn: https://www.linkedin.com/in/benoitrenard/
   Image: 
-Directors:
+- Name: Richard Matikanya
+  Role: Director of Triggerise Stichting and Chief Operating Officer (COO)
+  Key: Richard is responsible for the Triggerise platform. He leads project implementation
+    in African countries, having a background in global health program design, management,
+    monitoring and evaluation.
+  LinkedIn: 
+  Image: 
+Our People:
 - Name: Name
   Role: Role
   Image: "/uploads/team_test.jpg"

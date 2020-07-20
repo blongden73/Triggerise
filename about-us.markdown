@@ -143,12 +143,12 @@ Our People:
   Role: Corporate Communications Officer
   Key: Amsterdam
   LinkedIn: https://www.linkedin.com/in/
-  Image: 
+  Image: "/uploads/Trig_profiles_shrey.jpg"
 - Name: Thera
   Role: Human Resource Manager
   Location: Amsterdam
   Key: https://www.linkedin.com/in/
-  Image: 
+  Image: "/uploads/Trig_profiles_Threa.jpg"
 - Name: Payal
   Role: Country Lead and Director – India
   Location: New Delhi
@@ -159,11 +159,6 @@ Our People:
   Location: New Delhi
   https://www.linkedin.com/in/: https://www.linkedin.com/in/
   Image: "/uploads/Trig_profiles_ritu.jpg"
-- Name: Lidya
-  Role: Addis Ababa
-  Location: Country Lead – Ethiopia
-  LinkedIn: https://www.linkedin.com/in/
-  Image: 
 - Name: Roxy
   Role: Global Recruiter
   Location: Amsterdam
@@ -179,6 +174,11 @@ Our People:
   Location: Lisbon
   LinkedIn: https://www.linkedin.com/in/
   Image: "/uploads/Trig_profiles_samuel.jpg"
+- Name: Lidya
+  Role: Addis Ababa
+  Location: Country Lead – Ethiopia
+  LinkedIn: https://www.linkedin.com/in/
+  Image: 
 Reports-Resources:
 - Name: Annual Report  2018
   Sub title: 'Transformative Scale: Platform Approach '

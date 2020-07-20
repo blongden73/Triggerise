@@ -1,10 +1,10 @@
-{% assign Board = page.Board %}
-{% assign Executives = page.Executives %}
-{% assign Directors = page.Directors %}
+{% assign Board = page.['Supervisory Board'] %}
+{% assign Executives = page.['Board of Directors'] %}
+{% assign Directors = page.['Our People'] %}
 <div class="t-one {{include.colour}} {{include.classList}} team" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper flex">
     <div class="team-one-container">
-      <h2>Our Board</h2>
+      <h2 class="teamsTitle">Our Board</h2>
       {% for member in Board %}
         <div class="team-image-wrapper">
           <img src="{{member.Image}}">
@@ -15,7 +15,7 @@
       {% endfor %}
     </div>
     <div class="team-two-container lightBlue">
-      <h2>Our Cheif Executives</h2>
+      <h2 class="teamsTitle">Our Cheif Executives</h2>
       {% for member in Executives %}
         <div class="team-image-wrapper">
           <img src="{{member.Image}}">
@@ -26,7 +26,7 @@
       {% endfor %}
     </div>
     <div class="team-three-container lightCream">
-      <h2>Our Country Directors</h2>
+      <h2 class="teamsTitle">Our Country Directors</h2>
       {% for member in Directors %}
         <div class="team-image-wrapper">
           <img src="{{member.Image}}">

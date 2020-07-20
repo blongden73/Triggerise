@@ -6,6 +6,7 @@ $font-scale: (
     4: 50px,
     3: 40px,
     2: 30px,
+    bigpar: 25px,
     1: 20px,
     0: 17px,
     small: 15px
@@ -28,6 +29,11 @@ h2 {
 
 h3 {
   font-size: map-get($font-scale, 2);
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: map-get($font-scale, bigpar);
   line-height: 1.2;
 }
 

@@ -34,12 +34,16 @@ window.onload = function() {
   var userTotal = fakeAPI.global.active_rafikis;
   var servicesTotal = fakeAPI.global.number_of_services;
   var partnersTotal = fakeAPI.ecosystems[0].size;
+  var partnersTotalIndia = fakeAPI.ecosystems[1].size;
+  var partnersTotalEthiopia = fakeAPI.ecosystems[2].size;
   var milesTotal = fakeAPI.global.tiko_miles;
 
   var home = document.querySelector('#countup');
   var impactTotal = document.querySelector('#total-users');
   var services = document.querySelector('#platform-services');
   var partners = document.querySelector('#partners');
+  var partnersIndia = document.querySelector('#partners-india');
+  var partnersEthiopia = document.querySelector('#partners-ethiopia');
   var miles = document.querySelector('#tiko-miles');
 
   if(home) {
@@ -59,6 +63,16 @@ window.onload = function() {
   }
   if(partners){
     var countUp = new CountUp('partners', 0, partnersTotal);
+    console.log(countUp);
+    countUp.start();
+  }
+  if(partnersIndia){
+    var countUp = new CountUp('partners-india', 0, partnersTotalIndia);
+    console.log(countUp);
+    countUp.start();
+  }
+  if(partnersEthiopia){
+    var countUp = new CountUp('partners-ethiopia', 0, partnersTotalEthiopia);
     console.log(countUp);
     countUp.start();
   }

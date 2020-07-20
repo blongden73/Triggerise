@@ -275,7 +275,7 @@
         }
 
         p {
-          font-size: map-get($font-scale, 1);
+          font-size: map-get($font-scale, bigpar);
         }
       }
     }
@@ -668,6 +668,15 @@
 .testimonial {
   padding-top: spacing(5);
   padding-bottom: spacing(5);
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .nameSplit {
+    margin-bottom: spacing(1.5);
+    color: #fff;
+  }
 }
 
 .image-wrapper-quote {
@@ -698,8 +707,12 @@
     font-size: map-get($font-scale, 1);
   }
 
+  h2.teamsTitle {
+    font-size: map-get($font-scale, bigpar);
+  }
+
   h2 {
-    font-weight: 900;
+    font-size: map-get($font-scale, 1);
   }
 
   .team-image-wrapper {

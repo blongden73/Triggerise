@@ -46,6 +46,8 @@ h2 { font-size: 40px; line-height: 1.2; }
 
 h3 { font-size: 30px; line-height: 1.2; }
 
+h4 { font-size: 25px; line-height: 1.2; }
+
 p { font-size: 15px; line-height: 1.4; }
 
 @media all and (min-width: 81.25em) { p { font-size: 17px; } }
@@ -301,7 +303,7 @@ footer .socials li { margin-right: 10px; }
 
 .t-one.flexWrapper .wrapper .t-one__description-wrapper h3 { font-size: 30px; line-height: 1.2; width: 100%; margin-top: calc(10px * -2); }
 
-.t-one.flexWrapper .wrapper .t-one__description-wrapper p { font-size: 20px; }
+.t-one.flexWrapper .wrapper .t-one__description-wrapper p { font-size: 25px; }
 
 .t-one.team { height: auto; }
 
@@ -435,6 +437,10 @@ footer .socials li { margin-right: 10px; }
 
 .testimonial { padding-top: calc(10px * 5); padding-bottom: calc(10px * 5); }
 
+.testimonial h4 { margin-bottom: 0; }
+
+.testimonial .nameSplit { margin-bottom: calc(10px * 1.5); color: #fff; }
+
 .image-wrapper-quote { height: 20vw; width: 20vw; border-radius: 50%; overflow: hidden; margin-left: auto; margin-right: auto; }
 
 .image-wrapper-quote img { width: 100%; height: 100%; object-fit: cover; }
@@ -443,7 +449,9 @@ footer .socials li { margin-right: 10px; }
 
 .team-one-container h2, .team-one-container p, .team-two-container h2, .team-two-container p, .team-three-container h2, .team-three-container p { margin: 0; line-height: 1; font-size: 20px; }
 
-.team-one-container h2, .team-two-container h2, .team-three-container h2 { font-weight: 900; }
+.team-one-container h2.teamsTitle, .team-two-container h2.teamsTitle, .team-three-container h2.teamsTitle { font-size: 25px; }
+
+.team-one-container h2, .team-two-container h2, .team-three-container h2 { font-size: 20px; }
 
 .team-one-container .team-image-wrapper, .team-two-container .team-image-wrapper, .team-three-container .team-image-wrapper { height: 12vw; width: 12vw; border-radius: 50%; overflow: hidden; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 40px; }
 

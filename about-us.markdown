@@ -30,35 +30,35 @@ Supervisory Board:
   Description: "(Chapel Hill, NC, USA), is the chair of our supervisory board since
     inception. Lisa is the COO of Ipas, and previously served as Regional Director
     at Population Services International."
-  Image: 
+  Image: "/uploads/Trig_profiles_lisa.jpg"
 - Name: Leslie Pascaud
   Role: 
   Description: "(New York, NJ, USA), leads Branding for Good and has been working
     on innovation projects in the USA, Europe and Asia for over 20 years."
-  Image: 
+  Image: "/uploads/Trig_profiles_leslie.jpg"
 - Name: Miles Kemplay
   Role: 
-  Key: "(London, UK), is leading adolescent sexual and reproductive health work as
-    Executive Director with Children’s Investment Fund Foundation since 2016. He has
-    spent over a decade working for global health, development and private sector
-    organisations."
-  Image: 
+  Description: "(London, UK), is leading adolescent sexual and reproductive health
+    work as Executive Director with Children’s Investment Fund Foundation since 2016.
+    He has spent over a decade working for global health, development and private
+    sector organisations."
+  Image: "/uploads/Trig_profiles_miles.jpg"
 - Name: Werner Strydom
   Role: 
-  Key: " (Amsterdam, The Netherlands), heads up the Advanced Technology & Innovation
+  Description: "(Amsterdam, The Netherlands), heads up the Advanced Technology & Innovation
     unit within the Office of the CTO at Irdeto. He has 30 years of experience in
     the field of cybersecurity and leads software development, technology research,
     and innovation teams."
-  Image: 
+  Image: "/uploads/Trig_profiles_werner.jpg"
 - Name: Leontine Gast
   Role: 
-  Key: "(Amsterdam, The Netherlands) is the CEO of The Terrace. She works in strategy,
-    branding and communication with retail and consumer goods organisations. "
-  Image: 
+  Description: "(Amsterdam, The Netherlands) is the CEO of The Terrace. She works
+    in strategy, branding and communication with retail and consumer goods organisations. "
+  Image: "/uploads/Trig_profiles_leotine.jpg"
 - Name: Julia Sakovska
   Role: 
-  Key: "(Breda, The Netherlands), FCCA, serves as a CFO on the Managing Board of Van
-    Tilburg-Bastianen Group, one of the most prominent businesses in the mobility
+  Description: "(Breda, The Netherlands), FCCA, serves as a CFO on the Managing Board
+    of Van Tilburg-Bastianen Group, one of the most prominent businesses in the mobility
     services industry. Julia has 25 years of finance and accounting experience gained
     at KPMG Audit, DLL (Rabobank Group) and Athlon International."
   Image: "/uploads/Trig_profiles_julia.jpg"
@@ -66,18 +66,20 @@ Board of Directors:
 - Name: Benoit Renard
   Role: Director of Triggerise Stichting, Chief Executive Officer (CEO) and Co-founder
   Location: Cape Town, South Africa
-  Key: Benoit co-founded Triggerise in 2014. He has a background in Marketing, having
-    worked for nonprofit and for-profit organisations in France and Africa. He manages
-    and oversees operations, leading the development of all the Triggerise ecosystems.
+  Description: Benoit co-founded Triggerise in 2014. He has a background in Marketing,
+    having worked for nonprofit and for-profit organisations in France and Africa.
+    He manages and oversees operations, leading the development of all the Triggerise
+    ecosystems.
   LinkedIn: https://www.linkedin.com/in/benoitrenard/
-  Image: 
+  Image: "/uploads/Trig_profiles_benoit.jpg"
 - Name: Richard Matikanya
   Role: Director of Triggerise Stichting and Chief Operating Officer (COO)
-  Key: Richard is responsible for the Triggerise platform. He leads project implementation
-    in African countries, having a background in global health program design, management,
-    monitoring and evaluation.
-  LinkedIn: 
-  Image: 
+  Key: Nairobi, Kenya
+  Description: Richard is responsible for the Triggerise platform. He leads project
+    implementation in African countries, having a background in global health program
+    design, management, monitoring and evaluation.
+  LinkedIn: https://www.linkedin.com/in/richard-matikanya-a70a6b22/?originalSubdomain=ke
+  Image: "/uploads/Trig_profiles_richard.jpg"
 Our People:
 - Name: Admilo
   Role: Data Scientist and Lead

@@ -311,6 +311,36 @@ button { background-color: transparent; border: 1px solid #1D214F; padding: 15px
 
 .ecoSystem h3 { text-align: center; font-size: 70px; width: 800px; margin-left: auto; margin-right: auto; }
 
+.ecoSystem .key { width: 100%; border-top: 1px solid #1D214F; display: flex; margin-top: 30px; padding-top: 10px; padding-bottom: 100px; }
+
+.ecoSystem .key ul { list-style: none; margin: 0; display: flex; }
+
+.ecoSystem .key ul.line-key li { color: #1D214F; }
+
+.ecoSystem .key ul.line-key li:before { background-color: #2C449C; border-radius: 0; width: 40px; }
+
+.ecoSystem .key ul.line-key li:nth-child(2):before { background-color: transparent; border-bottom: 6px dashed #2C449C; border-top: 6px dashed #2C449C; height: 0px; }
+
+.ecoSystem .key li { margin: 0; padding: 0; line-height: 1.2; margin-right: 10px; }
+
+.ecoSystem .key li:before { width: 12px; height: 12px; background-color: #1D214F; display: inline-block; content: ''; margin-right: 2px; border-radius: 50%; }
+
+.ecoSystem .key li:nth-child(2) { color: #F6915F; }
+
+.ecoSystem .key li:nth-child(2):before { background-color: #F6915F; }
+
+.ecoSystem .key li:nth-child(3) { color: #D8A0C8; }
+
+.ecoSystem .key li:nth-child(3):before { background-color: #D8A0C8; }
+
+.ecoSystem .key li:nth-child(4) { color: #FDDE5A; }
+
+.ecoSystem .key li:nth-child(4):before { background-color: #FDDE5A; }
+
+.ecoSystem .key li:nth-child(5) { color: #6EBA70; }
+
+.ecoSystem .key li:nth-child(5):before { background-color: #6EBA70; }
+
 @keyframes fadeIn { 0% { opacity: 0; }
   100% { opacity: 1; } }
 

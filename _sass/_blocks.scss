@@ -350,6 +350,92 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .key {
+    width: 100%;
+    border-top: 1px solid $darkBlue;
+    display: flex;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      display: flex;
+
+      &.line-key {
+        li {
+          color: $darkBlue;
+
+          &:before {
+            background-color: $blue;
+            border-radius: 0;
+            width: 40px;
+          }
+
+          &:nth-child(2) {
+
+            &:before {
+              background-color: transparent;
+              border-bottom: 6px dashed $blue;
+              border-top: 6px dashed $blue;
+              height: 0px
+            }
+          }
+        }
+      }
+    }
+
+    li {
+      margin: 0;
+      padding: 0;
+      line-height: 1.2;
+      margin-right: 10px;
+
+      &:before {
+        width: 12px;
+        height: 12px;
+        background-color: $darkBlue;
+        display: inline-block;
+        content: '';
+        margin-right: 2px;
+        border-radius: 50%;
+      }
+
+      &:nth-child(2) {
+        color: $orange;
+
+        &:before {
+          background-color: $orange;
+        }
+      }
+
+      &:nth-child(3) {
+        color: $pink;
+
+        &:before {
+          background-color: $pink;
+        }
+      }
+
+      &:nth-child(4) {
+        color: $yellow;
+
+        &:before {
+          background-color: $yellow;
+        }
+      }
+
+      &:nth-child(5) {
+        color: $green;
+
+        &:before {
+          background-color: $green;
+        }
+      }
+    }
+  }
 }
 
 @keyframes fadeIn {

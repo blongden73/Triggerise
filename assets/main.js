@@ -93,26 +93,32 @@ function scroll() {
   });
 }
 
-new svgMap({
-  targetElementID: 'svgMap',
-  data: {
+var worldMapCheck = document.querySelector('#svgMap');
+function worldMap() {
+  new svgMap({
+    targetElementID: 'svgMap',
     data: {
-      cities: {
-        name: 'Cities',
-        format:'{0}'
+      data: {
+        cities: {
+          name: 'Cities',
+          format:'{0}'
+        },
+        description: {
+          format: '{0}'
+        },
       },
-      description: {
-        format: '{0}'
-      },
-    },
-    applyData: 'cities',
-    values: {
-      CM: {cities: 'Maroua, Lom-et-Djére, Haut-Nyong', description: 'Operational since 2018, our operations in Cameroon serve young girls and boys in the Far North and Eastern regions with SRH services. Funded by Cordaid, we have built an ecosystem with XYZ numbers of service providers connected to our platform in Cameroon.'},
+      applyData: 'cities',
+      values: {
+        CM: {cities: 'Maroua, Lom-et-Djére, Haut-Nyong', description: 'Operational since 2018, our operations in Cameroon serve young girls and boys in the Far North and Eastern regions with SRH services. Funded by Cordaid, we have built an ecosystem with XYZ numbers of service providers connected to our platform in Cameroon.'},
+      }
     }
-  }
-});
+  });
+}
 
 function init(){
+  if(worldMapCheck){
+    worldMap();
+  }
   if(map) {
     scroll();
   }

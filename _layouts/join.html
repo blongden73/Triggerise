@@ -11,6 +11,7 @@ layout: default
 {% assign testImageTwo = page.Testimonial-two[0].Image %}
 {% assign quoteTwo = page.Testimonial-two[0].Quote %}
 {% assign values = page.Values %}
+{% assign ValuesImage = page.['Values animation image']%}
 {% assign nameOne = page.Testimonial[0].Name %}
 {% include 2up.html
   colour="darkBlue"
@@ -35,10 +36,10 @@ layout: default
 %}
 {% include 3upHorizontal.html
   list=values
-  colour="lightCream"
-  imageTwo=Supportingimage
+  colour="white"
+  imageTwo=ValuesImage
   titleAlt=SupportingTitle
-  colourTwo="pink"
+  colourTwo="green"
   colourThree="darkBlue"
   classList="image values"
   flexList="reverse"

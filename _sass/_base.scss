@@ -244,8 +244,16 @@ footer {
   .flex {
     justify-content: space-between;
 
+    @include mq($from: desktop) {
+      flex-direction: row;
+    }
+
     & > * {
-      width: 50%;
+      width: 100%;
+
+      @include mq($from: desktop) {
+        width: 50%;
+      }
     }
   }
 

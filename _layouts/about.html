@@ -4,6 +4,7 @@ layout: default
 
 {% assign title = page.Title %}
 {% assign numbers = page.Numbers %}
+{% assign animation = page.['Header animation image'] %}
 {% assign sectionTitle = page.Mission-Title %}
 {% assign ModelDescription = page.Mission-text %}
 {% assign safeTitle = "We safeguard digital human rights" %}
@@ -13,7 +14,7 @@ layout: default
   title=title colour="blue"
   colourTwo="darkBlue"
   colourThree="pink"
-  image=CTAimage
+  image=animation
   imageTwo=CTAimageTwo
   classList="image"
   padding="padd"
@@ -36,7 +37,7 @@ layout: default
   textColor="cream"
 %}
 {% include team.html
-  colour="cream"
+  colour="grey"
   textColor="darkBlue"
 %}
 {% include resources.html

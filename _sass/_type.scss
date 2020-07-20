@@ -1,6 +1,7 @@
 $font-scale: (
     12: 140px,
     11: 120px,
+    data: 110px,
     10: 90px,
     5: 70px,
     4: 50px,
@@ -23,8 +24,12 @@ h1 {
 }
 
 h2 {
-  font-size: map-get($font-scale, 3);
+  font-size: map-get($font-scale, 2);
   line-height: 1.2;
+
+  @include mq($from: desktop) {
+    font-size: map-get($font-scale, 3);
+  }
 }
 
 h3 {

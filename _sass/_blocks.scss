@@ -1029,11 +1029,6 @@
     margin-bottom: 20px;
     padding: 10px;
     box-sizing: border-box;
-    transition: all ease-in-out 0.2s;
-
-    &:hover {
-      transform: scale(1.03);
-    }
 
     h3 {
       font-size: map-get($font-scale, 2);

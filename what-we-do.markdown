@@ -56,7 +56,8 @@ Summary-title: In Summary
 Summarty-text: Our Tiko model delivers a new way to collaborate, a better way to motivate
   young people and a more efficient way to manage programmes. All this means more
   impact at scale and at a lower cost. We trigger change, for good.
-Supporting Image: "/uploads/1088809.jpg"
+Supporting two Image: "/uploads/1088809.jpg"
+Support three Image: 
 layout: whatwedo
 ---
 

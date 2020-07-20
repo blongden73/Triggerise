@@ -5,9 +5,13 @@ Title: Join | Triggerise
 Splash-image: "/uploads/join_image.jpg"
 Testimonial:
 - Image: test
-  Quote: "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-  Name: Shrey
+  Quote: "Triggerise culture embodies the best part of being a start-up - it's relaxed,
+    challenging, collaborative, casual, autonomous, friendly and engaging.  Contributing
+    to an organization that helps people help themselves while also watching it grow,
+    learning about exciting new technologies, and improving myself as a developer
+    and, most of all, as a person is the most fulfilling for me. \nBackend Developer,
+    Porto"
+  Name: Nuno Marques
 Open-positions-text: "### We’re an energetic bunch of global pioneers on a mission
   to get things done and do them well. We’re ever open-minded and highly impact-driven,
   keen to take on how the world does change. \n\nUniting the best bits of working

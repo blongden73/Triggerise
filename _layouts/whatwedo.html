@@ -6,6 +6,9 @@ layout: default
 {% assign titleOne = title[0] %}
 {% assign titleTwo = title[1] %}
 {% assign image = page.Splash-image %}
+{% assign imageSectionTwo = page.['Supporting two Image'] %}
+{% assign imageSectionThree = page.['Supporting three Image'] %}
+{% assign imageSectionFour = page.['Supporting four Image'] %}
 {% assign supportingTitle = page.Supporting-title %}
 {% assign description = page.Description %}
 {% assign Supportingimage = page.Supporting-image %}
@@ -31,7 +34,7 @@ layout: default
 
 {% include 2up.html colour="darkBlue" titleOne=titleOne titleTwo=titleTwo textColor="lightBlue" image=image classList="padd centerTitle" %}
 {% include 3upHorizontal.html body=description colour="pink" imageTwo=Supportingimage titleAlt=SupportingTitle colourTwo="lightBlue" colourThree="darkBlue" classList="image" flexList="reverse" %}
-{% include 2up.html colour="lightCream" textColor="darkBlue" image=image subTitle=SubTitleOne subTitleSplit=SubTitleTwo sub=DescriptionOne  classList="what-we-do" %}
-{% include 2up.html colour="pink" textColor="darkBlue" image=image subTitle=SubTitleThree subTitleSplit=SubTitleFour sub=DescriptionTwo classList="what-we-do"%}
-{% include 2up.html colour="lightBlue" textColor="darkBlue" image=image subTitle=SubTitleFive subTitleSplit=SubTitleSix sub=DescriptionThree classList="what-we-do"%}
+{% include 2up.html colour="lightCream" textColor="darkBlue" image=imageSectionTwo subTitle=SubTitleOne subTitleSplit=SubTitleTwo sub=DescriptionOne  classList="what-we-do" %}
+{% include 2up.html colour="pink" textColor="darkBlue" image=imageSectionThree subTitle=SubTitleThree subTitleSplit=SubTitleFour sub=DescriptionTwo classList="what-we-do"%}
+{% include 2up.html colour="lightBlue" textColor="darkBlue" image=imageSectionFour subTitle=SubTitleFive subTitleSplit=SubTitleSix sub=DescriptionThree classList="what-we-do"%}
 {% include 1up.html colour="cream" sectionTitle=summaryTitle description=summaryCopy classList="flexWrapper" %}

@@ -695,7 +695,7 @@ footer .socials li { margin-right: 10px; }
 
 .svgMap-map-wrapper .svgMap-control-button.svgMap-zoom-in-button:after { width: 3px; height: 11px; }
 
-.svgMap-map-wrapper .svgMap-country { cursor: pointer; stroke: #1D214F; stroke-width: 1; stroke-linejoin: round; vector-effect: non-scaling-stroke; transition: fill .2s, stroke .2s; cursor: pointer; }
+.svgMap-map-wrapper .svgMap-country { cursor: pointer; stroke: #E2E2E2; stroke-width: 1; stroke-linejoin: round; vector-effect: non-scaling-stroke; transition: fill .2s, stroke .2s; cursor: pointer; }
 
 .svgMap-map-wrapper .svgMap-country[fill="#aNaNaN"] { fill: #D8A0C8 !important; }
 

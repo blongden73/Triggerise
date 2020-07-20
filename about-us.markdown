@@ -28,6 +28,7 @@ Board:
 - Name: Name
   Role: Role
   Image: "/uploads/team_test.jpg"
+  Linkedin link: 
 - Name: Name
   Role: Role
   Image: "/uploads/team_test.jpg"
@@ -40,6 +41,9 @@ Board:
 - Name: Name
   Role: Role
   Image: "/uploads/team_test.jpg"
+- Name: 
+  Role: 
+  Image: 
 Executives:
 - Name: Name
   Role: Role
@@ -56,6 +60,9 @@ Executives:
 - Name: Name
   Role: Role
   Image: "/uploads/team_test.jpg"
+- Name: 
+  Role: 
+  Image: 
 Directors:
 - Name: Name
   Role: Role

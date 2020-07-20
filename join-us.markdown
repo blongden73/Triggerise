@@ -128,6 +128,7 @@ Jobs:
     experience troubleshooting and solving urgent technical or user issues with great
     efficiency?  This role could be for you!  '
   Link: https://triggerise.org/tiko-system-administrator-contract/
+Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---
 

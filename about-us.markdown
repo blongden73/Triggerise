@@ -114,6 +114,11 @@ Our People:
   Location: 'Addis Ababa   '
   LinkedIn: https://www.linkedin.com/in/
   Image: "/uploads/Trig_profiles_kalkidan.jpg"
+- Name: Lidya
+  Role: Addis Ababa
+  Location: Country Lead – Ethiopia
+  LinkedIn: https://www.linkedin.com/in/
+  Image: 
 - Name: Maria
   Role: Associate Technical Advisor
   Location: Cameroon
@@ -174,11 +179,6 @@ Our People:
   Location: Lisbon
   LinkedIn: https://www.linkedin.com/in/
   Image: "/uploads/Trig_profiles_samuel.jpg"
-- Name: Lidya
-  Role: Addis Ababa
-  Location: Country Lead – Ethiopia
-  LinkedIn: https://www.linkedin.com/in/
-  Image: 
 Reports-Resources:
 - Name: Annual Report  2018
   Sub title: 'Transformative Scale: Platform Approach '

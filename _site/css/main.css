@@ -233,6 +233,8 @@ footer .socials li { margin-right: 10px; }
 
 @media all and (min-width: 61.25em) { .right .inner-wrapper { margin-right: auto; margin-left: 0; padding-left: calc(10px * 2); box-sizing: border-box; } }
 
+.inner-wrapper.values { padding-top: calc(10px * 2); padding-left: calc(10px * 3); }
+
 .flex { display: flex; flex-direction: column; flex-wrap: wrap; }
 
 .flex.reverse { flex-direction: column-reverse; }
@@ -303,7 +305,7 @@ footer .socials li { margin-right: 10px; }
 
 .t-one.flexWrapper .wrapper .t-one__description-wrapper h3 { font-size: 30px; line-height: 1.2; width: 100%; margin-top: calc(10px * -2); }
 
-.t-one.flexWrapper .wrapper .t-one__description-wrapper p { font-size: 25px; }
+.t-one.flexWrapper .wrapper .t-one__description-wrapper p { font-size: 25px; line-height: 1.2; }
 
 .t-one.team { height: auto; }
 

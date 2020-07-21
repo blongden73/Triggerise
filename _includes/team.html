@@ -4,7 +4,7 @@
 <div class="t-one {{include.classList}} {{include.colour}} team" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper flex">
     <div class="team-one-container cream">
-      <h2 class="teamsTitle">Our Board</h2>
+      <h2 class="teamsTitle">Supervisory Board</h2>
       {% for member in Board %}
         <div class="team-image-wrapper">
           <img src="{{member.Image}}">
@@ -18,7 +18,7 @@
       {% endfor %}
     </div>
     <div class="team-two-container lightBlue">
-      <h2 class="teamsTitle">Our Cheif Executives</h2>
+      <h2 class="teamsTitle">Chief Executive Officers</h2>
       {% for member in Executives %}
         <div class="team-image-wrapper">
           <img src="{{member.Image}}">
@@ -32,7 +32,7 @@
       {% endfor %}
     </div>
     <div class="team-three-container lightCream">
-      <h2 class="teamsTitle">Our Country Directors</h2>
+      <h2 class="teamsTitle">Our People</h2>
       {% for member in Directors %}
         <div class="team-image-wrapper">
           <img src="{{member.Image}}">

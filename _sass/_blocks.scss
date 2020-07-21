@@ -81,6 +81,14 @@
   width: 100%;
   min-height: 40vh;
   padding-bottom: 20px;
+
+  .t-half {
+    min-height: auto;
+
+    @include mq($from: desktop) {
+      min-height: inherit;
+    }
+  }
 }
 
 .t-three-left, .t-three-right  {
@@ -248,6 +256,7 @@
 .t-one {
   width: 100%;
   min-height: auto;
+  padding-bottom: 10px;
   height: auto;
 
   @include mq($from: desktop) {
@@ -331,9 +340,24 @@
     height: auto;
   }
 
+  &.impact.cream {
+    @include mq($until: tablet) {
+      padding-bottom: 10px;
+
+      h2 {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
   &.image {
-    max-height: 40vh;
-    overflow: hidden;
+    padding-bottom: 0;
+
+    @include mq($from: desktop) {
+      max-height: 40vh;
+      overflow: hidden;
+    }
 
     img {
       width: 100%;
@@ -658,16 +682,17 @@
   position: relative;
 
   h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 90%;
     text-align: center;
 
     @include mq($from: desktop) {
       width: 75%;
       text-align: left;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
     }
   }
 }
@@ -772,12 +797,17 @@
 }
 
 .image-wrapper-quote {
-  height: 20vw;
-  width: 20vw;
+  height: 40vw;
+  width: 40vw;
   border-radius: 50%;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+
+  @include mq($from: desktop) {
+    height: 20vw;
+    width: 20vw;
+  }
 
   img {
     width: 100%;
@@ -787,12 +817,18 @@
 }
 
 .team-one-container, .team-two-container, .team-three-container {
-  width: 33%;
-  max-height: 80vh;
-  overflow: scroll;
+  width: 100%;
+  max-height: auto;
+  overflow: visible;
   padding-top:spacing(2);
   text-align: center;
   padding-bottom: spacing(5);
+
+  @include mq($from: desktop) {
+    width: 33%;
+    overflow: scroll;
+    max-height: 80vh;
+  }
 
   h2, p {
     margin: 0;
@@ -817,14 +853,19 @@
   }
 
   .team-image-wrapper {
-    height: 12vw;
-    width: 12vw;
+    height: 42vw;
+    width: 42vw;
     border-radius: 50%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     margin-top: spacing(3);
     margin-bottom: spacing(3);
+
+    @include mq($from: desktop) {
+      height: 12vw;
+      width: 12vw;
+    }
 
     img {
       width: 100%;
@@ -892,7 +933,7 @@
 
 .t-rescources-wrapper {
   .report-cover {
-    width: 24%;
+    width: 100%;
     background-color: $blue;
     margin-right: 1%;
     box-sizing: border-box;
@@ -900,6 +941,11 @@
     min-height: 400px;
     padding-bottom: 10px;
     position: relative;
+    margin-bottom: 20px;
+
+    @include mq($from: desktop) {
+      width: 24%;
+    }
 
     svg {
       position: absolute;
@@ -948,6 +994,8 @@
 
 .impact-header {
   svg {
+    width: 100%;
+    height: auto;
     position: absolute;
     bottom: 0;
 
@@ -1001,10 +1049,13 @@
 }
 
 .about-us-lines {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
+
+  @include mq($from: desktop) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 
   .dot {
     background-color: $lightBlue;
@@ -1016,6 +1067,14 @@
 }
 
 .numbers {
+  padding-bottom: 20px;
+  text-align: center;
+
+  @include mq($from: desktop) {
+    padding-bottom: 0;
+    text-align: left;
+  }
+
   h2 {
     font-size: map-get($font-scale, 4);
     margin: 0;
@@ -1023,6 +1082,13 @@
 
     span {
       font-size: map-get($font-scale, 2);
+      display: block;
+      margin-bottom: 10px;
+
+      @include mq($from: desktop) {
+        display: inline-block;
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -1034,10 +1100,18 @@
   transform: translate(-50%, -60%);
   text-align: center;
 
+  @include mq($until: tablet) {
+    width: 90%;
+  }
+
   h1 {
     color: $lightBlue;
-    font-size: map-get($font-scale, 12);
+    font-size: 15vw;
     font-weight: 100;
+
+    @include mq($from: desktop) {
+      font-size: map-get($font-scale, 12);
+    }
   }
 
   h2 {
@@ -1052,13 +1126,13 @@
 }
 
 .t-data-wrapper {
-  @include mq($until: tablet) {
-    padding-left: 5%;
-  }
 
   h1 {
-    font-size: map-get($font-scale, data);
+    font-size: 15vw;
     font-weight: 100;
+    @include mq($from: desktop) {
+      font-size: map-get($font-scale, data);
+    }
 
     &:nth-child(1) {
       margin-top: spacing(1);
@@ -1092,8 +1166,16 @@
   }
 
   img {
-    position: absolute;
-    right: spacing(2);
+    width: 100%;
+    height: auto;
+    margin-top: spacing(2);
+    margin-bottom: spacing(2);
+
+    @include mq($from: desktop) {
+      position: absolute;
+      width: auto;
+      right: spacing(2);
+    }
   }
 
   h1 {
@@ -1124,9 +1206,13 @@
   .t-journal {
     background-color: #fff;
     padding: 10px;
-    width: 22%;
+    width: calc(100% - 20px);
     margin-right: 1%;
     margin-bottom: 13px;
+
+    @include mq($from: desktop) {
+      width: 22%;
+    }
 
     .t-journal-image {
       width: 200px;

@@ -62,7 +62,7 @@ Supervisory Board:
     services industry. Julia has 25 years of finance and accounting experience gained
     at KPMG Audit, DLL (Rabobank Group) and Athlon International."
   Image: "/uploads/Trig_profiles_julia.jpg"
-Board of Directors:
+Chief Executive Officers:
 - Name: Benoit Renard
   Role: Director of Triggerise Stichting, Chief Executive Officer (CEO) and Co-founder
   Location: Cape Town, South Africa

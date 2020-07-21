@@ -267,9 +267,13 @@ footer .socials li { margin-right: 10px; }
 
 @media all and (min-width: 61.25em) { .t-three-sub, .t-three-number { margin-left: calc(10px * 7); } }
 
-.t-two { width: 100%; min-height: 40vh; padding-top: 20px; padding-bottom: 20px; position: relative; }
+.t-one.lightBlue.image.left { padding-bottom: 10px; }
 
-@media all and (min-width: 61.25em) { .t-two { width: 50%; } }
+.t-one.green.image.values.left { padding-bottom: 10px; }
+
+.t-two { width: 100%; min-height: auto; padding-top: 20px; padding-bottom: 20px; position: relative; }
+
+@media all and (min-width: 61.25em) { .t-two { width: 50%; min-height: 40vh; } }
 
 .t-two.left { z-index: 100; }
 
@@ -458,9 +462,9 @@ footer .socials li { margin-right: 10px; }
 
 .center { position: relative; }
 
-.center h2 { width: 90%; text-align: center; }
+.center h2 { width: 90%; text-align: center; margin-left: auto; margin-right: auto; }
 
-@media all and (min-width: 61.25em) { .center h2 { width: 75%; text-align: left; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 90%; } }
+@media all and (min-width: 61.25em) { .center h2 { width: 75%; text-align: left; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); } }
 
 .bigNumber { font-size: 90px; line-height: 1; letter-spacing: -5px; font-weight: 100; }
 

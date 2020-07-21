@@ -629,6 +629,7 @@
 
     @include mq($from: desktop) {
       height: 600px;
+      margin-top: spacing(4);
     }
 
     svg {

@@ -433,7 +433,7 @@ footer .socials li { margin-right: 10px; }
 
 .ecoSystem .ecosystem-map { position: relative; height: 190px; max-height: 90vh; margin-left: auto; margin-right: auto; }
 
-@media all and (min-width: 61.25em) { .ecoSystem .ecosystem-map { height: 600px; } }
+@media all and (min-width: 61.25em) { .ecoSystem .ecosystem-map { height: 600px; margin-top: calc(10px * 4); } }
 
 .ecoSystem .ecosystem-map svg { position: absolute; top: 0; width: 100%; height: auto; left: 50%; transform: translateX(-50%); }
 

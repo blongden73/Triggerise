@@ -311,6 +311,8 @@ footer .socials li { margin-right: 10px; }
 
 @media all and (min-width: 61.25em) { .t-one { min-height: 40vh; height: 40vh; } }
 
+.t-one.team { padding-bottom: 0; }
+
 .t-one.carousel { height: 100%; min-height: 100%; }
 
 .t-one .section-title { padding-top: calc(10px * 2); font-weight: 700; }

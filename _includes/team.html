@@ -12,6 +12,9 @@
         <h2>{{member.Name}}</h2>
         <p>{{member.Role}}</p>
         <p>{{member.Description}}</p>
+        {% if member.LinkedIn %}
+          <small><a href="{{member.LinkedIn}}">Linkedin</a></small>
+        {% endif %}
       {% endfor %}
     </div>
     <div class="team-two-container lightBlue">
@@ -23,6 +26,9 @@
         <h2>{{member.Name}}</h2>
         <p>{{member.Role}}</p>
         <p>{{member.Description}}</p>
+        {% if member.LinkedIn %}
+          <small><a href="{{member.LinkedIn}}">Linkedin</a></small>
+        {% endif %}
       {% endfor %}
     </div>
     <div class="team-three-container lightCream">
@@ -34,6 +40,9 @@
         <h2>{{member.Name}}</h2>
         <p>{{member.Role}}</p>
         <p>{{member.Description}}</p>
+        {% if member.LinkedIn %}
+          <small><a href="{{member.LinkedIn}}">Linkedin</a></small>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

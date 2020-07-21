@@ -87,7 +87,7 @@ window.onload = function() {
 var myFullpage = new fullpage('#fullpage', {
 	//Navigation
   licenseKey:'3B63225D-9F3C433A-BBF0651D-0A97F55E',
-  fadingEffectKey: '4504308B-A64A42F9-AD574F62-F90EE4A4',
+  fadingEffectKey: 'c2l0ZWxlYWYubmV0X2p2elptRmthVzVuUldabVpXTjBiQTE=',
   fadingEffect: true,
   autoScrolling:false,
 	scrollHorizontally: true,

@@ -133,7 +133,7 @@ function worldMap() {
         UG: {cities: 'Arua, Kimpala', description: 'Scheduled to implement our platform in 2020, we aim to connect young girls in Arua and Kampala districts of Uganda to various SRH services. Together with our partners, ThinkPlace and Reach a Hand Uganda, we are building ecosystems of service providers and youth in Uganda.'},
         US: {cities: 'Omaha', description: 'Scheduled to implement our platform in 2020, we aim to connect young girls in Omaha, Nebraska in the USA to various SRH services. Together with our partner, Women’s Fund Of Omaha, we are building ecosystems of service providers and youth in Omaha.'},
         PT: {cities: 'Porto', description: 'Established in 2014, our Porto office, called Triggerise Labs, serves as the global technology hub and supports all our operations.'},
-        DK: {cities: 'Amsterdam', description: 'Established in 2014, our Amsterdam office is our registered headquarters and also provides global administrative support to all other offices.'},
+        NL: {cities: 'Amsterdam', description: 'Established in 2014, our Amsterdam office is our registered headquarters and also provides global administrative support to all other offices.'},
         ZA: {cities: 'Cape Town', description: 'Established in 2014, our Cape Town office provides global executive support to our operations and technology teams.'},
       }
     }

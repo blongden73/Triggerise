@@ -14,7 +14,7 @@
   background-color: #fff;
 }
 
-.section {
+.section:not(.carousel) {
   height: auto !important;
 }
 .fp-tableCell {
@@ -271,6 +271,11 @@
   @include mq($from: desktop) {
     min-height: 40vh;
     height: 40vh;
+  }
+
+  &.carousel {
+    height: 100%;
+    min-height: 100%;
   }
 
   .section-title {

@@ -27,15 +27,15 @@ layout: default
 {% assign ModelDescriptionTwo = page.Our-Model[1].Description %}
 {% assign diagramThree = page.Our-Model[2].Diagram %}
 {% assign ModelDescriptionThree = page.Our-Model[2].Description %}
-  <div class="section" data-percentage="90">
+  <div class="section carousel" data-percentage="90">
     <div class="slide" data-anchor="slide1">
-      {% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram description=ModelDescription textColor="darkBlue" classList="full" buttonClass="darkBlue" %}
+      {% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram description=ModelDescription textColor="darkBlue" classList="full carousel" buttonClass="darkBlue" %}
     </div>
     <div class="slide" data-anchor="slide2">
-        {% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo description=ModelDescriptionTwo textColor="lightBlue" classList="full" buttonClass="lightBlue"%}
+        {% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo description=ModelDescriptionTwo textColor="lightBlue" classList="full carousel" buttonClass="lightBlue"%}
     </div>
     <div class="slide" data-anchor="slide3">
-        {% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree description=ModelDescriptionThree textColor="lightYellow" classList="full" buttonClass="lightYellow"%}
+        {% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree description=ModelDescriptionThree textColor="lightYellow" classList="full carousel" buttonClass="lightYellow"%}
     </div>
   </div>
 <div class="section" data-percentage="90">

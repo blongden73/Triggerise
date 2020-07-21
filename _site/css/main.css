@@ -405,7 +405,7 @@ footer .socials li { margin-right: 10px; }
 
 .ecoSystem h3 { text-align: center; font-size: 40px; width: 100%; margin-left: auto; margin-right: auto; margin-top: calc(10px * 3); }
 
-@media all and (min-width: 61.25em) { .ecoSystem h3 { width: 800%; } }
+@media all and (min-width: 61.25em) { .ecoSystem h3 { width: 80%; } }
 
 .ecoSystem .key { width: 100%; border-top: 1px solid #1D214F; display: flex; margin-top: 30px; padding-top: 10px; padding-bottom: 100px; flex-direction: column; }
 

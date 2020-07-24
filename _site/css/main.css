@@ -579,7 +579,17 @@ footer .socials li { margin-right: 10px; }
 
 .t-rescources-wrapper .report-cover { width: 100%; background-color: #2C449C; margin-right: 1%; box-sizing: border-box; padding: 10px; min-height: 400px; padding-bottom: 10px; position: relative; margin-bottom: 20px; }
 
-.t-rescources-wrapper .report-cover:nth-child(2) { background-color: #2C449C; }
+.t-rescources-wrapper .report-cover:nth-child(2) { background-color: #FDDE5A; }
+
+.t-rescources-wrapper .report-cover:nth-child(2) h2, .t-rescources-wrapper .report-cover:nth-child(2) h3 { color: #1D214F; }
+
+.t-rescources-wrapper .report-cover:nth-child(3) { background-color: #D8A0C8; }
+
+.t-rescources-wrapper .report-cover:nth-child(3) h2, .t-rescources-wrapper .report-cover:nth-child(3) h3 { color: #1D214F; }
+
+.t-rescources-wrapper .report-cover:nth-child(4) { background-color: #6EBA70; }
+
+.t-rescources-wrapper .report-cover:nth-child(4) h2, .t-rescources-wrapper .report-cover:nth-child(4) h3 { color: #1D214F; }
 
 @media all and (min-width: 61.25em) { .t-rescources-wrapper .report-cover { width: 24%; } }
 

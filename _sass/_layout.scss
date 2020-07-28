@@ -116,9 +116,20 @@
     padding: $spacing-unit 0;
 }
 
+.footer-left {
+  h3 {
+    margin-bottom: spacing(3);
+  }
+}
+
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: 0;
+
+    svg {
+      width: 150px;
+      height: auto;
+    }
 }
 
 .contact-list,

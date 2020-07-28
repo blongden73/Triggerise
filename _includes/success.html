@@ -2,11 +2,11 @@
   <div class="wrapper">
     <div class="story-list">
       {% for story in page.Success-stories %}
-        <span>{{story.Project}}</span>
+        <span><a href="#{{story.Project | slugify}}">{{story.Project}}</a> /</span>
       {% endfor %}
     </div>
     {% for story in page.Success-stories %}
-      <div class="success-story-wrapper">
+      <div id="{{story.Project | slugify}}" class="success-story-wrapper">
         <h1>{{story.Title}}</h1>
         <h2>{{story.['Intro text']}}</h2>
         {{story.Body | markdownify }}

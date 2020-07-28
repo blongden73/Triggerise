@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $blue;
     text-decoration: none;
 
     &:visited {
@@ -188,6 +188,12 @@ pre {
         width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
+    }
+
+    &.full {
+      width: 100%;
+      padding: 0;
+      max-width: 100%;
     }
 }
 

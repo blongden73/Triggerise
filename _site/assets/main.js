@@ -1,4 +1,4 @@
-var fakeAPI = {"global":{"active_rafikis":1251304,"number_of_services":790904,"tiko_miles":315425542},"ecosystems":[{"country":"Kenya","size":551},{"country":"India","size":228},{"country":"Ethiopia","size":77}]};
+var fakeAPI = {"global":{"number_of_services":806481,"tiko_miles":3091350,"active_rafikis":1262372},"ecosystems":[{"country":"Kenya","size":555},{"country":"India","size":233},{"country":"Ethiopia","size":77}]};
 
 
 console.log('running');
@@ -46,63 +46,98 @@ window.onload = function() {
   var home = document.querySelector('#countup');
   var impactTotal = document.querySelector('#total-users');
   var services = document.querySelector('#platform-services');
-  var partners = document.querySelector('#partners');
+  var partners = document.querySelector('#partnersKenya');
   var partnersIndia = document.querySelector('#partners-india');
-  var partnersEthiopia = document.querySelector('#partners-ethiopia');
+  var partnersEthiopia = document.querySelector('#partnersEthiopia');
   var miles = document.querySelector('#tiko-miles');
   var serviceUptakeSelect = document.querySelector('#serviceUptake');
   var repeatBehaviourSelect = document.querySelector('#repeatBehaviour');
   var providerRatingsSelect = document.querySelector('#providerRatings');
 
-  if(home) {
-    var countUp = new CountUp('countup', 2000, homepage);
-    console.log(countUp);
-    countUp.start();
-  }
-  if(impactTotal){
-    var countUp = new CountUp('total-users', 2000, userTotal);
-    console.log(countUp);
-    countUp.start();
-  }
-  if(services){
-    var countUp = new CountUp('platform-services', 2000, servicesTotal);
-    console.log(countUp);
-    countUp.start();
-  }
-  if(partners){
-    var countUp = new CountUp('partners', 0, partnersTotal);
-    console.log(countUp);
-    countUp.start();
-  }
-  if(partnersIndia){
-    var countUp = new CountUp('partners-india', 0, partnersTotalIndia);
-    console.log(countUp);
-    countUp.start();
-  }
-  if(partnersEthiopia){
-    var countUp = new CountUp('partners-ethiopia', 0, partnersTotalEthiopia);
-    console.log(countUp);
-    countUp.start();
-  }
-  if(miles){
-    var countUp = new CountUp('tiko-miles', 0, milesTotal);
-    console.log(countUp);
-    countUp.start();
-  }
-  if(serviceUptakeSelect){
-    var countUp = new CountUp('serviceUptake', 0, serviceUptake);
-    console.log(countUp);
-    countUp.start();
-  }
-  if(repeatBehaviourSelect){
-    var countUp = new CountUp('repeatBehaviour', 0, repeatBehaviour);
-    console.log(countUp);
-    countUp.start();
-  }
-  if(providerRatingsSelect){
-    var countUp = new CountUp('providerRatings', 0, providerRatings);
-    console.log(countUp);
-    countUp.start();
+  ///THIS NEEDS REFACTOR
+
+  if(home || impactTotal || services || partners || partnersIndia || partnersEthiopia || miles || serviceUptakeSelect || repeatBehaviourSelect || providerRatingsSelect){
+
+    if(impactTotal && !impactTotal.classList.contains('counted')){
+      impactTotal.classList.add('counted');
+      var countUp = new CountUp('total-users', 2000, userTotal);
+      console.log(countUp);
+      countUp.start();
+    }
+
+    if(home && !home.classList.contains('counted')) {
+      home.classList.add('counted');
+      var countUp = new CountUp('countup', 2000, homepage);
+      console.log(countUp);
+      countUp.start();
+    }
+
+    document.addEventListener('scroll', function(){
+      if(services && !services.classList.contains('counted')){
+        if(elementInViewport(services)) {
+          services.classList.add('counted');
+          var countUp = new CountUp('platform-services', 2000, servicesTotal);
+          console.log(countUp);
+          countUp.start();
+        }
+      }
+      if(partners && !partners.classList.contains('counted')){
+        if(elementInViewport(partners)) {
+          partners.classList.add('counted');
+          var countUp = new CountUp('partnersKenya', 0, partnersTotal);
+          console.log(countUp);
+          countUp.start();
+        }
+      }
+      if(partnersIndia && !partnersIndia.classList.contains('counted')){
+        if(elementInViewport(partnersIndia)) {
+          partnersIndia.classList.add('counted');
+          var countUp = new CountUp('partners-india', 0, partnersTotalIndia);
+          console.log(countUp);
+          countUp.start();
+        }
+      }
+      if(partnersEthiopia && !partnersEthiopia.classList.contains('counted')){
+        if(elementInViewport(partnersEthiopia)) {
+          partnersEthiopia.classList.add('counted');
+          var countUp = new CountUp('partnersEthiopia', 0, partnersTotalEthiopia);
+          console.log(countUp);
+          countUp.start();
+        }
+      }
+      if(miles && !miles.classList.contains('counted')){
+        if(elementInViewport(miles)) {
+          miles.classList.add('counted');
+          var countUp = new CountUp('tiko-miles', 0, milesTotal);
+          console.log(countUp);
+          countUp.start();
+        }
+      }
+      if(serviceUptakeSelect && !serviceUptakeSelect.classList.contains('counted')){
+        if(elementInViewport(serviceUptakeSelect)) {
+          serviceUptakeSelect.classList.add('counted');
+          var countUp = new CountUp('serviceUptake', 0, serviceUptake);
+          console.log(countUp);
+          countUp.start();
+        }
+      }
+      if(repeatBehaviourSelect && !repeatBehaviourSelect.classList.contains('counted')){
+        if(elementInViewport(repeatBehaviourSelect)) {
+          repeatBehaviourSelect.classList.add('counted');
+          var countUp = new CountUp('repeatBehaviour', 0, repeatBehaviour);
+          console.log(countUp);
+          countUp.start();
+        }
+      }
+      if(providerRatingsSelect && !providerRatingsSelect.classList.contains('counted')){
+        if(elementInViewport(providerRatingsSelect)) {
+          providerRatingsSelect.classList.add('counted');
+          var countUp = new CountUp('providerRatings', 0, providerRatings);
+          console.log(countUp);
+          countUp.start();
+        }
+      }
+    });
   }
 };
 

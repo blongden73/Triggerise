@@ -10,13 +10,13 @@
   </div>
   <div class="t-half image {{include.colourSplit}} right testimonial">
     <div class="inner-wrapper">
-      {% if include.name %}
-        {% assign nameSplit = include.name | split: '|' %}
-        <h4>{{nameSplit[0]}}</h4>
-        <h4 class="nameSplit">{{nameSplit[1]}}</h4>
-      {% endif %}
       {% if include.sub %}
         <h4>{{include.sub}}</h4>
+      {% endif %}
+      {% if include.name %}
+        {% assign nameSplit = include.name | split: '|' %}
+        <h4 class="name">{{nameSplit[0]}}</h4>
+        <h4 class="nameSplit">{{nameSplit[1]}}</h4>
       {% endif %}
     </div>
   </div>

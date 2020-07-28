@@ -13,7 +13,7 @@ Success-stories-descriptor: 'Dive deeper into some of our projects and see how o
   work is improving lives. '
 Success-stories:
 - Title: A triumph for reproductive rights in Kenya
-  Image: 
+  Image: "/uploads/lady-050119.jpg"
   Body: |-
     **Powerful collaborations**
     ![TRIGGERISE-KIBERA-139.jpg](/uploads/TRIGGERISE-KIBERA-139.jpg)

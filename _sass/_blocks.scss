@@ -491,6 +491,15 @@
 
 //classList
 
+.centred-data {
+  @include mq($from: desktop) {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
 @keyframes dash {
   to {
     stroke-dashoffset: -200;

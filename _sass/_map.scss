@@ -99,12 +99,13 @@
 
   .svgMap-country {
     cursor: pointer;
-    stroke: #E2E2E2;
+    stroke: $yellow;
     stroke-width: 1;
     stroke-linejoin: round;
     vector-effect: non-scaling-stroke;
     transition: fill .2s, stroke .2s;
     cursor: pointer;
+    fill:$yellow;
 
     &[fill="#aNaNaN"] {
       fill: $pink !important;

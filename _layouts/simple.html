@@ -1,4 +1,15 @@
 ---
 layout: default
 ---
+{% assign title = page.title %}
+{% assign content = page.content %}
+{% include 1up.html colour="cream" sectionTitle=title description=content classList="flexWrapper padd" %}
 
+<div class="t-one {{include.colour}} autoHeight success-stories padd" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
+  <div class="wrapper">
+    <div class="success-story-wrapper">
+      <h2>{{page.['Intro Text']}}</h2>
+      {{page.Body | markdownify }}
+    </div>
+  </div>
+</div>

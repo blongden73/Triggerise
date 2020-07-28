@@ -37,6 +37,26 @@ Success-stories:
   Project: In Their Hands
   Intro text: Half a million teenage girls in Kenya now have access to contraceptives
     and sexual health products through our platform. This is how we made it happen.
+- Title: Another Success Story
+  Image: 
+  Body: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+    eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+    venenatis vitae, justo.\n![1088809-f63314.jpg](/uploads/1088809-f63314.jpg)\n1.
+    Text\n1. Text\n1. Text\n\nLorem ipsum dolor sit amet, consectetuer adipiscing
+    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+    et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
+    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus
+    ut, imperdiet a, venenatis vitae, justo.\n![Nuno.jpg](/uploads/Nuno.jpg)\n* Hello
+    \n* Hello"
+  Pull out stat: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+    commodo ligula eget dolor. '
+  Project: Text Project
+  Intro text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+    ligula eget dolor. Aenean massa.
 Journal:
 - Title: Journal 1
   Image: "/uploads/tiko-994821.jpg"

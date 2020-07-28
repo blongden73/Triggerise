@@ -198,6 +198,15 @@ Safeguarding-text: "We always protect user data and never compromise privacy. \n
   only collect user data that is given with consent, and use it to improve our product.
   \n\nWe never sell personal information, this includes meta data. \n"
 Header animation image: "/uploads/Mark03-a60be9.gif"
+Supervisory Board Description: The Triggerise Supervisory Board helps fulfil our mission
+  by providing guidance and oversight. It comprises highly accomplished professionals
+  who donate their time and share their expertise in delivering impact at scale using
+  technology and innovation.
+Board of Directors Description: 'Our Directors lead Triggerise - setting its vision,
+  shaping its strategy, managing its operations and inspiring its people. '
+Team Description: Our people and their commitment to our vision move us forward every
+  day. Here are some of the faces that are working hard behind the scenes to create
+  big impact.
 layout: about
 ---
 

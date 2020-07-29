@@ -235,38 +235,38 @@ Body: "Protecting your data, privacy and personal data (as defined under Article
   notified to you by SMS, email or other notifications. We, therefore, encourage you
   to review it from time to time to stay informed of how we are processing your data.
   \n"
-Privacy Policy - Swahili: "SERA YA FARAGHA/USIRI YA TRIGGERISE\nKuhifadhi data yako,
-  usuri na data ya kibinafsi (jinsi ilivyoelezwa kwa Makala ya 4(1) ya kanuni za kijumla
-  za ulinzi wa data (EU) 2016/679 (“GDRP”)) ni ya muhimu kwa Triggerise stitching
-  na wahusika wake- Triggerise Kenya private limited, tawi la Triggerise Stitching
-  Ethiopia, Triggerise India, Triggerise BV, Triggerise ya Afrika Kusini Pty limited
-  na Triggerise LABS Unipessoal Lda (“sisi”, “yetu” ama “sisi”). Ni ya muhimu zaidi
-  ya kwamba wateja wetu (“watumizi”)  wanajihisi salama wakitumia huduma zetu, bidhaa
-  na habari ambazo tunapeana kupitia kwa majukwaa yetu mbalimbali.\n\nSera hii inaonyesha
-  msingi wa jinsi vile habari yoyote ya kibinafsi ambayo tunatoa kwako, ama ambayo
-  unatupea itakavyo sindikwa/chakatwa. Tafadhali soma sera hii ya usiri kwa makini
-  ili uelewe aina ya habari ambazo tunachukua kwako, jinsi tunavyozitumia, jinsi tofauti
-  \ ambapo tutapeana kwa wahusika wa tatu, na haki zako kulingana na ile data ya kibinafsi
-  unayotupea.\n\nUnapotumia jukwaa, programu, tovuti zetu (“huduma”) utaombwa kuonyesha
-  kukubali kwako kwa, na ikiwezekana, peana ruhusa yako kwa taratibu zilizoelezewa
-  kwa sera hii.\n \nSEHEMU YA KWANZA-SISI NI NANI\nSera hii ya usiri inatumika kwa
-  usindikaji wa data wa: Triggerise Stithcing na washiriki wake Kenya, Ethiopia, Portugal,
-  Africa Kusini na Uholanzi.\n\nMaswali, maoni na maombi juu ya sera hii ya usiri
-  yanakaribishwa na yafaa kuelekezwa kwa privacy@triggerise.org​. Afisa wetu anayehusika
-  na ulinzi wa data ni Admillo Ribeiro.\n \nSEHEMU YA PILI- MTAZAMO WA KIJUMLA WA
-  USINDIKAJI WA DATA UKIUNGANISHWA NA HUDUMA, BIDHAA NA HABARI.\n\nHabari unayotupatia.\nUtaombwa
-  kutupatia habari zako wakati:\n●\tWakati unajaza fomu katika tuvuti zetu, maombi
-  yetu, vifaa vyetu vya kidigitali (kama facebook, Messenger, Twitter, Whatsapp, Instagram
-  ama kuwasiliana nasi kupitia ujumbe mfupi, simu, barua pepe ama mengineyo)\n●\tKujiandikisha/
-  kujisajili kutumia huduma, bidhaa ama ununuzi wetu, kujiunga na jarida letu, barua
-  pepe za uendelezaji ama vifaa vingine vya masoko.\n●\tKutumia huduma ama bidhaa
-  unazopata kupitia majukwaa yetu\n●\tKuweka kiwango kwa huduma ama bidhaa unazopata
-  kwa majukwaa yetu.\n●\tRepoti shida kwa huduma ama bidhaa oliyopokea ama;\n●\tKujaza
-  utafiti wowote ama masomo ambayo tunatumia kwa minajili ya utafiti na kutathmini
-  huduma zetu ama kuboresha ubora wa huduma ambazo tunawapatia.\n\nHabari zile utaombwa
-  kutupea kwa makusudi hayo yanaweza kuwa jinsia yako, tarehe ya kuzaliwa, namba ya
-  simu, bidhaa ama huduma ulizopokea, mahali ambapo ulipokea bidhaa, huduma ama ujumbe,
-  kukomboa tuzo ama habari nyingine yoyote inayohitajika kuhakikisha kitambulisho
+Privacy Policy - Swahili Description: "SERA YA FARAGHA/USIRI YA TRIGGERISE\nKuhifadhi
+  data yako, usuri na data ya kibinafsi (jinsi ilivyoelezwa kwa Makala ya 4(1) ya
+  kanuni za kijumla za ulinzi wa data (EU) 2016/679 (“GDRP”)) ni ya muhimu kwa Triggerise
+  stitching na wahusika wake- Triggerise Kenya private limited, tawi la Triggerise
+  Stitching Ethiopia, Triggerise India, Triggerise BV, Triggerise ya Afrika Kusini
+  Pty limited na Triggerise LABS Unipessoal Lda (“sisi”, “yetu” ama “sisi”). Ni ya
+  muhimu zaidi ya kwamba wateja wetu (“watumizi”)  wanajihisi salama wakitumia huduma
+  zetu, bidhaa na habari ambazo tunapeana kupitia kwa majukwaa yetu mbalimbali.\n\nSera
+  hii inaonyesha msingi wa jinsi vile habari yoyote ya kibinafsi ambayo tunatoa kwako,
+  ama ambayo unatupea itakavyo sindikwa/chakatwa. Tafadhali soma sera hii ya usiri
+  kwa makini ili uelewe aina ya habari ambazo tunachukua kwako, jinsi tunavyozitumia,
+  jinsi tofauti  ambapo tutapeana kwa wahusika wa tatu, na haki zako kulingana na
+  ile data ya kibinafsi unayotupea.\n\nUnapotumia jukwaa, programu, tovuti zetu (“huduma”)
+  utaombwa kuonyesha kukubali kwako kwa, na ikiwezekana, peana ruhusa yako kwa taratibu
+  zilizoelezewa kwa sera hii.\n \nSEHEMU YA KWANZA-SISI NI NANI\nSera hii ya usiri
+  inatumika kwa usindikaji wa data wa: Triggerise Stithcing na washiriki wake Kenya,
+  Ethiopia, Portugal, Africa Kusini na Uholanzi.\n\nMaswali, maoni na maombi juu ya
+  sera hii ya usiri yanakaribishwa na yafaa kuelekezwa kwa privacy@triggerise.org​.
+  Afisa wetu anayehusika na ulinzi wa data ni Admillo Ribeiro.\n \nSEHEMU YA PILI-
+  MTAZAMO WA KIJUMLA WA USINDIKAJI WA DATA UKIUNGANISHWA NA HUDUMA, BIDHAA NA HABARI.\n\nHabari
+  unayotupatia.\nUtaombwa kutupatia habari zako wakati:\n●\tWakati unajaza fomu katika
+  tuvuti zetu, maombi yetu, vifaa vyetu vya kidigitali (kama facebook, Messenger,
+  Twitter, Whatsapp, Instagram ama kuwasiliana nasi kupitia ujumbe mfupi, simu, barua
+  pepe ama mengineyo)\n●\tKujiandikisha/ kujisajili kutumia huduma, bidhaa ama ununuzi
+  wetu, kujiunga na jarida letu, barua pepe za uendelezaji ama vifaa vingine vya masoko.\n●\tKutumia
+  huduma ama bidhaa unazopata kupitia majukwaa yetu\n●\tKuweka kiwango kwa huduma
+  ama bidhaa unazopata kwa majukwaa yetu.\n●\tRepoti shida kwa huduma ama bidhaa oliyopokea
+  ama;\n●\tKujaza utafiti wowote ama masomo ambayo tunatumia kwa minajili ya utafiti
+  na kutathmini huduma zetu ama kuboresha ubora wa huduma ambazo tunawapatia.\n\nHabari
+  zile utaombwa kutupea kwa makusudi hayo yanaweza kuwa jinsia yako, tarehe ya kuzaliwa,
+  namba ya simu, bidhaa ama huduma ulizopokea, mahali ambapo ulipokea bidhaa, huduma
+  ama ujumbe, kukomboa tuzo ama habari nyingine yoyote inayohitajika kuhakikisha kitambulisho
   chako kama picha ya uso wako.\n\nSEHEMU YA TATU-SHUGHULI MAALUM ZA USINDIKAJI, AINA
   NA KUSUDI LA UTUMIZI WAO.\n3.1 Ukitumia tuvuti letu\nAina ya data in pamoja na:
   Anwani ya IP ya kifaa kinachotuma maombi, tarehe na wakati wa upatikanaji, jina

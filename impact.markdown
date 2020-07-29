@@ -61,18 +61,7 @@ Journal:
 - Title: Journal 1
   Image: "/uploads/tiko-994821.jpg"
   Link: 
-- Title: Journal 2
-  Image: 
-  Link: 
-- Title: Journal 3
-  Image: 
-  Link: 
-- Title: Journal 4
-  Image: 
-  Link: 
-- Title: Journal 5
-  Image: 
-  Link: 
+Journal Switch: 'False'
 layout: impact
 ---
 

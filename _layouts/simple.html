@@ -8,9 +8,31 @@ layout: default
 
 <div class="t-one {{include.colour}} autoHeight success-stories padd" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
+    {% if page.title == "Contact" %}
+    <div class="contact-form">
+      <h2>Let's talk</h2>
+      <form action="https://getform.io/f/f3bb2658-4887-444d-ae96-b092c41d12e0" method="POST">
+        <label>Name</label>
+        <input type="text" name="name">
+        <label>Email address</label>
+        <input type="email" name="email">
+        <label>Message</label>
+        <textarea type="text" name="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    {% endif %}
+    {% if page.title != "Contact" %}
     <div class="success-story-wrapper">
       <h2>{{page.['Intro Text']}}</h2>
       {{page.Body | markdownify }}
+
+      {% if page.title == "Privacy Policy" %}
+      <hr></hr>
+      <h2 id="Swahili">Swahili</h2>
+        {{page.['Privacy Policy - Swahili Description'] | markdownify }}
+      {% endif %}
     </div>
+    {% endif %}
   </div>
 </div>

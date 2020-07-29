@@ -9,7 +9,7 @@ layout: default
 {% assign dataImage = page.Data-descriptor-image %}
 {% assign successTitle = page.Success-stories-intro %}
 {% assign SuccessDescription = page.Success-stories-descriptor %}
-
+{% assign JournalSwitch = page.['Journal Switch'] %}
 {% include impact.html
   colour="darkBlue"
   sectionTitle=title
@@ -40,8 +40,10 @@ layout: default
   textColor="darkBlue"
   classList="autoHeight success-stories"
 %}
+{% if JournalSwitch != "False" %}
 {% include journal.html
   colour="lightCream"
   textColor="darkBlue"
   classList="autoHeight journal"
 %}
+{% endif %}

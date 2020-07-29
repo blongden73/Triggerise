@@ -122,6 +122,17 @@
   }
 }
 
+.footer-right {
+  position: relative;
+
+  small {
+    @include mq($from: desktop){
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+}
+
 .footer-heading {
     font-size: 18px;
     margin-bottom: 0;

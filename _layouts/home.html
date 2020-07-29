@@ -29,13 +29,13 @@ layout: default
 {% assign ModelDescriptionThree = page.Our-Model[2].Description %}
   <div class="section carousel" data-percentage="90">
     <div class="slide" data-anchor="slide1">
-      {% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram description=ModelDescription textColor="darkBlue" classList="full carousel" buttonClass="darkBlue" %}
+      {% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram description=ModelDescription textColor="darkBlue" classList="full carousel" buttonClass="darkBlue" buttonLink="/what-we-do" %}
     </div>
     <div class="slide" data-anchor="slide2">
-        {% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo description=ModelDescriptionTwo textColor="lightBlue" classList="full carousel" buttonClass="lightBlue"%}
+        {% include 1up.html colour="darkBlue" sectionTitle=sectionTitle diagram=diagramTwo description=ModelDescriptionTwo textColor="lightBlue" classList="full carousel" buttonClass="lightBlue" buttonLink="/what-we-do"%}
     </div>
     <div class="slide" data-anchor="slide3">
-        {% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree description=ModelDescriptionThree textColor="lightYellow" classList="full carousel" buttonClass="lightYellow"%}
+        {% include 1up.html colour="purple" sectionTitle=sectionTitle diagram=diagramThree description=ModelDescriptionThree textColor="lightYellow" classList="full carousel" buttonClass="lightYellow" buttonLink="/what-we-do"%}
     </div>
   </div>
 <div class="section" data-percentage="90">
@@ -56,6 +56,8 @@ layout: default
   image=CTAimage
   imageTwo=CTAimageTwo
   classList="image"
+  button="true"
+  buttonClass="cream"
 %}
 </div>
 </div>

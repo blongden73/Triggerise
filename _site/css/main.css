@@ -40,6 +40,8 @@
 
 .button-colour-lightBlue { color: #D0DEED; border-color: #D0DEED; }
 
+.button-colour-cream { color: #FEEBE8; border-color: #FEEBE8; }
+
 h1 { font-size: 50px; line-height: 1; }
 
 @media all and (min-width: 61.25em) { h1 { font-size: 90px; line-height: 1; } }
@@ -172,6 +174,10 @@ footer .socials li { margin-right: 10px; }
 .site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
 
 .footer-left h3 { margin-bottom: calc(10px * 3); }
+
+.footer-right { position: relative; }
+
+@media all and (min-width: 61.25em) { .footer-right small { position: absolute; bottom: 0px; } }
 
 .footer-heading { font-size: 18px; margin-bottom: 0; }
 
@@ -417,21 +423,25 @@ footer .socials li { margin-right: 10px; }
 
 .map .key li:before { width: 12px; height: 12px; background-color: #D8A0C8; display: inline-block; content: ''; margin-right: 2px; border-radius: 50%; }
 
-.map .key li:nth-child(2) { color: #F6915F; }
+.map .key li:nth-child(2) { color: #D8A0C8; }
 
 .map .key li:nth-child(2):before { background-color: #F6915F; }
 
-.map .key li:nth-child(3) { color: #D8A0C8; }
+.map .key li:nth-child(3) { color: #FDDE5A; }
 
-.map .key li:nth-child(3):before { background-color: #D8A0C8; }
+.map .key li:nth-child(3):before { background-color: #FDDE5A; }
 
-.map .key li:nth-child(4) { color: #FDDE5A; }
+.map .key li:nth-child(4) { color: #F6915F; }
 
-.map .key li:nth-child(4):before { background-color: #FDDE5A; }
+.map .key li:nth-child(4):before { background-color: #F6915F; }
 
 .map .key li:nth-child(5) { color: #6EBA70; }
 
 .map .key li:nth-child(5):before { background-color: #6EBA70; }
+
+.map .key li:nth-child(6) { color: #D0DEED; }
+
+.map .key li:nth-child(6):before { background-color: #D0DEED; }
 
 .autoHeight { height: auto !important; }
 
@@ -475,21 +485,25 @@ footer .socials li { margin-right: 10px; }
 
 .ecoSystem .key li:before { width: 12px; height: 12px; background-color: #1D214F; display: inline-block; content: ''; margin-right: 2px; border-radius: 50%; }
 
-.ecoSystem .key li:nth-child(2) { color: #F6915F; }
+.ecoSystem .key li:nth-child(2) { color: #D8A0C8; }
 
-.ecoSystem .key li:nth-child(2):before { background-color: #F6915F; }
+.ecoSystem .key li:nth-child(2):before { background-color: #D8A0C8; }
 
-.ecoSystem .key li:nth-child(3) { color: #D8A0C8; }
+.ecoSystem .key li:nth-child(3) { color: #FDDE5A; }
 
-.ecoSystem .key li:nth-child(3):before { background-color: #D8A0C8; }
+.ecoSystem .key li:nth-child(3):before { background-color: #FDDE5A; }
 
-.ecoSystem .key li:nth-child(4) { color: #FDDE5A; }
+.ecoSystem .key li:nth-child(4) { color: #F6915F; }
 
-.ecoSystem .key li:nth-child(4):before { background-color: #FDDE5A; }
+.ecoSystem .key li:nth-child(4):before { background-color: #F6915F; }
 
 .ecoSystem .key li:nth-child(5) { color: #6EBA70; }
 
 .ecoSystem .key li:nth-child(5):before { background-color: #6EBA70; }
+
+.ecoSystem .key li:nth-child(6) { color: #D0DEED; }
+
+.ecoSystem .key li:nth-child(6):before { background-color: #D0DEED; }
 
 @keyframes fadeIn { 0% { opacity: 0; }
   100% { opacity: 1; } }
@@ -719,7 +733,7 @@ footer .socials li { margin-right: 10px; }
 
 .success-story-wrapper ul, .success-story-wrapper ol { margin: 0; margin-left: 15px; margin-bottom: 10px; }
 
-.success-story-wrapper h1, .success-story-wrapper h2, .success-story-wrapper p { max-width: 600px; }
+.success-story-wrapper h1, .success-story-wrapper h2, .success-story-wrapper p, .success-story-wrapper ul, .success-story-wrapper ol { max-width: 600px; }
 
 .success-story-wrapper img { width: 100%; height: auto; margin-top: calc(10px * 2); margin-bottom: calc(10px * 2); }
 
@@ -775,6 +789,12 @@ footer .socials li { margin-right: 10px; }
 .safeguarding p:nth-child(2):after { animation-delay: 1s; }
 
 .safeguarding p:nth-child(3):after { display: none; }
+
+.contact-form { padding-bottom: calc(10px * 4); }
+
+.contact-form input { display: block; width: 100%; max-width: 600px; padding: 10px; font-family: "Stabil Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.contact-form textarea { display: block; width: 100%; max-width: 600px; padding: 10px; font-family: "Stabil Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: calc(10px * 2); }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }

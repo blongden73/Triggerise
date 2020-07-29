@@ -579,7 +579,7 @@
       }
 
       &:nth-child(2) {
-        color: $orange;
+        color: $pink;
 
         &:before {
           background-color: $orange;
@@ -587,18 +587,18 @@
       }
 
       &:nth-child(3) {
-        color: $pink;
-
-        &:before {
-          background-color: $pink;
-        }
-      }
-
-      &:nth-child(4) {
         color: $yellow;
 
         &:before {
           background-color: $yellow;
+        }
+      }
+
+      &:nth-child(4) {
+        color: $orange;
+
+        &:before {
+          background-color: $orange;
         }
       }
 
@@ -607,6 +607,13 @@
 
         &:before {
           background-color: $green;
+        }
+      }
+      &:nth-child(6) {
+        color: $lightBlue;
+
+        &:before {
+          background-color: $lightBlue;
         }
       }
     }
@@ -741,14 +748,6 @@
       }
 
       &:nth-child(2) {
-        color: $orange;
-
-        &:before {
-          background-color: $orange;
-        }
-      }
-
-      &:nth-child(3) {
         color: $pink;
 
         &:before {
@@ -756,11 +755,19 @@
         }
       }
 
-      &:nth-child(4) {
+      &:nth-child(3) {
         color: $yellow;
 
         &:before {
           background-color: $yellow;
+        }
+      }
+
+      &:nth-child(4) {
+        color: $orange;
+
+        &:before {
+          background-color: $orange;
         }
       }
 
@@ -769,6 +776,13 @@
 
         &:before {
           background-color: $green;
+        }
+      }
+      &:nth-child(6) {
+        color: $lightBlue;
+
+        &:before {
+          background-color: $lightBlue;
         }
       }
     }
@@ -1438,7 +1452,7 @@
     margin-bottom: 10px;
   }
 
-  h1, h2, p {
+  h1, h2, p, ul, ol {
     max-width: 600px;
   }
 
@@ -1605,5 +1619,25 @@
         display: none;
       }
     }
+  }
+}
+
+.contact-form {
+  padding-bottom: spacing(4);
+  
+  input {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    font-family: $base-font-family;
+  }
+  textarea {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    font-family: $base-font-family;
+    margin-bottom: spacing(2);
   }
 }

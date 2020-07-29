@@ -146,6 +146,7 @@ var myFullpage = new fullpage('#fullpage', {
 	//Navigation
   licenseKey:'3B63225D-9F3C433A-BBF0651D-0A97F55E',
   fadingEffectKey: 'c2l0ZWxlYWYubmV0X2p2elptRmthVzVuUldabVpXTjBiQTE=',
+  fitToSection: false,
   fadingEffect: true,
   autoScrolling:false,
 	scrollHorizontally: true,

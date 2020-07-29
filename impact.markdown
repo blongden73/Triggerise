@@ -54,7 +54,7 @@ Success-stories:
     \n* Hello"
   Pull out stat: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
     commodo ligula eget dolor. '
-  Project: Text Project
+  Project: Test Project
   Intro text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
     ligula eget dolor. Aenean massa.
 Journal:

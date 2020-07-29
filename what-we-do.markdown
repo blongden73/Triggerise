@@ -14,7 +14,7 @@ Description: "### Young people across Africa and India are using our Tiko platfo
   to foster long-lasting healthy behaviours. Currently we connect primarily adolescent
   girls and young mothers to a variety of sexual and reproductive health (SRH) services
   and antenatal care (ANC) from local providers."
-Supporting-image: "/uploads/TRIGGERISE-KIBERA-139.jpg"
+Supporting-image: "/uploads/TRIGGERISE%20KIBERA%20139.jpg"
 What-section-one-title: Thriving Ecosystems | Big impact
 What-section-one-description: "Tiko connects across supply and demand, building networks
   of donors, local services and communities to deliver joined-up health services on
@@ -56,7 +56,7 @@ Summarty-text: Our Tiko model delivers a new way to collaborate, a better way to
   young people and a more efficient way to manage programmes. All this means more
   impact at scale and at a lower cost. We trigger change, for good.
 Supporting-two-Image: "/uploads/1088809.jpg"
-Support-three-Image: "/uploads/gettyimages-1159160676-2048x2048.jpg"
+Support-three-Image: "/uploads/GettyImages-1159160676.jpg"
 layout: whatwedo
 ---
 

@@ -120,6 +120,15 @@
     &.svgMap-active {
       stroke-width: $mapActiveStrokeWidth;
     }
+    &.operation {
+      fill: $orange !important;
+    }
+    &.office {
+      fill: $green !important;
+    }
+    &.operation-office {
+      fill: $blue !important;
+    }
   }
 }
 
@@ -249,4 +258,8 @@
       transform: translateX(-50%) scaleY(-1);
     }
   }
+}
+
+.svgMap-tooltip-content table td {
+  vertical-align: top;
 }

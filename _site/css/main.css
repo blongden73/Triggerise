@@ -241,6 +241,8 @@ footer .socials li { margin-right: 10px; }
 
 .fp-slidesNav ul li a span { background-color: #fff; }
 
+.section { max-height: 690px !important; }
+
 .section:not(.carousel) { height: auto !important; }
 
 .fp-tableCell { height: auto !important; }
@@ -367,6 +369,8 @@ footer .socials li { margin-right: 10px; }
 
 .t-one.image img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
 
+.t-one.image.whatWeDoImage img { object-position: top; }
+
 .t-half { width: 100%; position: relative; min-height: 50vh; }
 
 @media all and (min-width: 61.25em) { .t-half { width: 50%; min-height: inherit; } }
@@ -423,17 +427,17 @@ footer .socials li { margin-right: 10px; }
 
 .map .key li:before { width: 12px; height: 12px; background-color: #D8A0C8; display: inline-block; content: ''; margin-right: 2px; border-radius: 50%; }
 
-.map .key li:nth-child(2) { color: #D8A0C8; }
+.map .key li:nth-child(2) { color: #F6915F; }
 
 .map .key li:nth-child(2):before { background-color: #F6915F; }
 
-.map .key li:nth-child(3) { color: #FDDE5A; }
+.map .key li:nth-child(3) { color: #6EBA70; }
 
-.map .key li:nth-child(3):before { background-color: #FDDE5A; }
+.map .key li:nth-child(3):before { background-color: #6EBA70; }
 
-.map .key li:nth-child(4) { color: #F6915F; }
+.map .key li:nth-child(4) { color: #fff; }
 
-.map .key li:nth-child(4):before { background-color: #F6915F; }
+.map .key li:nth-child(4):before { background-color: #2C449C; }
 
 .map .key li:nth-child(5) { color: #6EBA70; }
 
@@ -949,6 +953,12 @@ footer .socials li { margin-right: 10px; }
 
 .svgMap-map-wrapper .svgMap-country.svgMap-active { stroke-width: 1.5; }
 
+.svgMap-map-wrapper .svgMap-country.operation { fill: #F6915F !important; }
+
+.svgMap-map-wrapper .svgMap-country.office { fill: #6EBA70 !important; }
+
+.svgMap-map-wrapper .svgMap-country.operation-office { fill: #2C449C !important; }
+
 .svgMap-tooltip { box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); position: absolute; z-index: 2; border-radius: 2px; background: #fff; transform: translate(-50%, -100%); border-bottom: 1px solid #000; display: none; pointer-events: none; min-width: 60px; }
 
 .svgMap-tooltip.svgMap-tooltip-flipped { transform: translate(-50%, 0); border-bottom: 0; border-top: 1px solid #000; }
@@ -984,5 +994,7 @@ footer .socials li { margin-right: 10px; }
 .svgMap-tooltip .svgMap-tooltip-pointer:after { content: ''; width: 20px; height: 20px; background: #fff; border: 1px solid #000; position: absolute; bottom: 6px; left: 50%; transform: translateX(-50%) rotate(45deg); }
 
 .svgMap-tooltip.svgMap-tooltip-flipped .svgMap-tooltip-pointer { bottom: auto; top: -10px; transform: translateX(-50%) scaleY(-1); }
+
+.svgMap-tooltip-content table td { vertical-align: top; }
 
 /*# sourceMappingURL=main.css.map */

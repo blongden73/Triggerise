@@ -14,6 +14,10 @@
   background-color: #fff;
 }
 
+.section {
+  max-height: 690px !important;
+}
+
 .section:not(.carousel) {
   height: auto !important;
 }
@@ -383,6 +387,12 @@
       object-fit: cover;
       object-position: center;
     }
+
+    &.whatWeDoImage {
+      img {
+        object-position: top;
+      }
+    }
   }
 }
 
@@ -579,7 +589,7 @@
       }
 
       &:nth-child(2) {
-        color: $pink;
+        color: $orange;
 
         &:before {
           background-color: $orange;
@@ -587,18 +597,18 @@
       }
 
       &:nth-child(3) {
-        color: $yellow;
+        color: $green;
 
         &:before {
-          background-color: $yellow;
+          background-color: $green;
         }
       }
 
       &:nth-child(4) {
-        color: $orange;
+        color: #fff;
 
         &:before {
-          background-color: $orange;
+          background-color: $blue;
         }
       }
 
@@ -1624,7 +1634,7 @@
 
 .contact-form {
   padding-bottom: spacing(4);
-  
+
   input {
     display: block;
     width: 100%;

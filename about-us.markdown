@@ -10,7 +10,7 @@ Numbers:
 - Number: 10
   Text: different mother tongues
 - Number: 1
-  Text: Olympic gymnast
+  Text: Shared Goal
 - Number: 25
   Text: cities we call home
 Mission-Title: We’re on a mission

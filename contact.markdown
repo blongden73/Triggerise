@@ -1,7 +1,7 @@
 ---
 title: Contact
 date: 2020-07-28 11:50:00 Z
-Text: |-
+Address: |-
   **TRIGGERISE LABS**
   Porto, Portugal
   Rua de Vilar 235,7 dto,

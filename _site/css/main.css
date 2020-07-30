@@ -594,7 +594,7 @@ footer .socials li { margin-right: 10px; }
 
 .team-one-container, .team-two-container, .team-three-container { width: 100%; max-height: auto; overflow: visible; padding-top: calc(10px * 2); text-align: center; padding-bottom: calc(10px * 5); }
 
-@media all and (min-width: 61.25em) { .team-one-container, .team-two-container, .team-three-container { width: 33.3%; overflow: scroll; max-height: 90vh; } }
+@media all and (min-width: 61.25em) { .team-one-container, .team-two-container, .team-three-container { width: 33.3%; overflow-y: scroll; overflow-x: hidden; max-height: 90vh; } }
 
 .team-one-container:hover svg, .team-two-container:hover svg, .team-three-container:hover svg { animation-name: hover; animation-duration: 1s; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-timing-function: linear; }
 
@@ -1009,7 +1009,7 @@ footer .socials li { margin-right: 10px; }
 
 .svgMap-tooltip .svgMap-tooltip-title { white-space: nowrap; font-size: 18px; line-height: 28px; padding: 0 0 8px; text-align: center; }
 
-.svgMap-tooltip .svgMap-tooltip-content { white-space: normal; text-align: center; font-size: 14px; color: #777; margin: -5px 0 0; max-width: 300px; }
+.svgMap-tooltip .svgMap-tooltip-content { white-space: normal; text-align: center; font-size: 14px; color: #777; margin: -5px 0 0; max-width: 450px; }
 
 .svgMap-tooltip .svgMap-tooltip-content table { padding: 0; border-spacing: 0px; margin: auto; }
 

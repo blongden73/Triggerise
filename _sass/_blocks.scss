@@ -1029,7 +1029,8 @@
 
   @include mq($from: desktop) {
     width: 33.3%;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     max-height: 90vh;
   }
 

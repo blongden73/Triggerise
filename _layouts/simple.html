@@ -34,7 +34,7 @@ layout: default
     {% endif %}
     {% if page.title != "Contact" %}
     <div class="success-story-wrapper">
-      <h2 id="English">English</h2>
+      {% if page.title == "Privacy Policy" %}<h2 id="English">English</h2>{% endif %}
       {{page.Body | markdownify }}
 
       {% if page.title == "Privacy Policy" %}

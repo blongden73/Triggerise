@@ -1,7 +1,6 @@
 ---
 title: Contact
 date: 2020-07-28 11:50:00 Z
-Intro Text: 
 Text: |-
   **TRIGGERISE LABS**
   Porto, Portugal

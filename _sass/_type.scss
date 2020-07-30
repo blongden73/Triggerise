@@ -33,8 +33,12 @@ h2 {
 }
 
 h3 {
-  font-size: map-get($font-scale, 2);
+  font-size: map-get($font-scale, 1);
   line-height: 1.2;
+
+  @include mq($from: desktop) {
+    font-size: map-get($font-scale, 2);
+  }
 }
 
 h4 {

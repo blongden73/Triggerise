@@ -13,6 +13,7 @@ layout: default
 {% assign values = page.Values %}
 {% assign ValuesImage = page.['Values animation image']%}
 {% assign nameOne = page.Testimonial[0].Name %}
+{% assign nameTwo = page.Testimonial-two[0].Name %}
 {% include 2up.html
   colour="darkBlue"
   titleOne=titleOne
@@ -48,7 +49,7 @@ layout: default
 {% include testimonial.html
   colour="lightBlue"
   sub=quoteTwo
-  name=nameOne
+  name=nameTwo
   textColor="lightBlue"
   colourSplit="pink"
   image=testImageTwo

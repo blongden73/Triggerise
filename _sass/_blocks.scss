@@ -15,7 +15,11 @@
 }
 
 .section {
-  max-height: 690px !important;
+  max-height: 410px !important;
+
+  @include mq($from: desktop) {
+    max-height: 690px !important;
+  }
 }
 
 .section:not(.carousel) {
@@ -109,7 +113,11 @@
 }
 
 .t-three-sub-title {
-  margin-top: 50px;
+  margin-top: spacing(2);
+
+  @include mq($from: desktop) {
+    margin-top: spacing(5);
+  }
 }
 
 .t-three-sub, .t-three-number {
@@ -124,6 +132,7 @@
 
 .t-one.green.image.values.left {
   padding-bottom: 10px;
+  min-height: 230px;
 }
 
 .t-two {
@@ -304,8 +313,18 @@
   }
 
   &.impact {
+
+    h2 {
+      padding-top: spacing(2);
+    }
+
     p {
-      font-size: map-get($font-scale, 2);
+      line-height: 1.2;
+      font-size: map-get($font-scale, 1);
+
+      @include mq($from: desktop) {
+        font-size: map-get($font-scale, 2);
+      }
     }
   }
 
@@ -344,15 +363,23 @@
         }
 
         h3 {
-          font-size: map-get($font-scale, 2);
+          font-size: map-get($font-scale, 1);
           line-height: 1.2;
           width: 100%;
           margin-top: spacing(-2);
+
+          @include mq($from: desktop) {
+            font-size: map-get($font-scale, 2);
+          }
         }
 
         p {
-          font-size: map-get($font-scale, bigpar);
+          font-size: map-get($font-scale, 0);
           line-height: 1.2;
+
+          @include mq($from: desktop) {
+            font-size: map-get($font-scale, bigpar);
+          }
         }
       }
     }
@@ -523,6 +550,10 @@
 .map {
   h2 {
     max-width: 620px;
+
+    @include mq($until: tablet) {
+      font-size: map-get($font-scale, bigpar);
+    }
   }
 
   .key {
@@ -531,11 +562,12 @@
     display: flex;
     margin-top: 30px;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: spacing(2);
     flex-direction: column;
 
     @include mq($from: desktop) {
       flex-direction: row;
+      padding-bottom: spacing(10);
     }
 
     ul {
@@ -652,10 +684,11 @@
 
   .ecosystem-map {
     position: relative;
-    height: 190px;
+    height: 290px;
     max-height: 90vh;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 
     @include mq($from: desktop) {
       height: 600px;
@@ -665,7 +698,7 @@
     svg {
       position: absolute;
       top: 0;
-      width: 100%;
+      width: 160%;
       height: auto;
       left: 50%;
       transform: translateX(-50%);
@@ -699,13 +732,14 @@
     width: 100%;
     border-top: 1px solid $darkBlue;
     display: flex;
-    margin-top: 30px;
-    padding-top: 10px;
-    padding-bottom: 100px;
+    margin-top: spacing(3);
+    padding-top: spacing(1);
+    padding-bottom: spacing(5);
     flex-direction: column;
 
     @include mq($from: desktop) {
       flex-direction: row;
+      padding-bottom: spacing(10);
     }
 
     ul {
@@ -951,8 +985,8 @@
 }
 
 .image-wrapper-quote {
-  height: 40vw;
-  width: 40vw;
+  height: 50vw;
+  width: 50vw;
   border-radius: 50%;
   overflow: hidden;
   margin-left: auto;
@@ -1033,11 +1067,15 @@
   }
 
   p {
-    font-size: map-get($font-scale, 0);
+    font-size: map-get($font-scale, small);
     line-height: 1.2;
     padding-left: spacing(8);
     padding-right: spacing(8);
     margin-top: spacing(1);
+
+    @include mq($from: desktop) {
+      font-size: map-get($font-scale, 0);
+    }
   }
 
   h2.teamsTitle {
@@ -1474,12 +1512,20 @@
   }
 
   h1 {
-    font-size: map-get($font-scale, 4);
+    font-size: map-get($font-scale, 3);
     margin-bottom: spacing(4);
+
+    @include mq($from: desktop) {
+      font-size: map-get($font-scale, 4);
+    }
   }
   h2 {
-    font-size: map-get($font-scale, 2);
+    font-size: map-get($font-scale, bigpar);
     margin-bottom: spacing(4);
+
+    @include mq($from: desktop) {
+      font-size: map-get($font-scale, 2);
+    }
   }
   p {
     font-size: map-get($font-scale, 1);
@@ -1596,11 +1642,17 @@
       content: '';
       display: block;
       float: left;
-      margin-left: -30px;
+      margin-left: 0px;
       margin-right: 10px;
       margin-top: 6px;
+      margin-bottom: 20px;
       position: relative;
       z-index: 10;
+
+      @include mq($from: desktop) {
+        margin-left: -30px;
+        margin-bottom: 0;
+      }
     }
     &:after {
       position: absolute;
@@ -1610,12 +1662,16 @@
       background-color: $pink;
       content: '';
       display: block;
-      left: -24px;
+      left: 6px;
       z-index: 0;
       animation-name: height;
       animation-duration: 2s;
       animation-iteration-count: infinite;
       animation-fill-mode: forwards;
+
+      @include mq($from: desktop) {
+        left: -24px;
+      }
     }
 
     &:nth-child(2) {
@@ -1634,20 +1690,38 @@
 
 .contact-form {
   padding-bottom: spacing(4);
+  width: 100%;
+
+  @include mq($from: desktop) {
+    width: 45%;
+  }
 
   input {
     display: block;
-    width: 100%;
+    width: 92%;
     max-width: 600px;
     padding: 10px;
     font-family: $base-font-family;
   }
   textarea {
     display: block;
-    width: 100%;
+    width: 92%;
     max-width: 600px;
     padding: 10px;
     font-family: $base-font-family;
     margin-bottom: spacing(2);
+  }
+}
+
+.addresses {
+  width: 100%;
+
+  @include mq($from: desktop) {
+    width: 50%;
+    margin-left: auto;
+  }
+
+  p {
+    max-width: 40%;
   }
 }

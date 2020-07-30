@@ -51,7 +51,7 @@ What-section-three-description: "Using the real-time data generated from member 
   at any given time. This gives us agility, offers transparency and delivers trust
   across the ecosystem, while making our resources more efficient and our work more
   relevant."
-Summary-title: In Summary
+Summary-title: Our model
 Summarty-text: Our Tiko model delivers a new way to collaborate, a better way to motivate
   young people and a more efficient way to manage programmes. All this means more
   impact at scale and at a lower cost. We trigger change, for good.

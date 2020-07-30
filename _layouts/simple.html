@@ -26,9 +26,15 @@ layout: default
       {{page.Address | markdownify }}
     </div>
     {% endif %}
+    {% if page.title == "Privacy Policy" %}
+    <div class="story-list">
+        <span><a href="#English">English</a> /</span>
+        <span><a href="#Swahili">Swahili</a> /</span>
+    </div>
+    {% endif %}
     {% if page.title != "Contact" %}
     <div class="success-story-wrapper">
-      <h2>{{page.['Intro Text']}}</h2>
+      <h2 id="English">English</h2>
       {{page.Body | markdownify }}
 
       {% if page.title == "Privacy Policy" %}

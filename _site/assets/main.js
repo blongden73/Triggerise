@@ -163,7 +163,7 @@ window.onload = function() {
 var myFullpage = new fullpage('#fullpage', {
 	//Navigation
   licenseKey:'3B63225D-9F3C433A-BBF0651D-0A97F55E',
-  fadingEffectKey: 'c2l0ZWxlYWYubmV0X2p2elptRmthVzVuUldabVpXTjBiQTE=',
+  fadingEffectKey: 'dHJpZ2dlcmlzZS5vcmdfWWI5Wm1Ga2FXNW5SV1ptWldOMGx6SQ==',
   fitToSection: false,
   fadingEffect: true,
   autoScrolling:false,

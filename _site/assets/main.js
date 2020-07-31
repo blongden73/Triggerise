@@ -1,7 +1,5 @@
-var fakeAPI = {"global":{"number_of_services":806481,"tiko_miles":3091350,"active_rafikis":1262372},"ecosystems":[{"country":"Kenya","size":555},{"country":"India","size":233},{"country":"Ethiopia","size":77}]};
-
-
-console.log('running');
+console.log('Welcome to Triggerise');
+console.log('Built by Umbrella Studios');
 
 //utils
 function elementInViewport(el) {
@@ -24,19 +22,38 @@ function elementInViewport(el) {
   );
 };
 
+function loadJSON(path, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                if (success)
+                    success(JSON.parse(xhr.responseText));
+            } else {
+                if (error) {
+                    error(xhr);
+                }
+            }
+        }
+    };
+    xhr.open("GET", path, true);
+    xhr.send();
+}
 
 //counter
 window.onload = function() {
 
+  loadJSON("https://oblivion.movercado.org/api/metrics/website", function(data) {
+
   //api
-  console.log(fakeAPI);
-  var homepage = fakeAPI.global.active_rafikis;
-  var userTotal = fakeAPI.global.active_rafikis;
-  var servicesTotal = fakeAPI.global.number_of_services;
-  var partnersTotal = fakeAPI.ecosystems[0].size;
-  var partnersTotalIndia = fakeAPI.ecosystems[1].size;
-  var partnersTotalEthiopia = fakeAPI.ecosystems[2].size;
-  var milesTotal = fakeAPI.global.tiko_miles;
+  console.log(data);
+  var homepage = data.global.active_rafikis;
+  var userTotal = data.global.active_rafikis;
+  var servicesTotal = data.global.number_of_services;
+  var partnersTotal = data.ecosystems[0].size;
+  var partnersTotalIndia = data.ecosystems[1].size;
+  var partnersTotalEthiopia = data.ecosystems[2].size;
+  var milesTotal = data.global.tiko_miles;
 
   //not in API
   var serviceUptake = 91;
@@ -139,6 +156,7 @@ window.onload = function() {
       }
     });
   }
+  });
 };
 
 //carousel

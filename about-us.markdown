@@ -84,22 +84,21 @@ Our People:
 - Name: Admilo
   Role: Data Scientist and Lead
   Location: Porto
-  Key: https://www.linkedin.com/in/ribadmilo/
+  LinkedIn: https://www.linkedin.com/in/ribadmilo/
   Image: "/uploads/Trig_profiles_admilo.jpg"
 - Name: Arika
   Role: Product Owner – TikoSystem
   Location: New Delh
-  Key: http://www.linkedin.com/in/arika-srivastava
+  LinkedIn: http://www.linkedin.com/in/arika-srivastava
   Image: "/uploads/Trig_profiles_arika.jpg"
 - Name: Asgar
   Role: Tiko System Manager
   Location: Jaipur
-  Key: https://www.linkedin.com/in/asgar-ali-070b64141
+  LinkedIn: https://www.linkedin.com/in/asgar-ali-070b64141
   Image: "/uploads/Trig_profiles_asgar.jpg"
 - Name: Brian
   Role: Country Programme Manager
   Location: Bungoma
-  LinkedIn: https://www.linkedin.com/in/
   Image: "/uploads/Trig_profiles_brian.jpg"
 - Name: Caroline Mutua
   Role: Product Owner – Data
@@ -109,7 +108,7 @@ Our People:
 - Name: Jesse
   Role: Country Lead and Director – Kenya
   Location: Nairobi
-  https://www.linkedin.com/in/: https://www.linkedin.com/in/dr-jesse-njunguru-059909120/
+  LinkedIn: https://www.linkedin.com/in/dr-jesse-njunguru-059909120/
   Image: "/uploads/Trig_profiles_jesse.jpg"
 - Name: Kalkidan
   Role: Tiko System Manager
@@ -129,7 +128,7 @@ Our People:
 - Name: Marylou
   Role: Strategy Manager
   Location: Amsterdam
-  Key: https://www.linkedin.com/in/maryloukupfer/
+  LinkedIn: https://www.linkedin.com/in/maryloukupfer/
   Image: "/uploads/Trig_profiles_marylou.jpg"
 - Name: Nathalie-Ann
   Location: Global Technical Advisor
@@ -154,17 +153,17 @@ Our People:
 - Name: Thera
   Role: Human Resource Manager
   Location: Amsterdam
-  Key: www.linkedin.com/in/theraengels
+  LinkedIn: www.linkedin.com/in/theraengels
   Image: "/uploads/Trig_profiles_Threa.jpg"
 - Name: Payal
   Role: Country Lead and Director – India
   Location: New Delhi
-  Key: https://www.linkedin.com/in/payal852/
+  LinkedIn: https://www.linkedin.com/in/payal852/
   Image: "/uploads/Trig_profiles_payal.jpg"
 - Name: Ritu
   Role: Administrative Assistant
   Location: New Delhi
-  https://www.linkedin.com/in/: http://www.linkedin.com/in/ritu-sharma-7290b12b
+  LinkedIn: http://www.linkedin.com/in/ritu-sharma-7290b12b
   Image: "/uploads/Trig_profiles_ritu.jpg"
 - Name: Roxy
   Role: Global Recruiter
@@ -174,7 +173,7 @@ Our People:
 - Name: Sam
   Role: Business Development Lead
   Location: New York
-  Key: https://www.linkedin.com/in/samuel-lewin-70711489/
+  LinkedIn: https://www.linkedin.com/in/samuel-lewin-70711489/
   Image: "/uploads/Trig_profiles_sam.jpg\n"
 - Name: Samuel
   Role: Backend Developer
@@ -182,28 +181,28 @@ Our People:
   LinkedIn: https://www.linkedin.com/in/amuxix/
   Image: "/uploads/Trig_profiles_samuel.jpg"
 Reports-Resources:
-- Name: Annual Report  2018
-  Sub title: 'Transformative Scale: Platform Approach '
+- Name: 'Annual Report  '
+  Sub title: 2018
   Link: https://triggerise.org/wp-content/uploads/2019/06/Triggerise_2018_Annual_Report.pdf
-- Name: Annual Report  2017
-  Sub title: More info needed
+- Name: Annual Report
+  Sub title: 2017
   Link: https://triggerise.org/wp-content/uploads/2019/02/Triggerise-2017-Annual-Report.pdf
-- Name: Annual Report  2016
-  Sub title: More info needed
+- Name: 'Annual Report '
+  Sub title: 2016
   Link: https://triggerise.org/wp-content/uploads/2019/02/Triggerise-2016-annual-report-1.pdf
-- Name: Annual Report  2015
-  Sub title: More info needed
+- Name: 'Annual Report '
+  Sub title: 2015
   Link: https://triggerise.org/wp-content/uploads/2020/01/Triggerise-2015-report-FINAL.pdf
 Safeguarding-text: "We always protect user data and never compromise privacy. \n\nWe
-  only collect user data that is given with consent, and use it to improve our product.
-  \n\nWe never sell personal information, this includes meta data. \n"
+  only collect user data that is given with consent and use it to improve our product.
+  \n\nWe never sell personal information, this includes metadata. \n"
 Header animation image: "/uploads/Mark03-a60be9.gif"
-Supervisory Board Description: The Triggerise Supervisory Board helps fulfil our mission
-  by providing guidance and oversight. It comprises highly accomplished professionals
+Supervisory Board Description: 'Our Directors lead Triggerise - setting its vision,
+  shaping its strategy, managing its operations and inspiring its people. '
+Board of Directors Description: The Triggerise Supervisory Board helps fulfil our
+  mission by providing guidance and oversight. It comprises highly accomplished professionals
   who donate their time and share their expertise in delivering impact at scale using
   technology and innovation.
-Board of Directors Description: 'Our Directors lead Triggerise - setting its vision,
-  shaping its strategy, managing its operations and inspiring its people. '
 Team Description: Our people and their commitment to our vision move us forward every
   day. Here are some of the faces that are working hard behind the scenes to create
   big impact.

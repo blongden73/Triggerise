@@ -5,14 +5,14 @@ Title: We are Triggerise
 Numbers:
 - Number: 116
   Text: brilliant people strong
-- Number: 5
-  Text: years of making change for good
+- Number: 25
+  Text: 'cities we call home '
 - Number: 10
   Text: different mother tongues
+- Number: 5
+  Text: years of making change for good
 - Number: 1
-  Text: Shared Goal
-- Number: 25
-  Text: cities we call home
+  Text: shared goal
 Mission-Title: We’re on a mission
 Mission-text: |-
   ### We’re on a mission to trigger millions of positive life choices by young people and make an unsurpassed impact on global health and wellbeing.

@@ -73,12 +73,6 @@ Jobs:
     end development? Continue reading to find out more about our back end developer
     role.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=42
-- Job Title: Tiko System Manager
-  Location: Lucknow, India
-  Job Description: Are you a tech-savvy individual, who likes the idea of mobilising
-    field activities, in a constantly evolving work environment?   Read on to find
-    out more!
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=37
 - Job Title: User Experience Researcher
   Location: Nairobi, Kenya
   Job Description: Do you have in-depth UX understanding of UX research and its applications?

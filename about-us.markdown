@@ -148,12 +148,12 @@ Our People:
 - Name: Shrey
   Role: Corporate Communications Officer
   Key: Amsterdam
-  LinkedIn: http://linkedin.com/in/shreysaraswat
+  LinkedIn: https://linkedin.com/in/shreysaraswat
   Image: "/uploads/Trig_profiles_shrey.jpg"
 - Name: Thera
   Role: Human Resource Manager
   Location: Amsterdam
-  LinkedIn: www.linkedin.com/in/theraengels
+  LinkedIn: https://linkedin.com/in/theraengels
   Image: "/uploads/Trig_profiles_Threa.jpg"
 - Name: Payal
   Role: Country Lead and Director – India

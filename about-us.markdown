@@ -193,6 +193,9 @@ Reports-Resources:
 - Name: 'Annual Report '
   Sub title: 2015
   Link: https://triggerise.org/wp-content/uploads/2020/01/Triggerise-2015-report-FINAL.pdf
+- Name: Financial Report
+  Sub title: 2019
+  Link: https://triggerise.org/wp-content/uploads/2020/06/Triggerise-Stichting-consolidated-FS-2019-_AR_unsigned-1.pdf
 Safeguarding-text: "We always protect user data and never compromise privacy. \n\nWe
   only collect user data that is given with consent and use it to improve our product.
   \n\nWe never sell personal information, this includes metadata. \n"

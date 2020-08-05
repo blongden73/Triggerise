@@ -119,7 +119,7 @@ Our People:
   Role: Addis Ababa
   Location: Country Lead – Ethiopia
   LinkedIn: https://www.linkedin.com/in/lidya-mulat-82829a83/
-  Image: "/uploads/Trig_profiles_werner-95f48f.jpg"
+  Image: "/uploads/Lidya%20(1).jpg"
 - Name: Maria
   Role: Associate Technical Advisor
   Location: Cameroon

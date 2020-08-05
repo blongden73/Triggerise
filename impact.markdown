@@ -11,51 +11,35 @@ Success-stories-intro: Success stories
 Success-stories-descriptor: 'Dive deeper into some of our projects and see how our
   work is improving lives. '
 Success-stories:
-- Title: A triumph for reproductive rights in Kenya
+- Title: Delivering evidence-based impact in Kenya
   Image: "/uploads/lady-050119.jpg"
-  Body: |-
-    **Powerful collaborations**
-    ![TRIGGERISE-KIBERA-139.jpg](/uploads/TRIGGERISE-KIBERA-139.jpg)
-    We connected our donor organisation the C​hi​ldren’s Investment Fund Foundation (CIFF), Kenyian social mobilisers Shujaaz Inc and Marie Stopes Kenya (MSK) to build 145 ecosystems across the country. These ecosystems are made of pharmacies, retailers, on-the-ground mobilisers and clinics, jointly aiming to improve the sexual and reproductive health and prevent unwanted pregnancies for 15-19 year old girls.
-
-    While CIFF supplied the funding, team Triggerise were busy on the ground and Shujaaz Inc launched a campaign to drive self-enrolment. In the meantime, MSK was instrumental in ensuring the quality of our supply of products and services to all the local ecosystems. We’re team players at heart and our far-reaching impact is made possible through co-creation.
-
-
-    Enabling informed choices
-    Our ecosystems connect girls to sexual and reproductive health (SRH) services in three ways:
-
-    • By sparking genuine demand
-    through knowledge: with access to information, girls learn about the possibilities of taking control of their SRH.
-
-    • By increasing access to and choice of quality SRH products and services.
-
-    • By generating a positive mindset in the community around girls making informed choices about their SRH.
-
-    Agile and effective impact with real-time data
+  Body: "**Real-time data and powerful collaborations**\n![TRIGGERISE-KIBERA-139.jpg](/uploads/TRIGGERISE-KIBERA-139.jpg)\nFunded
+    by the Children’s Investment Fund Foundation (CIFF), In Their Hands (ITH) project
+    has connected 319,228 girls to 336,931 SRH services and products across Kenya
+    in 3 years. We built 145 ecosystems in 19 counties of Kenya. These ecosystems
+    are made of pharmacies, retailers, on-the-ground mobilisers and clinics, jointly
+    aiming to improve the sexual and reproductive health and prevent unwanted pregnancies
+    for 15-19 year old girls.\nOur approach towards this objective has been of iterative
+    improvements - learning from the data our members generate and feeding it back
+    into our platform to make it more user-centric every step forward. Access to real-time
+    data and further drawing insights from interactive dashboards based on this data
+    allowed us to improve our platforms in three ways – \n-\tOptimising nudges based
+    on member behaviour\n-\tAddressing risk management issues\n-\tMaintaining the
+    quality and relevance of services offered \nThe visibility into the real-time
+    performance of our interventions brings transparency and agility to our programme.
+    Making every actor and member accountable and also providing evidence of impact
+    on a real-time basis has offered complete transparency to our donors on the operations
+    and performance of the programme. Simultaneously, accessible insights also facilitate
+    collaborative and agile decision-making by the stakeholders that are required
+    for continuous fine-tuning of complex interventions like this; elevating donor
+    relationship to a partner relationship. \nITH has been our flagship programme
+    that demonstrated that relevant impact at scale is possible by deploying technology
+    and behavioural sciences principles.\n"
   Pull out stat: 
   Project: In Their Hands
-  Intro text: Half a million teenage girls in Kenya now have access to contraceptives
-    and sexual health products through our platform. This is how we made it happen.
-- Title: Another Success Story
-  Image: 
-  Body: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-    ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-    eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-    venenatis vitae, justo.\n![1088809-f63314.jpg](/uploads/1088809-f63314.jpg)\n1.
-    Text\n1. Text\n1. Text\n\nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-    et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-    pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus
-    ut, imperdiet a, venenatis vitae, justo.\n![Nuno.jpg](/uploads/Nuno.jpg)\n* Hello
-    \n* Hello"
-  Pull out stat: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-    commodo ligula eget dolor. '
-  Project: Test Project
-  Intro text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-    ligula eget dolor. Aenean massa.
+  Intro text: 'Relevant impact made possible by data-guided and iterative interventions.
+    Half a million teenage girls in Kenya now have easy access to contraceptives and
+    sexual health services through our platform. This is how we made it happen. '
 Journal:
 - Title: Journal 1
   Image: "/uploads/tiko-994821.jpg"

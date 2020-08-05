@@ -1,15 +1,13 @@
 ---
 title: Contact
 date: 2020-07-28 11:50:00 Z
-Address: "**Triggerise Headquarters**\n\nMauritskade 63, 1092AD,\nAmsterdam, The Netherlands\n\n[hello@triggerise.org](mailto:hello@triggerise.org) "
-Field name: |-
-  **Triggerise Ethiopia**
+Address: |-
+  **Triggerise Labs**
 
-  Gulf Aziz Building,
-  Office Number 120,
-  Addis Ababa, Ethiopia
+  Rua de Vilar 235,7 dto,
+  Porto, Portugal
 
-  [helloethiopia@triggerise.org](mailto:helloethiopia@triggerise.org)
+  [hellolabs@triggerise.org](mailto:hellolabs@triggerise.org)
 layout: simple
 ---
 

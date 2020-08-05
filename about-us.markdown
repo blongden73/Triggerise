@@ -49,7 +49,7 @@ Supervisory Board:
     unit within the Office of the CTO at Irdeto. He has 30 years of experience in
     the field of cybersecurity and leads software development, technology research,
     and innovation teams."
-  Image: "/uploads/Trig_profiles_werner.jpg"
+  Image: "/uploads/Werner%20(1).jpg"
 - Name: Leontine Gast
   Role: 
   Description: "(Amsterdam, The Netherlands) is the CEO of The Terrace. She works

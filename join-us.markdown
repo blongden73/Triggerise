@@ -9,7 +9,7 @@ Testimonial:
     challenging, collaborative, casual, autonomous, friendly and engaging.  Contributing
     to an organization that helps people help themselves while also watching it grow,
     learning about exciting new technologies, and improving myself as a developer
-    and, most of all, as a person is the most fulfilling for me. "
+    and, most of all, as a person is the most fulfilling for me."
 
 '
   Name: Nuno Marques | Backend Developer, Porto

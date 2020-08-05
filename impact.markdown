@@ -25,7 +25,7 @@ Success-stories:
     data and further drawing insights from interactive dashboards based on this data
     allowed us to improve our platforms in three ways – \n-\tOptimising nudges based
     on member behaviour\n-\tAddressing risk management issues\n-\tMaintaining the
-    quality and relevance of services offered \nThe visibility into the real-time
+    quality and relevance of services offered \n\nThe visibility into the real-time
     performance of our interventions brings transparency and agility to our programme.
     Making every actor and member accountable and also providing evidence of impact
     on a real-time basis has offered complete transparency to our donors on the operations

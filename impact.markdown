@@ -44,7 +44,8 @@ Journal:
 - Title: Journal 1
   Image: "/uploads/tiko-994821.jpg"
   Link: 
-Journal Switch: 'False'
+Journal Switch: 'True'
+Key: 
 layout: impact
 ---
 

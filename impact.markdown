@@ -40,11 +40,8 @@ Success-stories:
   Intro text: 'Relevant impact made possible by data-guided and iterative interventions.
     Half a million teenage girls in Kenya now have easy access to contraceptives and
     sexual health services through our platform. This is how we made it happen. '
-Journal:
-- Title: Journal 1
-  Image: "/uploads/tiko-994821.jpg"
-  Link: 
-Journal Switch: 'True'
+Journal: 
+Journal Switch: 'False'
 Key: 
 layout: impact
 ---

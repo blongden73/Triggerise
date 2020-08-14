@@ -181,6 +181,9 @@ Our People:
   LinkedIn: https://www.linkedin.com/in/amuxix/
   Image: "/uploads/Trig_profiles_samuel.jpg"
 Reports-Resources:
+- Name: Annual Report
+  Sub title: 2019
+  Link: https://triggerise.org/wp-content/uploads/2020/08/Annual-Report-2019.pdf
 - Name: 'Annual Report  '
   Sub title: 2018
   Link: https://triggerise.org/wp-content/uploads/2019/06/Triggerise_2018_Annual_Report.pdf

@@ -377,6 +377,10 @@
           margin-top: spacing(-2);
 
           @include mq($from: desktop) {
+            font-size: map-get($font-scale, bigpar);
+          }
+
+          @include mq($from: wide) {
             font-size: map-get($font-scale, 2);
           }
         }
@@ -386,6 +390,10 @@
           line-height: 1.2;
 
           @include mq($from: desktop) {
+            font-size: map-get($font-scale, 1);
+          }
+
+          @include mq($from: wide) {
             font-size: map-get($font-scale, bigpar);
           }
         }
@@ -395,6 +403,10 @@
 
   &.team {
     height: auto;
+
+    @include mq($from: desktop) {
+      height: 68vh;
+    }
   }
 
   &.impact.cream {
@@ -690,6 +702,29 @@
 
 .success-stories {
   padding-bottom: 20px;
+
+  &.privacy {
+
+    @include mq($from: desktop) {
+      padding-top: 20px;
+    }
+
+    .story-list {
+      @include mq($from: desktop) {
+        border-bottom: 0;
+        background-color: transparent;
+      }
+    }
+
+    .success-story-wrapper {
+      @include mq($from: desktop) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        margin-top: -40px;
+      }
+    }
+  }
 }
 
 .ecoSystem {
@@ -1046,9 +1081,13 @@
 
   @include mq($from: desktop) {
     width: 33.3%;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
-    max-height: 90vh;
+    max-height: 60vh;
+
+    &:hover {
+      overflow-y: scroll;
+    }
   }
 
   &:hover {
@@ -1196,6 +1235,10 @@
     margin-bottom: 20px;
     transition: transform 0.2s ease-in-out;
 
+    &.display {
+      display: block !important;
+    }
+
     &:hover {
       transform: scale(1.02);
     }
@@ -1219,7 +1262,26 @@
       }
     }
 
+    &:nth-child(5n + 5) {
+      .one {
+        display: block;
+      }
+    }
+
     &:nth-child(2) {
+      background-color: $yellow;
+
+      .two {
+        display: block;
+        width: 93%;
+      }
+
+      h2, h3 {
+        color: $darkBlue;
+      }
+    }
+
+    &:nth-child(6n + 6) {
       background-color: $yellow;
 
       .two {
@@ -1245,7 +1307,37 @@
         color: $darkBlue;
       }
     }
+
+    &:nth-child(7n + 7) {
+      background-color: $pink;
+
+      .three {
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      h2, h3 {
+        color: $darkBlue;
+      }
+    }
+
     &:nth-child(4) {
+      background-color: $green;
+
+      .four {
+        display: block;
+        left: 50%;
+        bottom: 22%;
+        transform: translate(-50%, -50%);
+      }
+
+      h2, h3 {
+        color: $darkBlue;
+      }
+    }
+
+    &:nth-child(8n+8) {
       background-color: $green;
 
       .four {
@@ -1267,6 +1359,8 @@
     svg {
       position: absolute;
       bottom: spacing(2);
+      width: 90%;
+      height: auto;
     }
 
     h2, h3 {
@@ -1376,6 +1470,17 @@
     left: 0;
   }
 
+  .dot-wrapper {
+    &:nth-child(1) {
+      @include mq($from: desktop) {
+        display: none;
+      }
+      @include mq($from: wide) {
+        display: flex;
+      }
+    }
+  }
+
   .dot {
     background-color: $lightBlue;
   }
@@ -1400,10 +1505,26 @@
     margin: 0;
     font-weight: 400;
 
+    @include mq($from: desktop) {
+      font-size: map-get($font-scale, 4);
+    }
+
+    @include mq($from: wide) {
+      font-size: map-get($font-scale, 4);
+    }
+
     span {
       font-size: map-get($font-scale, 2);
       display: block;
       margin-bottom: 10px;
+
+      @include mq($from: desktop) {
+        font-size: map-get($font-scale, bigpar);
+      }
+
+      @include mq($from: wide) {
+        font-size: map-get($font-scale, 2);
+      }
 
       @include mq($from: desktop) {
         display: inline-block;
@@ -1753,5 +1874,49 @@
 
   p {
     max-width: 40%;
+  }
+
+  .address-wrapper {
+    @include mq($from: desktop) {
+      column-count: 2;
+      column-fill: balance;
+    }
+  }
+}
+
+.filters {
+  max-width: fit-content;
+  display: flex;
+  margin-bottom: 20px;
+
+  .filter {
+    border: 1px solid $darkBlue;
+    margin-right: 10px;
+    padding: 8px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $darkBlue;
+      color: $pink;
+    }
+  }
+}
+
+
+//arrows for carousel
+.fp-controlArrow {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNDUiIHZpZXdCb3g9IjAgMCA0NSA0NSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTS0xLjg5ODg4ZS0wNiAyMi41Qy0xLjM1NTk2ZS0wNiAxMC4wNzk1IDEwLjA3OTUgOS4zNjc4N2UtMDcgMjIuNSAxLjQ3OTdlLTA2QzM0LjkyMDQgMi4wMjI2MmUtMDYgNDUgMTAuMDc5NSA0NSAyMi41QzQ1IDM0LjkyMDUgMzQuOTM1NCA0NSAyMi41IDQ1QzEwLjA3OTUgNDUgLTIuNDQyNDVlLTA2IDM0LjkzNTQgLTEuODk4ODhlLTA2IDIyLjVaIiBmaWxsPSIjMkM0NDlDIi8+CjxwYXRoIGQ9Ik0yNSAxNkwxOCAyM0wyNSAzMCIgc3Ryb2tlPSIjRjlEN0RGIiBzdHJva2Utd2lkdGg9IjMiLz4KPC9zdmc+Cg==");
+  width: 40px !important;
+  height: 40px;
+  border: none;
+  background-size: 100%;
+
+  &.fp-next {
+    transform: rotate(180deg);
+  }
+
+  @include mq($until: tablet) {
+    top: auto;
+    bottom: spacing(2);
   }
 }

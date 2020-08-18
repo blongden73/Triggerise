@@ -119,6 +119,7 @@
 .footer-left {
   h3 {
     margin-bottom: spacing(3);
+    color: $blue;
   }
 }
 
@@ -140,6 +141,9 @@
     svg {
       width: 150px;
       height: auto;
+      path {
+        fill:$blue;
+      }
     }
 }
 

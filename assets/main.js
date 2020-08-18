@@ -173,7 +173,7 @@ var myFullpage = new fullpage('#fullpage', {
   slidesNavigation: true,
 	slidesNavPosition: 'bottom',
   fadingEffect:'slides',
-  controlArrows: false
+  controlArrows: true
 });
 
 //ecosystem
@@ -285,6 +285,29 @@ function classLists() {
   document.querySelector('#svgMap-map-country-CM').classList.add('operation');
 }
 
+
+var filtersCheck = document.querySelectorAll('.filter');
+function filters(){
+ for(i=0; i<filtersCheck.length; i++) {
+   filtersCheck[i].addEventListener('click', function(){
+     document.querySelectorAll('.report-cover').forEach((item, i) => {
+       item.classList.remove('display');
+     });
+
+      var data = this.dataset.click;
+      var selected = document.querySelectorAll('.report-cover.' + data);
+      console.log(selected);
+      for(j=0; j<selected.length; j++) {
+        console.log(j);
+        document.querySelectorAll('.report-cover').forEach((item, i) => {
+          item.style.display = "none";
+        });
+        selected[j].classList.add('display');
+      }
+   });
+ }
+};
+
 function init(){
   if(worldMapCheck){
     worldMap();
@@ -292,5 +315,8 @@ function init(){
   }
   if(map) {
     scroll();
+  }
+  if(filtersCheck) {
+    filters();
   }
 }init();

@@ -6,7 +6,7 @@ layout: default
 {% assign content = page.content %}
 {% include 1up.html colour="cream" sectionTitle=title description=content classList="flexWrapper padd" %}
 
-<div class="t-one {{include.colour}} autoHeight success-stories padd" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
+<div class="t-one {{include.colour}} autoHeight success-stories padd simple {% if page.title == "Privacy Policy" %}privacy{% endif %}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper {% if page.title == "Contact" %} flex {% endif %}">
     {% if page.title == "Contact" %}
     <div class="contact-form">
@@ -23,7 +23,11 @@ layout: default
     </div>
     <div class="addresses">
       <h2>Our locations</h2>
-      {{page.Address | markdownify }}
+      <div class="address-wrapper">
+      {% for Address in page.Addresses %}
+          {{Address.Address | markdownify }}
+      {% endfor %}
+      </div>
     </div>
     {% endif %}
     {% if page.title == "Privacy Policy" %}

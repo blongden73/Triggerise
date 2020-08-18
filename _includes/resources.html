@@ -1,10 +1,17 @@
 <div class="t-one {{include.colour}} {{include.classList}}" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100">
   <div class="wrapper">
     <h2>Reports & resources</h2>
+    <div class="filters">
+      {% assign filters = page.Filters %}
+      <div class="filter" data-click="report-cover">All</div>
+      {% for filter in filters %}
+        <div class="filter" data-click="{{filter.Filter}}">{{filter.Key}}</div>
+      {% endfor %}
+    </div>
     {% assign reports = page.Reports-Resources %}
     <div class="t-rescources-wrapper flex">
       {% for report in reports %}
-        <div class="report-cover">
+        <div class="report-cover {{report.Tag}}">
           <a href="{{report.Link}}"></a>
           <h2>{{report.Name}}</h2>
           <h3>{{report.['Sub title']}}</h3>

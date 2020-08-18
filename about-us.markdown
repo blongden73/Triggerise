@@ -187,18 +187,23 @@ Reports-Resources:
 - Name: 'Annual Report  '
   Sub title: 2018
   Link: https://triggerise.org/wp-content/uploads/2019/06/Triggerise_2018_Annual_Report.pdf
+  Tag: AnnualReport
 - Name: Annual Report
   Sub title: 2017
   Link: https://triggerise.org/wp-content/uploads/2019/02/Triggerise-2017-Annual-Report.pdf
+  Tag: AnnualReport
 - Name: 'Annual Report '
   Sub title: 2016
   Link: https://triggerise.org/wp-content/uploads/2019/02/Triggerise-2016-annual-report-1.pdf
+  Tag: AnnualReport
 - Name: 'Annual Report '
   Sub title: 2015
   Link: https://triggerise.org/wp-content/uploads/2020/01/Triggerise-2015-report-FINAL.pdf
+  Key: AnnualReport
 - Name: Financial Report
   Sub title: 2019
   Link: https://triggerise.org/wp-content/uploads/2020/06/Triggerise-Stichting-consolidated-FS-2019-_AR_unsigned-1.pdf
+  Tag: FinancialReport
 Safeguarding-text: "We always protect user data and never compromise privacy. \n\nWe
   only collect user data that is given with consent and use it to improve our product.
   \n\nWe never sell personal information, this includes metadata. \n"

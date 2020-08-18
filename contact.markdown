@@ -8,10 +8,10 @@ Address: |-
   Porto, Portugal
 
   [hellolabs@triggerise.org](mailto:hellolabs@triggerise.org)
-Address-two: 
-Address-three: 
-Address-four: 
-Address-five: 
+Address-two description: 
+Address-three description: 
+Address-four description: 
+Address-five description: 
 layout: simple
 ---
 

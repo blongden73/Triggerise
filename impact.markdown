@@ -45,7 +45,6 @@ Journal:
   Link: 
   Image: 
 Journal Switch: 'False'
-Key: 
 layout: impact
 ---
 

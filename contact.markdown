@@ -8,7 +8,13 @@ Address: |-
   Porto, Portugal
 
   [hellolabs@triggerise.org](mailto:hellolabs@triggerise.org)
-Address-two description: 
+Address-two description: |-
+  **Triggerise Headquarters**
+
+  Mauritskade 63, 1092AD,
+  Amsterdam, The Netherlands
+
+  [hello@triggerise.org](mailto:hello@triggerise.org)
 Address-three description: 
 Address-four description: 
 Address-five description: 

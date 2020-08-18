@@ -184,6 +184,7 @@ Reports-Resources:
 - Name: Annual Report
   Sub title: 2019
   Link: https://triggerise.org/wp-content/uploads/2020/08/Annual-Report-2019.pdf
+  Tag: AnnualReport
 - Name: 'Annual Report  '
   Sub title: 2018
   Link: https://triggerise.org/wp-content/uploads/2019/06/Triggerise_2018_Annual_Report.pdf
@@ -199,7 +200,7 @@ Reports-Resources:
 - Name: 'Annual Report '
   Sub title: 2015
   Link: https://triggerise.org/wp-content/uploads/2020/01/Triggerise-2015-report-FINAL.pdf
-  Key: AnnualReport
+  Tag: AnnualReport
 - Name: Financial Report
   Sub title: 2019
   Link: https://triggerise.org/wp-content/uploads/2020/06/Triggerise-Stichting-consolidated-FS-2019-_AR_unsigned-1.pdf

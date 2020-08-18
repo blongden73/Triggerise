@@ -1,41 +1,21 @@
 ---
 title: Contact
 date: 2020-07-28 11:50:00 Z
-Address: |-
-  **Triggerise Labs**
+Addresses:
+- Address: |-
+    **Triggerise Labs**
 
-  Rua de Vilar 235,7 dto,
-  Porto, Portugal
+    Rua de Vilar 235,7 dto,
+    Porto, Portugal
 
-  [hellolabs@triggerise.org](mailto:hellolabs@triggerise.org)
-Address-two description: |-
-  **Triggerise Headquarters**
+    [hellolabs@triggerise.org](mailto:hellolabs@triggerise.org)
+- Address: |-
+    **Triggerise Headquarters**
 
-  Mauritskade 63, 1092AD,
-  Amsterdam, The Netherlands
+    Mauritskade 63, 1092AD,
+    Amsterdam, The Netherlands
 
-  [hello@triggerise.org](mailto:hello@triggerise.org)
-Address-three description: |-
-  **Triggerise Headquarters**
-
-  Mauritskade 63, 1092AD,
-  Amsterdam, The Netherlands
-
-  [hello@triggerise.org](mailto:hello@triggerise.org)
-Address-four description: |-
-  **Triggerise Headquarters**
-
-  Mauritskade 63, 1092AD,
-  Amsterdam, The Netherlands
-
-  [hello@triggerise.org](mailto:hello@triggerise.org)
-Address-five description: |-
-  **Triggerise Headquarters**
-
-  Mauritskade 63, 1092AD,
-  Amsterdam, The Netherlands
-
-  [hello@triggerise.org](mailto:hello@triggerise.org)
+    [hello@triggerise.org](mailto:hello@triggerise.org)
 layout: simple
 ---
 

@@ -44,15 +44,21 @@
 
 h1 { font-size: 50px; line-height: 1; }
 
-@media all and (min-width: 61.25em) { h1 { font-size: 90px; line-height: 1; } }
+@media all and (min-width: 61.25em) { h1 { font-size: 70px; line-height: 1; } }
+
+@media all and (min-width: 81.25em) { h1 { font-size: 90px; line-height: 1; } }
 
 h2 { font-size: 30px; line-height: 1.2; }
 
-@media all and (min-width: 61.25em) { h2 { font-size: 40px; } }
+@media all and (min-width: 61.25em) { h2 { font-size: 30px; } }
+
+@media all and (min-width: 81.25em) { h2 { font-size: 40px; } }
 
 h3 { font-size: 20px; line-height: 1.2; }
 
-@media all and (min-width: 61.25em) { h3 { font-size: 30px; } }
+@media all and (min-width: 61.25em) { h3 { font-size: 25px; } }
+
+@media all and (min-width: 81.25em) { h3 { font-size: 30px; } }
 
 h4 { font-size: 25px; line-height: 1.2; }
 
@@ -327,7 +333,9 @@ footer .socials li { margin-right: 10px; }
 
 .t-two-title-float .line { height: 16px; background-color: #fff; width: 0; margin-right: 10px; margin-top: 0px; animation-name: lineWidth; animation-fill-mode: forwards; animation-duration: 4s; animation-delay: 1s; margin-bottom: 8px; }
 
-@media all and (min-width: 61.25em) { .t-two-title-float .line { margin-top: 47px; margin-bottom: 0; } }
+@media all and (min-width: 61.25em) { .t-two-title-float .line { margin-top: 29px; margin-bottom: 0; } }
+
+@media all and (min-width: 81.25em) { .t-two-title-float .line { margin-top: 47px; margin-bottom: 0; } }
 
 .t-one { width: 100%; min-height: auto; padding-bottom: 10px; height: auto; }
 
@@ -359,7 +367,9 @@ footer .socials li { margin-right: 10px; }
 
 .t-one.flexWrapper .wrapper h3 { width: 100%; font-size: 50px; line-height: 1; font-weight: 400; }
 
-@media all and (min-width: 61.25em) { .t-one.flexWrapper .wrapper h3 { width: 50%; font-size: 90px; } }
+@media all and (min-width: 61.25em) { .t-one.flexWrapper .wrapper h3 { width: 50%; font-size: 70px; } }
+
+@media all and (min-width: 81.25em) { .t-one.flexWrapper .wrapper h3 { font-size: 90px; } }
 
 .t-one.flexWrapper .wrapper .t-one__description-wrapper { width: 100%; padding-right: 8%; box-sizing: border-box; padding-top: calc(10px * 4); }
 
@@ -407,7 +417,9 @@ footer .socials li { margin-right: 10px; }
 
 .full .t-one__diagram-wrapper { display: none; }
 
-@media all and (min-width: 61.25em) { .full .t-one__diagram-wrapper { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; max-width: calc(1300px - 30px); display: block; } }
+@media all and (min-width: 61.25em) { .full .t-one__diagram-wrapper { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; max-width: calc(980px - 30px); display: block; } }
+
+@media all and (min-width: 81.25em) { .full .t-one__diagram-wrapper { width: 100%; max-width: calc(1300px - 30px); } }
 
 @media all and (min-width: 61.25em) { .full .t-one__description-wrapper { position: absolute; bottom: calc(10px * 3); } }
 
@@ -475,7 +487,9 @@ footer .socials li { margin-right: 10px; }
 
 .ecoSystem .ecosystem-map { position: relative; height: 290px; max-height: 90vh; margin-left: auto; margin-right: auto; overflow: hidden; }
 
-@media all and (min-width: 61.25em) { .ecoSystem .ecosystem-map { height: 600px; margin-top: calc(10px * 4); } }
+@media all and (min-width: 61.25em) { .ecoSystem .ecosystem-map { height: 430px; margin-top: calc(10px * 4); } }
+
+@media all and (min-width: 81.25em) { .ecoSystem .ecosystem-map { height: 600px; } }
 
 .ecoSystem .ecosystem-map svg { position: absolute; top: 0; width: 160%; height: auto; left: 50%; transform: translateX(-50%); }
 
@@ -552,7 +566,7 @@ footer .socials li { margin-right: 10px; }
 
 .bigNumber { font-size: 90px; line-height: 1; letter-spacing: -5px; font-weight: 100; }
 
-@media all and (min-width: 61.25em) { .bigNumber { font-size: 120px; line-height: 1; } }
+@media all and (min-width: 61.25em) { .bigNumber { font-size: 90px; line-height: 1; } }
 
 @media all and (min-width: 81.25em) { .bigNumber { font-size: 140px; line-height: 1; } }
 
@@ -729,7 +743,9 @@ footer .socials li { margin-right: 10px; }
 
 .t-data-wrapper h1 { font-size: 15vw; font-weight: 100; }
 
-@media all and (min-width: 61.25em) { .t-data-wrapper h1 { font-size: 110px; } }
+@media all and (min-width: 61.25em) { .t-data-wrapper h1 { font-size: 70px; } }
+
+@media all and (min-width: 81.25em) { .t-data-wrapper h1 { font-size: 110px; } }
 
 .t-data-wrapper h1:nth-child(1) { margin-top: calc(10px * 1); }
 
@@ -794,6 +810,10 @@ footer .socials li { margin-right: 10px; }
 .jobs .job:hover { transform: scale(1.02); }
 
 .jobs .job h3 { font-size: 30px; line-height: 1; margin: 0; }
+
+@media all and (min-width: 61.25em) { .jobs .job h3 { font-size: 20px; } }
+
+@media all and (min-width: 81.25em) { .jobs .job h3 { font-size: 30px; } }
 
 .jobs .job h3.location { opacity: 0.5; margin-bottom: calc(10px * 2); margin-top: calc(10px * 2); font-size: 17px; }
 

@@ -18,6 +18,11 @@ h1 {
   line-height: 1;
 
   @include mq($from: desktop) {
+    font-size: map-get($font-scale, 5);
+    line-height: 1;
+  }
+
+  @include mq($from: wide) {
     font-size: map-get($font-scale, 10);
     line-height: 1;
   }
@@ -28,6 +33,10 @@ h2 {
   line-height: 1.2;
 
   @include mq($from: desktop) {
+    font-size: map-get($font-scale, 2);
+  }
+
+  @include mq($from: wide) {
     font-size: map-get($font-scale, 3);
   }
 }
@@ -37,6 +46,10 @@ h3 {
   line-height: 1.2;
 
   @include mq($from: desktop) {
+    font-size: map-get($font-scale, bigpar);
+  }
+
+  @include mq($from: wide) {
     font-size: map-get($font-scale, 2);
   }
 }

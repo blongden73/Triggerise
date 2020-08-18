@@ -269,6 +269,10 @@
     margin-bottom: 8px;
 
     @include mq($from: desktop) {
+      margin-top: 29px;
+      margin-bottom: 0;
+    }
+    @include mq($from: wide) {
       margin-top: 47px;
       margin-bottom: 0;
     }
@@ -348,6 +352,10 @@
 
         @include mq($from: desktop) {
           width: 50%;
+          font-size: map-get($font-scale, 5);
+        }
+
+        @include mq($from: wide) {
           font-size: map-get($font-scale, 10);
         }
       }
@@ -502,8 +510,13 @@
       left: 50%;
       transform: translate(-50%, -50%);
       width: 100%;
-      max-width: calc(1300px - 30px);
+      max-width: calc(980px - 30px);
       display:block;
+    }
+
+    @include mq($from: wide) {
+      width: 100%;
+      max-width: calc(1300px - 30px);
     }
   }
 
@@ -691,8 +704,12 @@
     overflow: hidden;
 
     @include mq($from: desktop) {
-      height: 600px;
+      height: 430px;
       margin-top: spacing(4);
+    }
+
+    @include mq($from: wide) {
+      height: 600px;
     }
 
     svg {
@@ -892,7 +909,7 @@
   font-weight: 100;
 
   @include mq($from: desktop) {
-    font-size: map-get($font-scale, 11);
+    font-size: map-get($font-scale, 10);
     line-height: 1;
   }
 
@@ -1434,6 +1451,10 @@
     font-size: 15vw;
     font-weight: 100;
     @include mq($from: desktop) {
+      font-size: map-get($font-scale, 5);
+    }
+
+    @include mq($from: wide) {
       font-size: map-get($font-scale, data);
     }
 
@@ -1601,6 +1622,14 @@
       font-size: map-get($font-scale, 2);
       line-height: 1;
       margin: 0;
+
+      @include mq($from: desktop) {
+        font-size: map-get($font-scale, 1);
+      }
+
+      @include mq($from: wide) {
+        font-size: map-get($font-scale, 2);
+      }
 
       &.location {
         opacity: 0.5;

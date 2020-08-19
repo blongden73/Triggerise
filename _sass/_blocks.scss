@@ -894,20 +894,20 @@
   }
 }
 
-@for $i from 1 through 6 {
+@for $i from 1 through 9 {
   .ecoSystem .ecosystem-map.display svg:nth-child(#{$i}) {
     animation-name: fadeIn;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
-    animation-delay: $i * 0.5s;
+    animation-delay: $i * 0.75s;
   }
 }
 
 .ecosystem-map svg.dash {
   opacity: 0;
   transition: opacity 1s ease-in-out;
-  transition-delay: 3s;
+  transition-delay: 5.5s;
 }
 
 .ecoSystem .ecosystem-map.display svg.dash {

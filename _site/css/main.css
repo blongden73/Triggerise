@@ -64,6 +64,8 @@ h4 { font-size: 25px; line-height: 1.2; }
 
 p { font-size: 15px; line-height: 1.4; }
 
+@media all and (min-width: 61.25em) { p { font-size: 13px; } }
+
 @media all and (min-width: 81.25em) { p { font-size: 17px; } }
 
 @font-face { font-family: 'Stabil Grotesk'; src: url("/assets/StabilGrotesk-Medium.woff2") format("woff2"), url("/assets/StabilGrotesk-Medium.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
@@ -156,6 +158,8 @@ footer .small ul li { margin-right: 10px; }
 footer .socials { display: flex; margin: 0; list-style: none; margin-top: 10px; margin-bottom: 30px; }
 
 footer .socials li { margin-right: 10px; }
+
+footer .socials li svg circle { fill: #2C449C; }
 
 /** Site header */
 .site-header { border-bottom: 1px solid #e8e8e8; min-height: 56px; padding-top: calc(10px * 2); position: fixed; top: 0; width: 100%; background-color: #fff; z-index: 1000; }
@@ -341,7 +345,7 @@ footer .socials li { margin-right: 10px; }
 
 .t-one { width: 100%; min-height: auto; padding-bottom: 10px; height: auto; }
 
-@media all and (min-width: 61.25em) { .t-one { min-height: 40vh; height: 40vh; } }
+@media all and (min-width: 61.25em) { .t-one { min-height: 310px; height: 40vh; } }
 
 .t-one.team { padding-bottom: 0; }
 
@@ -496,6 +500,8 @@ footer .socials li { margin-right: 10px; }
 @media all and (min-width: 61.25em) { .success-stories.privacy .story-list { border-bottom: 0; background-color: transparent; } }
 
 @media all and (min-width: 61.25em) { .success-stories.privacy .success-story-wrapper { margin-left: auto; margin-right: auto; max-width: 600px; margin-top: -40px; } }
+
+@media all and (min-width: 61.25em) { .success-stories.policy .success-story-wrapper { margin-top: 0; } }
 
 .ecoSystem { height: auto; }
 
@@ -922,11 +928,13 @@ footer .socials li { margin-right: 10px; }
 
 @media all and (max-width: 46.24em) { .fp-controlArrow { top: auto; bottom: calc(10px * 2); } }
 
-.cookies-banner { background-color: #2C449C; padding-top: 16px; padding-bottom: 16px; position: fixed; bottom: 0; width: 100%; z-index: 100; transition: transform ease-in-out 0.5s; transform: translateY(70px); transition-delay: 1s; }
+.cookies-banner { background-color: #2C449C; padding-top: 16px; padding-bottom: 16px; position: fixed; bottom: 0; width: 100%; z-index: 100; transition: transform ease-in-out 0.5s; transform: translateY(100%); transition-delay: 1s; }
 
 .cookies-banner.display { transform: translateY(0); }
 
-.cookies-banner span { display: inline-block; float: right; border: 1px solid #D8A0C8; padding-left: 6px; padding-right: 6px; padding-top: 6px; padding-bottom: 6px; }
+.cookies-banner span { display: block; border: 1px solid #D8A0C8; padding-left: 6px; padding-right: 6px; padding-top: 6px; padding-bottom: 6px; margin-top: 10px; width: max-content; }
+
+@media all and (min-width: 61.25em) { .cookies-banner span { display: inline-block; float: right; margin-top: 0; } }
 
 .cookies-banner span:hover { background-color: #D8A0C8; color: #2C449C; }
 

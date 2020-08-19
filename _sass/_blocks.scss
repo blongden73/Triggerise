@@ -286,7 +286,7 @@
   height: auto;
 
   @include mq($from: desktop) {
-    min-height: 40vh;
+    min-height: 310px;
     height: 40vh;
   }
 
@@ -722,6 +722,14 @@
         margin-right: auto;
         max-width: 600px;
         margin-top: -40px;
+      }
+    }
+  }
+
+  &.policy {
+    .success-story-wrapper {
+      @include mq($from: desktop) {
+        margin-top: 0;
       }
     }
   }
@@ -1935,7 +1943,7 @@
   width: 100%;
   z-index: 100;
   transition: transform ease-in-out 0.5s;
-  transform: translateY(70px);
+  transform: translateY(100%);
   transition-delay: 1s;
 
   &.display {
@@ -1943,13 +1951,20 @@
   }
 
   span {
-    display: inline-block;
-    float: right;
+    display: block;
     border: 1px solid $pink;
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 6px;
     padding-bottom: 6px;
+    margin-top: 10px;
+    width: max-content;
+
+    @include mq($from: desktop) {
+      display: inline-block;
+      float: right;
+      margin-top: 0;
+    }
 
     &:hover {
       background-color: $pink;

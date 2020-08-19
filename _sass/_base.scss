@@ -284,6 +284,12 @@ footer {
 
     li {
       margin-right: 10px;
+
+      svg {
+        circle {
+          fill: $blue;
+        }
+      }
     }
   }
 }

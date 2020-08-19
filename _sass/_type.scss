@@ -10,7 +10,8 @@ $font-scale: (
     bigpar: 25px,
     1: 20px,
     0: 17px,
-    small: 15px
+    small: 15px,
+    mini: 13px,
 );
 
 h1 {
@@ -62,6 +63,11 @@ h4 {
 p {
   font-size: map-get($font-scale, small);
   line-height: 1.4;
+
+  @include mq($from: desktop) {
+    font-size: map-get($font-scale, mini);
+  }
+
   @include mq($from: wide) {
     font-size: map-get($font-scale, 0);
   }

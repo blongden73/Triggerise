@@ -262,7 +262,7 @@ function classLists() {
   document.querySelector('#svgMap-map-country-ZA').classList.add('office');
   document.querySelector('#svgMap-map-country-NL').classList.add('office');
   document.querySelector('#svgMap-map-country-US').classList.add('project');
-  document.querySelector('#svgMap-map-country-PT').classList.add('operation');
+  document.querySelector('#svgMap-map-country-PT').classList.add('office');
   document.querySelector('#svgMap-map-country-UG').classList.add('project');
   document.querySelector('#svgMap-map-country-BF').classList.add('project');
   document.querySelector('#svgMap-map-country-KE').classList.add('operation-office');

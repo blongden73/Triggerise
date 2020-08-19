@@ -3,6 +3,13 @@ title: Contact
 date: 2020-07-28 11:50:00 Z
 Addresses:
 - Address: |-
+    **Triggerise Headquarters**
+
+    Mauritskade 63, 1092AD,
+    Amsterdam, The Netherlands
+
+    [hello@triggerise.org](mailto:hello@triggerise.org)
+- Address: |-
     **Triggerise Labs**
 
     Rua de Vilar 235,7 dto,
@@ -10,33 +17,31 @@ Addresses:
 
     [hellolabs@triggerise.org](mailto:hellolabs@triggerise.org)
 - Address: |-
-    **Triggerise Headquarters**
+    **Triggerise Ethiopia**
 
-    Mauritskade 63, 1092AD,
-    Amsterdam, The Netherlands
+    Gulf Aziz Building,
+    Office Number 120,
+    Addis Ababa, Ethiopia
 
-    [hello@triggerise.org](mailto:hello@triggerise.org)
+    [helloethiopia@triggerise.org](mailto:helloethiopia@triggerise.org)
 - Address: |-
-    **Triggerise Headquarters**
+    **Triggerise Kenya**
 
-    Mauritskade 63, 1092AD,
-    Amsterdam, The Netherlands
+    The Promenade,
+    General Mathenge,
+    3rd floor, Nairobi Garage Offices,
+    Nairobi, Kenya
 
-    [hello@triggerise.org](mailto:hello@triggerise.org)
+    [hellokenya@triggerise.org](mailto:hellokenya@triggerise.org)
 - Address: |-
-    **Triggerise Headquarters**
+    **Triggerise India**
 
-    Mauritskade 63, 1092AD,
-    Amsterdam, The Netherlands
+    Awfis Space Solutions,
+    L-29, 1 Floor, L Block,
+    Connaught Place,
+    New Delhi, India
 
-    [hello@triggerise.org](mailto:hello@triggerise.org)
-- Address: |-
-    **Triggerise Headquarters**
-
-    Mauritskade 63, 1092AD,
-    Amsterdam, The Netherlands
-
-    [hello@triggerise.org](mailto:hello@triggerise.org)
+    [helloindia@triggerise.org](mailto:helloindia@triggerise.org)
 layout: simple
 ---
 

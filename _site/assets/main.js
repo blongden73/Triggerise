@@ -190,15 +190,11 @@ var worldMapCheck = document.querySelector('#svgMap');
 function worldMap() {
   new svgMap({
     targetElementID: 'svgMap',
-    flagType: 'emoji',
+    flagType: 'image',
     mouseWheelZoomEnabled: false,
     noDataText: 'We have no projects here',
     data: {
       data: {
-        cities: {
-          name: 'Cities',
-          format:'{0}'
-        },
         description: {
           name: 'Operations',
           format: '{0}'
@@ -212,59 +208,49 @@ function worldMap() {
           format: '{0}'
         }
       },
-      applyData: 'cities',
+      applyData: 'office',
       values: {
         CM: {
           project:'—',
           office:'—',
-          cities: 'Maroua, Lom-et-Djére, Haut-Nyong',
           description: 'Operational since 2018, our operations in Cameroon serve young girls and boys in the Far North and Eastern regions with SRH services. Funded by Cordaid, we have built an ecosystem with XYZ numbers of service providers connected to our platform in Cameroon.'
           },
         ET: {
           project:'—',
-          cities: 'Addis Ababa, Afar',
           description: 'Operational since 2016, our operations in Ethiopia serve young girls in Addis Ababa and Afar regions with SRH services. Funded by Rutgers and Embassy of Netherlands, Ethiopia, we have built an ecosystem with 77 numbers of service providers connected to our platform in Ethiopia.',
           office: 'Established in 2017, our Addis Ababa office provides regional support to operations in Ethiopia.'
             },
         IN: {
           project:'—',
-          cities: 'Agra, Ajmer, Alwar, Dausa, Delhi, Firozabad, Jaipur, Lucknow, New Delhi, Tonk',
           description: 'Operational since 2015, our operations in India serve young girls and mothers in Delhi, Rajasthan and Uttar Pradesh with SRH And ANC services. Funded by the Ministry of Foreign Affairs of the Netherlands and Grand Challenges Canada (GCC) have built an ecosystem with 228 numbers of service providers connected to our platform in India.',
           office: 'Established in 2017, our Addis Ababa officeEstablished in 2015, our New Delhi office provides regional support to operations in India.' },
         KE: {
           project:'—',
-          cities: 'Nairobi, Kisumu, Mombasa, Kajiado, Nakuru, Bungoma, Vihiga, Homa Bay, Busia, Siaya, Kisii, Nyamira, Kilifi, Kakamega, Kiambu, Mgori, Kericho, Uasin Gishu, Narok, Trans Nzoia. Nyeri, Embu, Laikipia, Kirinyaga, Nandi',
           description: 'Operational since 2015, our operations in Kenya serve young girls in over 15 counties with SRH services. Funded by the Children’s Investment Fund Foundation (CIFF) have built an ecosystem with 551 service providers connected to our platform in Kenya.',
           office:'Established in 2015, our Nairobi office provides regional support to operations in Burkina Faso, Cameroon, Democratic Republic of Congo and Kenya.'},
         BF: {
           office:'—',
           description:'—',
-          cities: 'Ouagadougou, Bobo Dioulasso',
           project: ' Scheduled to implement our platform in 2020, we aim to connect young girls in Ouagadougou and Bobo Dioulasso cities in Burkina Faso to various SRH services. Together with our partners, Planned Parenthood Global (PPG) and BURCASO, we are building ecosystems of service providers and youth in Burkina Faso.'},
         UG: {
           office:'—',
           description:'—',
-          cities: 'Arua, Kimpala',
           project: 'Scheduled to implement our platform in 2020, we aim to connect young girls in Arua and Kampala districts of Uganda to various SRH services. Together with our partners, ThinkPlace and Reach a Hand Uganda, we are building ecosystems of service providers and youth in Uganda.'},
         US: {
           office:'—',
           description:'—',
-          cities: 'Omaha',
           project: 'Scheduled to implement our platform in 2020, we aim to connect young girls in Omaha, Nebraska in the USA to various SRH services. Together with our partner, Women’s Fund Of Omaha, we are building ecosystems of service providers and youth in Omaha.'},
         PT: {
           office:'—',
           project:'—',
-          cities: 'Porto',
           description: 'Established in 2014, our Porto office, called Triggerise Labs, serves as the global technology hub and supports all our operations.'},
         NL: {
           description:'—',
           project:'—',
-          cities: 'Amsterdam',
           office: 'Established in 2014, our Amsterdam office is our registered headquarters and also provides global administrative support to all other offices.'},
         ZA: {
           description:'—',
           project:'—',
-          cities: 'Cape Town',
           office: 'Established in 2014, our Cape Town office provides global executive support to our operations and technology teams.'},
       }
     }
@@ -307,6 +293,23 @@ function filters(){
    });
  }
 };
+
+var myStorage = window.localStorage;
+console.log(myStorage);
+var cookies = myStorage.getItem('cookies');
+var cookiesButton = document.querySelector('.cookies-button');
+var cookiesBanner = document.querySelector('.cookies-banner');
+cookiesButton.addEventListener('click', function(){
+  localStorage.setItem('cookies', 'True');
+  cookiesBanner.classList.remove('display');
+});
+if(cookies) {
+  console.log('cookies seen');
+} else {
+  cookiesBanner.classList.add('display');
+  console.log('cookies not seen');
+}
+
 
 function init(){
   if(worldMapCheck){

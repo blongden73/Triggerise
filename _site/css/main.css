@@ -916,6 +916,18 @@ footer .socials li { margin-right: 10px; }
 
 @media all and (max-width: 46.24em) { .fp-controlArrow { top: auto; bottom: calc(10px * 2); } }
 
+.cookies-banner { background-color: #2C449C; padding-top: 16px; padding-bottom: 16px; position: fixed; bottom: 0; width: 100%; z-index: 100; transition: transform ease-in-out 0.5s; transform: translateY(70px); transition-delay: 1s; }
+
+.cookies-banner.display { transform: translateY(0); }
+
+.cookies-banner span { display: inline-block; float: right; border: 1px solid #D8A0C8; padding-left: 6px; padding-right: 6px; padding-top: 6px; padding-bottom: 6px; }
+
+.cookies-banner span:hover { background-color: #D8A0C8; color: #2C449C; }
+
+.cookies-banner p { color: #D8A0C8; }
+
+.cookies-banner a { color: #fff; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 

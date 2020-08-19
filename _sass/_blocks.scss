@@ -1920,3 +1920,43 @@
     bottom: spacing(2);
   }
 }
+
+.cookies-banner {
+  background-color: $blue;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  transition: transform ease-in-out 0.5s;
+  transform: translateY(70px);
+  transition-delay: 1s;
+
+  &.display {
+    transform: translateY(0);
+  }
+
+  span {
+    display: inline-block;
+    float: right;
+    border: 1px solid $pink;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    &:hover {
+      background-color: $pink;
+      color: $blue;
+    }
+  }
+
+  p {
+    color: $pink;
+  }
+
+  a {
+    color: #fff;
+  }
+}

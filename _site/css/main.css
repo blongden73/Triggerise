@@ -515,13 +515,13 @@ footer .socials li { margin-right: 10px; }
 
 @media all and (min-width: 61.25em) { .ecoSystem h3 { width: 80%; } }
 
-.ecoSystem .key { width: 100%; border-top: 1px solid #1D214F; display: flex; margin-top: calc(10px * 3); padding-top: calc(10px * 1); padding-bottom: calc(10px * 5); flex-direction: column; }
+.ecoSystem .key { width: 100%; border-top: 1px solid #1D214F; display: flex; margin-top: calc(10px * 3); padding-top: calc(10px * 1); padding-bottom: calc(10px * 5); flex-direction: column; position: sticky; top: 0; }
 
-@media all and (min-width: 61.25em) { .ecoSystem .key { flex-direction: row; padding-bottom: calc(10px * 10); } }
+@media all and (min-width: 61.25em) { .ecoSystem .key { flex-direction: column; padding-bottom: calc(10px * 10); position: absolute; top: 90px; width: 210px; } }
 
 .ecoSystem .key ul { list-style: none; margin: 0; display: flex; flex-direction: column; }
 
-@media all and (min-width: 61.25em) { .ecoSystem .key ul { flex-direction: row; } }
+@media all and (min-width: 61.25em) { .ecoSystem .key ul { flex-direction: column; } }
 
 .ecoSystem .key ul.line-key li { color: #1D214F; }
 

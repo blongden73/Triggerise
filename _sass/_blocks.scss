@@ -788,10 +788,15 @@
     padding-top: spacing(1);
     padding-bottom: spacing(5);
     flex-direction: column;
+    position: sticky;
+    top: 0;
 
     @include mq($from: desktop) {
-      flex-direction: row;
+      flex-direction: column;
       padding-bottom: spacing(10);
+      position: absolute;
+      top: 90px;
+      width: 210px;
     }
 
     ul {
@@ -801,7 +806,7 @@
       flex-direction: column;
 
       @include mq($from: desktop) {
-        flex-direction: row;
+        flex-direction: column;
       }
 
       &.line-key {

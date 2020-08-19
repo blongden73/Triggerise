@@ -88,7 +88,7 @@ Our People:
   Image: "/uploads/Trig_profiles_admilo.jpg"
 - Name: Arika
   Role: Product Owner – TikoSystem
-  Location: New Delh
+  Location: Porto
   LinkedIn: http://www.linkedin.com/in/arika-srivastava
   Image: "/uploads/Trig_profiles_arika.jpg"
 - Name: Asgar

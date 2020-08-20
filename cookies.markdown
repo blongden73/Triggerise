@@ -8,7 +8,7 @@ Body: "We use cookies to improve our website. By continuing to use this website,
   when you access a website. We use cookies to remember you and your preferences and
   help us understand how you engage with our website. We may collect your Internet
   Protocol (IP) address, Internet service provider (ISP), and browser type and language.
-  For more information on cookies, please visit - https://www.aboutcookies.org \n\n**How
+  For more information on cookies, please visit - [https://www.aboutcookies.org ](https://www.aboutcookies.org)\n\n**How
   to manage Cookies?**\nMost browsers allow you limited control over cookies. You
   can set your preferences via your browser settings to accept or reject all or certain
   cookies. Please note, if you choose to reject all or certain cookies, your website

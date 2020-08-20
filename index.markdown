@@ -292,9 +292,9 @@ CTA-Block:
   Description: "We’re always keen to join forces and ignite more positive impact across
     \nthe globe."
   CTA: Let’s talk
-  CTA Link: "/"
+  CTA Link: "/contact/"
   CTA-Two: Join us
-  CTA-Two-Link: "/"
+  CTA-Two-Link: "/join-us/"
   CTA-Image: "/uploads/Triggerise_CTA_footer.png"
   CTA-Image-two: "/uploads/Mark_triggerise_animate.gif"
 layout: home

@@ -83,6 +83,12 @@ Jobs:
   Job Description: Are you an experienced Risk Manager? Read on, we are currently
     looking for an RML to join, and lead a part of our team!
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=26
+- Job Title: Open Applications
+  Location: Global
+  Job Description: 'Interested in creating a better world by bringing out the best
+    in people? Click on the button below to send in your CV and we will get in touch
+    with you. '
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=38
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

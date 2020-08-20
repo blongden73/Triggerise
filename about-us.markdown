@@ -122,7 +122,7 @@ Our People:
   Image: "/uploads/Lidya%20(1).jpg"
 - Name: Maria
   Role: Associate Technical Advisor
-  Location: Cameroon
+  Location: Douala, Cameroon
   LinkedIn: https://www.linkedin.com/in/maria-g-ndzelen-ba086116/
   Image: "/uploads/Trig_profiles_maria.jpg"
 - Name: Marylou

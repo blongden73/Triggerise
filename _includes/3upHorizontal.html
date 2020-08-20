@@ -9,8 +9,8 @@
           <h2 class="text-colour-{{include.textColor}} t-three-sub-title">{{include.sub}}</h2>
         {% endif %}
         {% if include.button == "true" %}
-          <a href="/contact"><button class="button-colour-{{include.buttonClass}}">Let's talk</button></a>
-          <a href="/join-us"><button class="button-colour-{{include.buttonClass}}">Join us</button></a>
+          <a href="{{include.linkOne}}"><button class="button-colour-{{include.buttonClass}}">Let's talk</button></a>
+          <a href="{{include.linkTwo}}"><button class="button-colour-{{include.buttonClass}}">Join us</button></a>
         {% endif %}
         {% if include.body %}
         <div class="t-body">

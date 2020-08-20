@@ -27,6 +27,7 @@ layout: default
 {% assign ModelDescriptionTwo = page.Our-Model[1].Description %}
 {% assign diagramThree = page.Our-Model[2].Diagram %}
 {% assign ModelDescriptionThree = page.Our-Model[2].Description %}
+{% assign ModelLink= page.Our-Model-Link %}
   <div class="section carousel" data-percentage="90">
     <div class="slide" data-anchor="slide1">
       {% include 1up.html colour="lightBlue" sectionTitle=sectionTitle diagram=diagram description=ModelDescription textColor="darkBlue" classList="full carousel" buttonClass="darkBlue" buttonLink="/what-we-do" %}
@@ -42,6 +43,8 @@ layout: default
   {% include ecosystem.html colour="white" sectionTitle=page.Eco-System-Text classList="full ecoSystem" %}
 </div>
 {% assign CTAtitle = page.CTA-Block.Header %}
+{% assign linkOne = page.CTA-Block.['CTA Link'] %}
+{% assign linkTwo = page.CTA-Block.CTA-Two-Link %}
 {% assign CTAsubTitle = page.CTA-Block.Description %}
 {% assign CTAimage = page.CTA-Block.CTA-Image %}
 {% assign CTAimageTwo = page.CTA-Block.CTA-Image-two %}
@@ -55,6 +58,8 @@ layout: default
   textColor="cream"
   image=CTAimage
   imageTwo=CTAimageTwo
+  linkOne = linkOne
+  linkTwo = linkTwo
   classList="image"
   button="true"
   buttonClass="cream"

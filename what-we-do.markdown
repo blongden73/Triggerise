@@ -37,7 +37,7 @@ What-section-two-description: |-
 
   Our financial nudges can be discount offers on healthcare services and rewards to spend locally. Non-financial nudges vary from social support to peer referral, gamification to digital and offline reminders.
 
-  Our conversion rate of 89%\* reassures us that our offers are motivating for our members and that this is a model where our members making decisions on their own terms.
+  Our conversion rate of 89%\* reassures us that our offers are motivating for our members and that this is a model where our members are making decisions on their own terms.
 
   With real agency to choose, Tiko inspires lasting good habits while boosting local economies.
 

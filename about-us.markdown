@@ -74,7 +74,7 @@ Chief Executive Officers:
   Image: "/uploads/Trig_profiles_benoit.jpg"
 - Name: Richard Matikanya
   Role: Director of Triggerise Stichting and Chief Operating Officer (COO)
-  Key: Nairobi, Kenya
+  Location: Nairobi, Kenya
   Description: Richard is responsible for the Triggerise platform. He leads project
     implementation in African countries, having a background in global health program
     design, management, monitoring and evaluation.
@@ -83,40 +83,40 @@ Chief Executive Officers:
 Our People:
 - Name: Admilo
   Role: Data Scientist and Lead
-  Location: Porto
+  Location: Porto, Portugal
   LinkedIn: https://www.linkedin.com/in/ribadmilo/
   Image: "/uploads/Trig_profiles_admilo.jpg"
 - Name: Arika
   Role: Product Owner – TikoSystem
-  Location: Porto
+  Location: Porto, Portugal
   LinkedIn: http://www.linkedin.com/in/arika-srivastava
   Image: "/uploads/Trig_profiles_arika.jpg"
 - Name: Asgar
   Role: Tiko System Manager
-  Location: Jaipur
+  Location: Jaipur, India
   LinkedIn: https://www.linkedin.com/in/asgar-ali-070b64141
   Image: "/uploads/Trig_profiles_asgar.jpg"
 - Name: Brian
   Role: Country Programme Manager
-  Location: Bungoma
+  Location: Bungoma, Kenya
   Image: "/uploads/Trig_profiles_brian.jpg"
 - Name: Caroline Mutua
   Role: Product Owner – Data
-  Location: Nairobi
+  Location: Nairobi, Kenya
   LinkedIn: https://www.linkedin.com/in/carolinemutua/
   Image: "/uploads/Trig_profiles_caroline.jpg"
 - Name: Jesse
   Role: Country Lead and Director – Kenya
-  Location: Nairobi
+  Location: Nairobi, Kenya
   LinkedIn: https://www.linkedin.com/in/dr-jesse-njunguru-059909120/
   Image: "/uploads/Trig_profiles_jesse.jpg"
 - Name: Kalkidan
   Role: Tiko System Manager
-  Location: 'Addis Ababa   '
+  Location: Addis Ababa, Ethiopia
   LinkedIn: https://www.linkedin.com/in/kalkidan-tsegaye-001a95154/
   Image: "/uploads/Trig_profiles_kalkidan.jpg"
 - Name: Lidya
-  Role: Addis Ababa
+  Role: Addis Ababa, Ethiopia
   Location: Country Lead – Ethiopia
   LinkedIn: https://www.linkedin.com/in/lidya-mulat-82829a83/
   Image: "/uploads/Lidya%20(1).jpg"
@@ -127,57 +127,57 @@ Our People:
   Image: "/uploads/Trig_profiles_maria.jpg"
 - Name: Marylou
   Role: Strategy Manager
-  Location: Amsterdam
+  Location: Amsterdam, The Netherlands
   LinkedIn: https://www.linkedin.com/in/maryloukupfer/
   Image: "/uploads/Trig_profiles_marylou.jpg"
 - Name: Nathalie-Ann
-  Location: Global Technical Advisor
-  Role: Kenya
+  Role: Global Technical Advisor
+  Location: Nairobi, Kenya
   LinkedIn: https://www.linkedin.com/in/nathalie-ann-donjon-a1140946/
   Image: "/uploads/Trig_profiles_nathalie.jpg"
 - Name: Nelson
   Role: Chief Technology Officer
-  Key: Cape Town
+  Location: Cape Town, South Africa
   LinkedIn: www.linkedin.com/in/nognelson
   Image: "/uploads/Trig_profiles_nelson.jpg"
 - Name: Nienke
   Role: Chief Finance Officer
-  Location: Amsterdam
+  Location: Amsterdam, The Netherlands
   LinkedIn: https://www.linkedin.com/in/nienkestel/
   Image: "/uploads/Trig_profiles_neiken.jpg"
 - Name: Shrey
   Role: Corporate Communications Officer
-  Key: Amsterdam
+  Location: Amsterdam, The Netherlands
   LinkedIn: https://linkedin.com/in/shreysaraswat
   Image: "/uploads/Trig_profiles_shrey.jpg"
 - Name: Thera
   Role: Human Resource Manager
-  Location: Amsterdam
+  Location: Amsterdam, The Netherlands
   LinkedIn: https://linkedin.com/in/theraengels
   Image: "/uploads/Trig_profiles_Threa.jpg"
 - Name: Payal
   Role: Country Lead and Director – India
-  Location: New Delhi
+  Location: New Delhi, India
   LinkedIn: https://www.linkedin.com/in/payal852/
   Image: "/uploads/Trig_profiles_payal.jpg"
 - Name: Ritu
   Role: Administrative Assistant
-  Location: New Delhi
+  Location: New Delhi, India
   LinkedIn: http://www.linkedin.com/in/ritu-sharma-7290b12b
   Image: "/uploads/Trig_profiles_ritu.jpg"
 - Name: Roxy
   Role: Global Recruiter
-  Location: Amsterdam
+  Location: Amsterdam, The Netherlands
   LinkedIn: https://www.linkedin.com/in/roxanne-h-80ba8911a
   Image: "/uploads/Trig_profiles_roxy-f4cf76.jpg"
 - Name: Sam
   Role: Business Development Lead
-  Location: New York
+  Location: New York, USA
   LinkedIn: https://www.linkedin.com/in/samuel-lewin-70711489/
   Image: "/uploads/Trig_profiles_sam.jpg\n"
 - Name: Samuel
   Role: Backend Developer
-  Location: Lisbon
+  Location: Lisbon, Portugal
   LinkedIn: https://www.linkedin.com/in/amuxix/
   Image: "/uploads/Trig_profiles_samuel.jpg"
 Reports-Resources:

@@ -191,11 +191,11 @@ Reports-Resources:
   Tag: AnnualReport
 - Name: Annual Report
   Sub title: 2017
-  Link: https://triggerise.org/wp-content/uploads/2019/02/Triggerise-2017-Annual-Report.pdf
+  Link: "/uploads/Annual%20Report%202017_FINAL.pdf"
   Tag: AnnualReport
 - Name: 'Annual Report '
   Sub title: 2016
-  Link: https://triggerise.org/wp-content/uploads/2019/02/Triggerise-2016-annual-report-1.pdf
+  Link: "/uploads/Triggerise%202016%20annual%20report%20(1).pdf"
   Tag: AnnualReport
 - Name: 'Annual Report '
   Sub title: 2015

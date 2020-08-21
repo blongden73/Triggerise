@@ -45,6 +45,12 @@ Testimonial-two:
     where my input is heard and valued." '
   Name: Roxy Hotchkiss | Global Recruiter, Amsterdam
 Jobs:
+- Job Title: Open Applications
+  Location: Global
+  Job Description: 'Interested in creating a better world by bringing out the best
+    in people? Click on the button below to send in your CV and we will get in touch
+    with you. '
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=38
 - Job Title: County Programme Manager
   Location: Kisumu, Kenya
   Job Description: Would you like to contribute to Triggerise growth and footprint?

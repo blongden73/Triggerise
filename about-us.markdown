@@ -122,7 +122,7 @@ Our People:
   Image: "/uploads/Lidya%20(1).jpg"
 - Name: Maria
   Role: Associate Technical Advisor
-  Location: Douala, Cameroon
+  Location: Yaounde, Cameroon
   LinkedIn: https://www.linkedin.com/in/maria-g-ndzelen-ba086116/
   Image: "/uploads/Trig_profiles_maria.jpg"
 - Name: Marylou
@@ -145,16 +145,6 @@ Our People:
   Location: Amsterdam, The Netherlands
   LinkedIn: https://www.linkedin.com/in/nienkestel/
   Image: "/uploads/Trig_profiles_neiken.jpg"
-- Name: Shrey
-  Role: Corporate Communications Officer
-  Location: Amsterdam, The Netherlands
-  LinkedIn: https://linkedin.com/in/shreysaraswat
-  Image: "/uploads/Trig_profiles_shrey.jpg"
-- Name: Thera
-  Role: Human Resource Manager
-  Location: Amsterdam, The Netherlands
-  LinkedIn: https://linkedin.com/in/theraengels
-  Image: "/uploads/Trig_profiles_Threa.jpg"
 - Name: Payal
   Role: Country Lead and Director – India
   Location: New Delhi, India
@@ -180,6 +170,16 @@ Our People:
   Location: Lisbon, Portugal
   LinkedIn: https://www.linkedin.com/in/amuxix/
   Image: "/uploads/Trig_profiles_samuel.jpg"
+- Name: Shrey
+  Role: Corporate Communications Officer
+  Location: Amsterdam, The Netherlands
+  LinkedIn: https://linkedin.com/in/shreysaraswat
+  Image: "/uploads/Trig_profiles_shrey.jpg"
+- Name: Thera
+  Role: Human Resource Manager
+  Location: Amsterdam, The Netherlands
+  LinkedIn: https://linkedin.com/in/theraengels
+  Image: "/uploads/Trig_profiles_Threa.jpg"
 Reports-Resources:
 - Name: Annual Report
   Sub title: 2019

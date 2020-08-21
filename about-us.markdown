@@ -183,11 +183,11 @@ Our People:
 Reports-Resources:
 - Name: Annual Report
   Sub title: 2019
-  Link: https://triggerise.org/wp-content/uploads/2020/08/Annual-Report-2019.pdf
+  Link: "/uploads/Annual%20Report%202019.pdf"
   Tag: AnnualReport
 - Name: 'Annual Report  '
   Sub title: 2018
-  Link: https://triggerise.org/wp-content/uploads/2019/06/Triggerise_2018_Annual_Report.pdf
+  Link: "/uploads/Triggerise_2018_Annual_Report.pdf"
   Tag: AnnualReport
 - Name: Annual Report
   Sub title: 2017

@@ -42,6 +42,8 @@ Addresses:
     New Delhi, India
 
     [helloindia@triggerise.org](mailto:helloindia@triggerise.org)
+- Address: "**Triggerise South Africa**\n\nWorkshop 17,\nThe Watershed,\n17 Dock Rd,
+    V&A Water Front,\nCape Town, South Africa \n\n\n[hello@triggerise.org](mailto:hello@triggerise.org)"
 layout: simple
 ---
 

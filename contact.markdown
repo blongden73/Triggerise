@@ -12,7 +12,7 @@ Addresses:
 - Address: |-
     **Triggerise Labs**
 
-    Rua de Vilar 235,7 dto,
+    Rua de Vilar 235, 7 dto,
     Porto, Portugal
 
     [hellolabs@triggerise.org](mailto:hellolabs@triggerise.org)

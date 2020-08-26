@@ -37,9 +37,9 @@ Values:
   Description: We’re eager to innovate, learn, grow and share. We dare to change the
     conversation, that’s how we succeed.
 Testimonial-two:
-- Image: "/uploads/842b6b9c-3f83-4001-b103-fedb515fe41e.JPG"
-  Quote: '"I joined Triggerise to have the opportunity to work with global colleagues
-    and directly impact the growth of the business.  To know that my work is creating
+- Image: "/uploads/94f6731a-e89f-4a39-a6e7-3dde5407d5f5%20(1).JPG"
+  Quote: '"I joined Triggerise to have the opportunity to work with global colleagues,
+    directly impact the growth of the business.  To know that my work is creating
     such a positive impact is awesome! The culture and the people here are great,
     and there’s a real opportunity to develop yourself in an environment where your
     input is listened to and valued." '

@@ -39,10 +39,10 @@ Values:
 Testimonial-two:
 - Image: "/uploads/Trig_profiles_roxy.jpg"
   Quote: '"I joined Triggerise to have the opportunity to work with global colleagues,
-    directly impact the growth of the business and also to know that my work is creating
-    such a positive impact is awesome! I love that the culture and the people here
-    are really great. There’s a real opportunity to develop yourself in an environment
-    where my input is heard and valued." '
+    directly impact the growth of the business.  To know that my work is creating
+    such a positive impact is awesome! The culture and the people here are great,
+    and there’s a real opportunity to develop yourself in an environment where your
+    input is listened to and valued." '
   Name: Roxy Hotchkiss | Global Recruiter, Amsterdam
 Jobs:
 - Job Title: Open Applications
@@ -51,44 +51,38 @@ Jobs:
     in people? Click on the button below to send in your CV and we will get in touch
     with you. '
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=38
-- Job Title: County Programme Manager
-  Location: Kisumu, Kenya
-  Job Description: Would you like to contribute to Triggerise growth and footprint?
-    We are looking for someone in Kisumu with a tech-savvy background to help us to
-    do so.
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=45
 - Job Title: Quality Assurance Lead
   Location: Porto, Portugal
   Job Description: Do you have a high regard for quality control and attention to
     detail?  We have an exciting new opportunity as a Quality Assurance Lead read
     on to find out more.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=44
-- Job Title: Marketing Communications Officer
-  Location: New Delhi, India
-  Job Description: Are you a self-starter who quickly understands what needs to be
-    said and done in order to reach your audience? Find out more about this position.
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=43
-- Job Title: Quality Assurance Manager
-  Location: Nairobi, Kenya
-  Job Description: Triggerise is looking for a Quality Assurance Manager to maximise
-    quality & compliance among all of our platform service providers.
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=41
 - Job Title: Back End Developer
   Location: Porto, Portugal
   Job Description: Do you have an interest in Technology, and an affinity for back
     end development? Continue reading to find out more about our back end developer
     role.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=42
-- Job Title: User Experience Researcher
-  Location: Nairobi, Kenya
-  Job Description: Do you have in-depth UX understanding of UX research and its applications?
-    Continue reading below, this position could be for you!
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=36
-- Job Title: Risk Management Lead
-  Location: Nairobi, Kenya
-  Job Description: Are you an experienced Risk Manager? Read on, we are currently
-    looking for an RML to join, and lead a part of our team!
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=26
+- Job Title: M&E Lead / Data Scientist
+  Location: Global
+  Job Description: 'Triggerise creates impact by applying tech to non-profit. Are
+    you that special person that brings us the best of both worlds? We are looking
+    for an M&E lead/Data Scientist that can help us to not just monitor and evaluate,
+    but also predict and steer on data. '
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=52
+- Job Title: 'Data Architect '
+  Location: Porto
+  Job Description: Are you an experienced Data Architect? Can you help us bring our
+    data infrastructure to the next level? Continue reading to find out about the
+    role!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=50
+- Job Title: Product Manager
+  Location: Global
+  Job Description: You’ve worked extensively across digital platforms, now is the
+    time to combine that expertise with your naturally empathetic and forward-thinking
+    approach towards our target audience needs.  We are looking for someone to take
+    on this rewarding role as a Product Manager!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=46
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

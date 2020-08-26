@@ -39,7 +39,7 @@ Values:
 Testimonial-two:
 - Image: "/uploads/Roxy%20grey.JPG"
   Quote: '"I joined Triggerise to have the opportunity to work with global colleagues,
-    directly impact the growth of the business.  To know that my work is creating
+    and directly impact the growth of the business.  To know that my work is creating
     such a positive impact is awesome! The culture and the people here are great,
     and there’s a real opportunity to develop yourself in an environment where your
     input is listened to and valued." '

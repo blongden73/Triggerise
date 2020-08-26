@@ -37,7 +37,7 @@ Addresses:
     **Triggerise India**
 
     Awfis Space Solutions,
-    L-29, 1 Floor, L Block,
+    L-29, 1 Floor, Outer Circle,
     Connaught Place,
     New Delhi, India
 

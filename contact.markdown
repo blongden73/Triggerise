@@ -2,8 +2,13 @@
 title: Contact
 date: 2020-07-28 11:50:00 Z
 Addresses:
-- Address: "**Triggerise Headquarters**\n\nMauritskade 63, 1092AD,\nAmsterdam, \nThe
-    Netherlands\n\n[hello@triggerise.org](mailto:hello@triggerise.org)"
+- Address: |-
+    **Triggerise Headquarters**
+
+    Mauritskade 63, 1092AD,
+    Amsterdam, The Netherlands
+
+    [hello@triggerise.org](mailto:hello@triggerise.org)
 - Address: |-
     **Triggerise Labs**
 

@@ -51,12 +51,13 @@ Jobs:
     in people? Click on the button below to send in your CV and we will get in touch
     with you. '
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=38
-- Job Title: Quality Assurance Lead
-  Location: Porto, Portugal
-  Job Description: Do you have a high regard for quality control and attention to
-    detail?  We have an exciting new opportunity as a Quality Assurance Lead read
-    on to find out more.
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=44
+- Job Title: New Business Development Director
+  Location: Global
+  Job Description: 'What if you can be instrumental in positively impacting hundreds
+    of thousands of underserved young women across the world? We are looking for a
+    New Business Development Director that helps us scale our already considerable
+    impact in the coming years. '
+  Link: 
 - Job Title: Back End Developer
   Location: Porto, Portugal
   Job Description: Do you have an interest in Technology, and an affinity for back

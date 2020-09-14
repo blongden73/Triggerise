@@ -205,6 +205,22 @@ Reports-Resources:
   Sub title: 2019
   Link: "/uploads/Triggerise%20Stichting%20consolidated%20FS%20%202019%20_AR_unsigned%20(1).pdf"
   Tag: FinancialReport
+- Name: Financial Report
+  Sub title: 2018
+  Link: "/uploads/TS%20ST%20Audited%20financial%20statements%202018.pdf"
+  Tag: FinancialReport
+- Name: Financial Report
+  Sub title: 2017
+  Link: "/uploads/TS%20ST%20Audited%20financial%20statements%202017.pdf"
+  Tag: FinancialReport
+- Name: Financial Report
+  Sub title: 2016
+  Link: "/uploads/TS%20ST%20Audited%20financial%20statements%202016.pdf"
+  Tag: FinancialReport
+- Name: Financial Report
+  Sub title: 2015
+  Link: "/uploads/TS%20ST%20Audited%20financial%20statements%202015.pdf"
+  Tag: FinancialReport
 Safeguarding-text: "We always protect user data and never compromise privacy. \n\nWe
   only collect user data that is given with consent and use it to improve our product.
   \n\nWe never sell personal information, this includes metadata. \n"

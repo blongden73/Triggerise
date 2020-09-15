@@ -25,8 +25,8 @@ Addresses:
 
     [helloethiopia@triggerise.org](mailto:helloethiopia@triggerise.org)
 - Address: |-
-     
-     
+    \
+    \
     **Triggerise Kenya**
 
     The Promenade,

@@ -24,9 +24,8 @@ Addresses:
     Addis Ababa, Ethiopia
 
     [helloethiopia@triggerise.org](mailto:helloethiopia@triggerise.org)
-- Address: |2-
-
-
+- Address: |-
+    </br></br>
     **Triggerise Kenya**
 
     The Promenade,

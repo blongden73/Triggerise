@@ -168,7 +168,6 @@ var myFullpage = new fullpage('#fullpage', {
   fadingEffect: true,
   autoScrolling:false,
 	scrollHorizontally: true,
-  fixedElements: '.site-header',
   offsetSections:true,
   slidesNavigation: true,
 	slidesNavPosition: 'bottom',

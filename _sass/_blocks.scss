@@ -1,9 +1,14 @@
+.header-home {
+  height: 77px;
+  width: 100%;
+}
+
 .padd {
   padding-top: 77px;
 }
 
 #fullpage {
-  padding-top: 77px;
+  // padding-top: 77px;
 }
 
 .fp-slidesNav.fp-bottom {
@@ -1886,13 +1891,14 @@
   }
 
   p {
-    max-width: 40%;
+    max-width: 60%;
   }
 
   .address-wrapper {
     @include mq($from: desktop) {
       column-count: 2;
       column-fill: balance;
+      max-height: 540px;
     }
   }
 }

@@ -247,9 +247,9 @@ footer .socials li svg circle { fill: #2C449C; }
 
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
 
-.padd { padding-top: 77px; }
+.header-home { height: 77px; width: 100%; }
 
-#fullpage { padding-top: 77px; }
+.padd { padding-top: 77px; }
 
 .fp-slidesNav.fp-bottom { width: max-content; }
 
@@ -912,9 +912,9 @@ footer .socials li svg circle { fill: #2C449C; }
 
 @media all and (min-width: 61.25em) { .addresses { width: 50%; margin-left: auto; } }
 
-.addresses p { max-width: 40%; }
+.addresses p { max-width: 60%; }
 
-@media all and (min-width: 61.25em) { .addresses .address-wrapper { column-count: 2; column-fill: balance; } }
+@media all and (min-width: 61.25em) { .addresses .address-wrapper { column-count: 2; column-fill: balance; max-height: 540px; } }
 
 .filters { max-width: fit-content; display: flex; margin-bottom: 20px; }
 

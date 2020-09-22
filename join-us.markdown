@@ -84,6 +84,19 @@ Jobs:
     approach towards our target audience needs.  We are looking for someone to take
     on this rewarding role as a Product Manager!
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=46
+- Job Title: Marketing & Communications Officer
+  Location: Nairobi, Kenya
+  Job Description: Are you a self-starter who quickly understands what needs to be
+    said and done in order to reach your audience?  Are you able to focus on targeted
+    marketing to drive awareness and interest in Triggerise services? Continue reading
+    to find out more about this position for a Marketing and Communications Officer.
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=54
+- Job Title: Finance Accountant
+  Location: Nehterlands, Amsterdam
+  Job Description: Have you got experience within a financial setting, and are looking
+    for your next move?  Are you interested in the financial processes within an NGO?  We
+    are looking for an Accountant to join our team!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=55
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

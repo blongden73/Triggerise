@@ -84,7 +84,7 @@ Jobs:
     approach towards our target audience needs.  We are looking for someone to take
     on this rewarding role as a Product Manager!
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=46
-- Job Title: Marketing & Communications Officer
+- Job Title: Marketing & Communications Manager
   Location: Nairobi, Kenya
   Job Description: Are you a self-starter who quickly understands what needs to be
     said and done in order to reach your audience?  Are you able to focus on targeted

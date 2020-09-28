@@ -116,7 +116,7 @@ Our People:
   LinkedIn: https://www.linkedin.com/in/kalkidan-tsegaye-001a95154/
   Image: "/uploads/Trig_profiles_kalkidan.jpg"
 - Name: Lidya
-  Role: Country Lead – Ethiopia
+  Role: Country Lead and Director – Ethiopia
   Location: Addis Ababa, Ethiopia
   LinkedIn: https://www.linkedin.com/in/lidya-mulat-82829a83/
   Image: "/uploads/IMG_0411.jpg"

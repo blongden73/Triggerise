@@ -116,10 +116,10 @@ Our People:
   LinkedIn: https://www.linkedin.com/in/kalkidan-tsegaye-001a95154/
   Image: "/uploads/Trig_profiles_kalkidan.jpg"
 - Name: Lidya
-  Role: Addis Ababa, Ethiopia
-  Location: Country Lead – Ethiopia
+  Role: Country Lead – Ethiopia
+  Location: Addis Ababa, Ethiopia
   LinkedIn: https://www.linkedin.com/in/lidya-mulat-82829a83/
-  Image: "/uploads/Lidya%20(1).jpg"
+  Image: "/uploads/IMG_0411.jpg"
 - Name: Maria
   Role: Associate Technical Advisor
   Location: Yaounde, Cameroon

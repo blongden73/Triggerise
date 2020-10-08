@@ -57,7 +57,7 @@ Jobs:
     of thousands of underserved young women across the world? We are looking for a
     New Business Development Director that helps us scale our already considerable
     impact in the coming years. '
-  Link: 
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=53
 - Job Title: Back End Developer
   Location: Porto, Portugal
   Job Description: Do you have an interest in Technology, and an affinity for back

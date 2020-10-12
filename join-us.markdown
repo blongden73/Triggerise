@@ -97,6 +97,14 @@ Jobs:
     for your next move?  Are you interested in the financial processes within an NGO?  We
     are looking for an Accountant to join our team!
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=55
+- Job Title: Front End / Web Engineer
+  Location: Cape Town
+  Job Description: We have an open position for a 6 month assignment for a Front End
+    / Web Engineer! Do you have experience within the front end space, developing
+    and enhancing websites and mobile applications?  If you thrive most when you are
+    a creating user-friendly solutions, with a greater impact in mind, then this could
+    be the role for you!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=57
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

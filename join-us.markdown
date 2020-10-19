@@ -64,13 +64,6 @@ Jobs:
     end development? Continue reading to find out more about our back end developer
     role.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=42
-- Job Title: M&E Lead / Data Scientist
-  Location: Global
-  Job Description: 'Triggerise creates impact by applying tech to non-profit. Are
-    you that special person that brings us the best of both worlds? We are looking
-    for an M&E lead/Data Scientist that can help us to not just monitor and evaluate,
-    but also predict and steer on data. '
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=52
 - Job Title: 'Data Architect '
   Location: Porto
   Job Description: Are you an experienced Data Architect? Can you help us bring our
@@ -91,12 +84,6 @@ Jobs:
     marketing to drive awareness and interest in Triggerise services? Continue reading
     to find out more about this position for a Marketing and Communications Manager.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=54
-- Job Title: Finance Accountant
-  Location: Nehterlands, Amsterdam
-  Job Description: Have you got experience within a financial setting, and are looking
-    for your next move?  Are you interested in the financial processes within an NGO?  We
-    are looking for an Accountant to join our team!
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=55
 - Job Title: Front End / Web Engineer
   Location: Cape Town
   Job Description: We have an open position for a 6 month assignment for a Front End

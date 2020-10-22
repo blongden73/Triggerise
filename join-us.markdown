@@ -92,6 +92,26 @@ Jobs:
     a creating user-friendly solutions, with a greater impact in mind, then this could
     be the role for you!
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=57
+- Job Title: Marketing Technologist
+  Location: Global
+  Job Description: Can you set a technology vision for marketing in a digital world?
+    And are you looking for a role that combines strategy and practical implementation?
+    Then this might be your next job!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=60
+- Job Title: Data Team Lead
+  Location: Portugal, Porto
+  Job Description: Do you consider yourself an expert in all things data, and have
+    experience managing a team?  You’re not afraid of complex data sets and tools,
+    actually you thrive most when working with them!  Sounds like you’re a fit for
+    the Data Team Lead position.
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=59
+- Job Title: Application Support Officer
+  Location: Global
+  Job Description: "Are you the expert in configuring software and mobile applications,
+    based on organisational requirements and out end-users needs?  Do you have an
+    eye for detail and a logical way of thinking?  It sounds like you’d be a great
+    fit for the role of Application Support Officer!\n\n"
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=56
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

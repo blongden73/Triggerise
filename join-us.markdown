@@ -112,6 +112,20 @@ Jobs:
     eye for detail and a logical way of thinking?  It sounds like you’d be a great
     fit for the role of Application Support Officer!\n\n"
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=56
+- Job Title: Project Manager
+  Location: Uganda,  East Africa
+  Job Description: Overseeing full projects is second nature to you.  Having worked
+    with multi-functional teams, and understanding how to collaborate you have already
+    successfully executed entire projects to a high standard.  Sound like you?  Read
+    on to find out more!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=62
+- Job Title: Risk Analyst
+  Location: Global
+  Job Description: Using and analyzing data, you are able to dig deep and identify
+    trends, and spot potential fraud risk areas.  You enjoy dealing with people’s
+    challenges and frustrations and you can use your solution-driven approach to assist
+    in detection, prevention, and an overall reduction of fraud.
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=61
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

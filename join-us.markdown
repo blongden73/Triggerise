@@ -105,13 +105,10 @@ Jobs:
     actually you thrive most when working with them!  Sounds like you’re a fit for
     the Data Team Lead position.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=59
-- Job Title: Application Support Officer
-  Location: Global
-  Job Description: "Are you the expert in configuring software and mobile applications,
-    based on organisational requirements and out end-users needs?  Do you have an
-    eye for detail and a logical way of thinking?  It sounds like you’d be a great
-    fit for the role of Application Support Officer!\n\n"
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=56
+- Job Title: 
+  Location: 
+  Job Description: "\n"
+  Link: 
 - Job Title: Project Manager
   Location: Uganda,  East Africa
   Job Description: Overseeing full projects is second nature to you.  Having worked

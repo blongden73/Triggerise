@@ -106,7 +106,7 @@ Jobs:
     the Data Team Lead position.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=59
 - Job Title: 'County Programme Manager '
-  Location: Usain Gishu County, Kenya
+  Location: Uasin Gishu County, Kenya
   Job Description: Are you looking for an ever-changing, and evolving working environment?  Would
     you like to contribute to Triggerise growth and footprint?  This is the role for
     you!  Each quarter, Triggerise expands into new geographies, and we are looking

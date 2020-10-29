@@ -105,10 +105,13 @@ Jobs:
     actually you thrive most when working with them!  Sounds like you’re a fit for
     the Data Team Lead position.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=59
-- Job Title: 
-  Location: 
-  Job Description: "\n"
-  Link: 
+- Job Title: 'County Programme Manager '
+  Location: Nakuru, Kenya
+  Job Description: Are you looking for an ever-changing, and evolving working environment?  Would
+    you like to contribute to Triggerise growth and footprint?  This is the role for
+    you!  Each quarter, Triggerise expands into new geographies, and we are looking
+    for someone with a tech-savvy background to help us to do so.
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=64
 - Job Title: Project Manager
   Location: Uganda,  East Africa
   Job Description: Overseeing full projects is second nature to you.  Having worked
@@ -123,6 +126,13 @@ Jobs:
     challenges and frustrations and you can use your solution-driven approach to assist
     in detection, prevention, and an overall reduction of fraud.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=61
+- Job Title: County Programme Manager
+  Location: Bungoma, Kenya
+  Job Description: Are you looking for an ever-changing, and evolving working environment?  Would
+    you like to contribute to Triggerise growth and footprint?  This is the role for
+    you!  Each quarter, Triggerise expands into new geographies, and we are looking
+    for someone with a tech-savvy background to help us to do so.
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=63
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

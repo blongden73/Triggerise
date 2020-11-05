@@ -133,6 +133,12 @@ Jobs:
     you!  Each quarter, Triggerise expands into new geographies, and we are looking
     for someone with a tech-savvy background to help us to do so.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=63
+- Job Title: Finance Accountant
+  Location: Ethiopia,  Addis Ababa
+  Job Description: Have you got experience within a financial setting, and are looking
+    for your next move?  Are you interested in the financial processes within an NGO?  We
+    are looking for an Accountant in Ethiopia!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=66
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

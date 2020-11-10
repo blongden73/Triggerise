@@ -112,13 +112,6 @@ Jobs:
     you!  Each quarter, Triggerise expands into new geographies, and we are looking
     for someone with a tech-savvy background to help us to do so.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=64
-- Job Title: Project Manager
-  Location: Uganda,  East Africa
-  Job Description: Overseeing full projects is second nature to you.  Having worked
-    with multi-functional teams, and understanding how to collaborate you have already
-    successfully executed entire projects to a high standard.  Sound like you?  Read
-    on to find out more!
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=62
 - Job Title: Risk Analyst
   Location: Global
   Job Description: Using and analyzing data, you are able to dig deep and identify

@@ -12,7 +12,7 @@ Success-stories-descriptor: 'Dive deeper into some of our projects and see how o
   work is improving lives. '
 Success-stories:
 - Title: Delivering evidence-based impact in Kenya
-  Image: "/uploads/lady-050119.jpg"
+  Image: "/uploads/Triggerise-TikoPro.jpg"
   Body: "**Real-time data and powerful collaborations**\n![TRIGGERISE-KIBERA-139.jpg](/uploads/TRIGGERISE-KIBERA-139.jpg)\nFunded
     by the Children’s Investment Fund Foundation (CIFF), In Their Hands (ITH) project
     has connected 319,228 girls to 336,931 SRH services and products across Kenya

@@ -132,6 +132,26 @@ Jobs:
     for your next move?  Are you interested in the financial processes within an NGO?  We
     are looking for an Accountant in Ethiopia!
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=66
+- Job Title: Agile Lead
+  Location: Cape Town
+  Job Description: Have you led a team using an Agile approach in the past?  Would
+    you like the opportunity to facilitate, and guide a team in this direction?  Check
+    out the ad for more information on the Agile Lead position!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=73
+- Job Title: DevOps Engineer (AWS)
+  Location: Global
+  Job Description: Do you have experience building, testing & maintaining tools that
+    allow for speedy development of software?  You enjoy working in an Agile way and
+    are excited by the prospect of using technology to create impact.  Read on to
+    find out more to find out about our Devops Engineer position!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=72
+- Job Title: Back End Scala Engineer
+  Location: Global
+  Job Description: 'You’ve gained experience in the software development space, and
+    want to continue working on innovative projects, whilst making an impact with
+    your tech skills & knowledge.  Read on to find out more about our Backend Engineer
+    position! '
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=71
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

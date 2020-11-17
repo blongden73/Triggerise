@@ -64,12 +64,6 @@ Jobs:
     end development? Continue reading to find out more about our back end developer
     role.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=42
-- Job Title: 'Data Architect '
-  Location: Porto
-  Job Description: Are you an experienced Data Architect? Can you help us bring our
-    data infrastructure to the next level? Continue reading to find out about the
-    role!
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=50
 - Job Title: Product Manager
   Location: Global
   Job Description: You’ve worked extensively across digital platforms, now is the

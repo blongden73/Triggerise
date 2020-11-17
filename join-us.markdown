@@ -152,6 +152,12 @@ Jobs:
     your tech skills & knowledge.  Read on to find out more about our Backend Engineer
     position! '
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=71
+- Job Title: Data Engineer
+  Location: Porto
+  Job Description: Do you have an affinity for Data?  Are you able to use tools to
+    interpret and analyze data?  Sounds like you could be our next data engineer,
+    read on to find out more!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=74
 Values animation image: "/uploads/Mark05-a40558.gif"
 layout: join
 ---

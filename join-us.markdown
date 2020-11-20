@@ -22,20 +22,17 @@ Open-positions-text: "### We’re an energetic bunch of global pioneers on a mis
   prospective team members.\n"
 Values:
 - Name: We are open
-  Description: 'We’re open to diverse experiences, ideas and people. We believe that
-    with an unlocked world we can look for inspiration anywhere and everywhere.
-
-'
+  Description: We’re open to diverse experiences, ideas and people. We believe that
+    with an open attitude we can look for inspiration anywhere and everywhere.
 - Name: We do
-  Description: We roll up our sleeves and take action every day. We are fast and fearless
-    when tackling challenges head-on and focus our efforts on making real impact on
-    the ground.
+  Description: We roll up our sleeves and get things done every day. We tackle challenges
+    head-on and dare to change the conversation, that’s how we succeed.
 - Name: We are impact-driven
-  Description: Evidence-based decision making and a data-driven approach are our core
-    strengths.
+  Description: We put people at the heart of our actions. We emphasise evidence-based
+    decision making and a data-driven approach to make a real impact on the ground.
 - Name: We pioneer
-  Description: We’re eager to innovate, learn, grow and share. We dare to change the
-    conversation, that’s how we succeed.
+  Description: We believe in innovation to trigger our growth. We look for new possibilities
+    of bringing meaningful change to the world.
 Testimonial-two:
 - Image: "/uploads/Roxy%20grey.JPG"
   Quote: '"I joined Triggerise to have the opportunity to work with global colleagues,

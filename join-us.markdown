@@ -75,20 +75,6 @@ Jobs:
     marketing to drive awareness and interest in Triggerise services? Continue reading
     to find out more about this position for a Marketing and Communications Manager.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=54
-- Job Title: Front End / Web Engineer
-  Location: Cape Town
-  Job Description: We have an open position for a 6 month assignment for a Front End
-    / Web Engineer! Do you have experience within the front end space, developing
-    and enhancing websites and mobile applications?  If you thrive most when you are
-    a creating user-friendly solutions, with a greater impact in mind, then this could
-    be the role for you!
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=57
-- Job Title: Marketing Technologist
-  Location: Global
-  Job Description: Can you set a technology vision for marketing in a digital world?
-    And are you looking for a role that combines strategy and practical implementation?
-    Then this might be your next job!
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=60
 - Job Title: Data Team Lead
   Location: Portugal, Porto
   Job Description: Do you consider yourself an expert in all things data, and have

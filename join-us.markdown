@@ -149,7 +149,36 @@ Jobs:
     interpret and analyze data?  Sounds like you could be our next data engineer,
     read on to find out more!
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=74
+- Job Title: Project Manager
+  Location: Ethiopia, Addis Ababa
+  Job Description: Do you want to have a direct impact on our mission?  Are you experienced
+    in connecting and training and do you see job opportunities everywhere? Read more
+    to find out about this Project Manager role.
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=79
+- Job Title: Programme Officer
+  Location: Ethiopia, Bahir Dar
+  Job Description: 'Are you looking for an ever-changing and evolving working environment?
+    Would you like to contribute to Triggerise''s growth and footprint? This is the
+    role for you!  '
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=78
+- Job Title: 'Tiko System Facilitator '
+  Location: Ethiopia, Addis Ababa
+  Job Description: Are you excited about working with youth within local, urban communities?  Do
+    you have experience in mobilising field activities in the area of sexual, reproductive
+    and maternal health? Continue reading to find out if this is something for you!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=77
+- Job Title: Tiko System Facilitatior
+  Location: Bahir Dar
+  Job Description: Are you excited about working with youth within local, urban communities?
+    Are you experienced in connecting people and to train them? Do you see job opportunities
+    everywhere? Continue reading to find out if this is something for you!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=75
+- Job Title: 
+  Location: 
+  Job Description: 
+  Link: 
 Values animation image: "/uploads/Mark05-a40558.gif"
+Field name: 
 layout: join
 ---
 

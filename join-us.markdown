@@ -159,10 +159,12 @@ Jobs:
     Are you experienced in connecting people and to train them? Do you see job opportunities
     everywhere? Continue reading to find out if this is something for you!
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=75
-- Job Title: 
-  Location: 
-  Job Description: 
-  Link: 
+- Job Title: Marketing Technologist
+  Location: Global
+  Job Description: Can you set a technology vision for marketing in a digital world?
+    And are you looking for a role that combines strategy and practical implementation?
+    Then this might be your next job!
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=60
 Values animation image: "/uploads/Mark05-a40558.gif"
 Field name: 
 layout: join

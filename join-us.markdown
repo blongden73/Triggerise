@@ -165,6 +165,12 @@ Jobs:
     And are you looking for a role that combines strategy and practical implementation?
     Then this might be your next job!
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=60
+- Job Title: Global Recruiter
+  Location: Global
+  Job Description: Do you have international recruitment experience? Have you successfully
+    connected people with their ideal role, whether in tech or other industries?  Read
+    on to find out more about our role as Global Recruiter.
+  Link: https://triggerise.bamboohr.com/jobs/view.php?id=80
 Values animation image: "/uploads/Mark05-a40558.gif"
 Field name: 
 layout: join

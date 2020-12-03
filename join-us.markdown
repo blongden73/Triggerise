@@ -96,19 +96,6 @@ Jobs:
     challenges and frustrations and you can use your solution-driven approach to assist
     in detection, prevention, and an overall reduction of fraud.
   Link: https://triggerise.bamboohr.com/jobs/view.php?id=61
-- Job Title: County Programme Manager
-  Location: Bungoma, Kenya
-  Job Description: Are you looking for an ever-changing, and evolving working environment?  Would
-    you like to contribute to Triggerise growth and footprint?  This is the role for
-    you!  Each quarter, Triggerise expands into new geographies, and we are looking
-    for someone with a tech-savvy background to help us to do so.
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=63
-- Job Title: Finance Accountant
-  Location: Ethiopia,  Addis Ababa
-  Job Description: Have you got experience within a financial setting, and are looking
-    for your next move?  Are you interested in the financial processes within an NGO?  We
-    are looking for an Accountant in Ethiopia!
-  Link: https://triggerise.bamboohr.com/jobs/view.php?id=66
 - Job Title: Agile Lead
   Location: Cape Town
   Job Description: Have you led a team using an Agile approach in the past?  Would

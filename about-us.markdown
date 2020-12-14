@@ -176,7 +176,7 @@ Our People:
   LinkedIn: https://linkedin.com/in/shreysaraswat
   Image: "/uploads/Trig_profiles_shrey.jpg"
 - Name: Thera
-  Role: Human Resource Manager
+  Role: Chief People Officer
   Location: Amsterdam, The Netherlands
   LinkedIn: https://linkedin.com/in/theraengels
   Image: "/uploads/Trig_profiles_Threa.jpg"
